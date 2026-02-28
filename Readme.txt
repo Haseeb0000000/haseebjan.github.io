@@ -1,6 +1,7 @@
-Thanks for downloading this template!
+Template Name: Sterial
+Template Author: Untree.co
+Template License: https://creativecommons.org/licenses/by/3.0/
+Author URI: https://untree.co/
 
-Template Name: Clinic
-Template URL: https://bootstrapmade.com/clinic-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Twitter: https://twitter.com/Untree_co
+Facebook: https://web.facebook.com/Untree.co/
