@@ -10499,11 +10499,10 @@ textarea {
       .site-footer .social li a:hover {
         background: #f59b74;
         color: #fff; }
-.site-logo{
-height:150px;
-width:auto;
-display:block;
-}
-.site-nav{
-overflow:hidden;
+.site-logo-text{
+color:#2f7d3b;
+font-size:32px;
+font-weight:700;
+letter-spacing:1px;
+font-family: "Brygada 1918", serif;
 }
