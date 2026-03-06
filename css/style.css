@@ -10499,3 +10499,7 @@ textarea {
       .site-footer .social li a:hover {
         background: #f59b74;
         color: #fff; }
+.site-logo{
+height:70px;
+width:auto;
+}
