@@ -214,5 +214,37 @@
     "days": 4,
     "price": null,
     "type": "Private"
+  },
+  {
+    "slug": "kashmir-sufi-shrines",
+    "name": "Kashmir’s Sufi Shrines and Sacred Streets",
+    "region": "Kashmir",
+    "days": 5,
+    "price": null,
+    "type": "Pilgrimage"
+  },
+  {
+    "slug": "kashmir-temple-trail",
+    "name": "Kashmir’s Temples and Sacred Springs",
+    "region": "Kashmir",
+    "days": 5,
+    "price": null,
+    "type": "Pilgrimage"
+  },
+  {
+    "slug": "kashmir-gurdwara-journey",
+    "name": "Kashmir’s Gurdwaras and Sikh Heritage",
+    "region": "Kashmir",
+    "days": 5,
+    "price": null,
+    "type": "Pilgrimage"
+  },
+  {
+    "slug": "srinagar-church-heritage",
+    "name": "Srinagar’s Churches and Living Heritage",
+    "region": "Kashmir",
+    "days": 4,
+    "price": null,
+    "type": "Pilgrimage"
   }
 ]
