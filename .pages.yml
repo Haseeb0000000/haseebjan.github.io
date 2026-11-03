@@ -212,7 +212,6 @@
               "sonamarg",
               "gurez-village",
               "alchi",
-              "gurez-river",
               "suru",
               "aru-winter",
               "lolab",
@@ -223,6 +222,8 @@
               "verinag",
               "leh-road",
               "zangla",
+              "gurez-river",
+              "sham",
               "pangong",
               "patnitop"
             ]
@@ -329,7 +330,8 @@
           "label": "Display order",
           "type": "number"
         }
-      ]
+      ],
+      "filename": "{primary}.json"
     },
     {
       "name": "destinations",
@@ -397,7 +399,6 @@
               "sonamarg",
               "gurez-village",
               "alchi",
-              "gurez-river",
               "suru",
               "aru-winter",
               "lolab",
@@ -408,6 +409,8 @@
               "verinag",
               "leh-road",
               "zangla",
+              "gurez-river",
+              "sham",
               "pangong",
               "patnitop"
             ]
@@ -433,7 +436,8 @@
           "type": "string",
           "list": true
         }
-      ]
+      ],
+      "filename": "{primary}.json"
     },
     {
       "name": "pages",
@@ -516,7 +520,8 @@
             }
           ]
         }
-      ]
+      ],
+      "filename": "{primary}.json"
     },
     {
       "name": "business",

@@ -50,5 +50,7 @@ for(const file of fs.readdirSync('assets').filter(f=>f.endsWith('.jpg')))assert(
 for(const file of pages){const photoPaths=[...fs.readFileSync(file,'utf8').matchAll(/<img\b[^>]*\bsrc="([^"]+\.jpg)"/g)].map(m=>m[1]);assert.equal(photoPaths.length,new Set(photoPaths).size,`${file}: photographs must not repeat within a page`);}
 assert.equal(new Set(trips.map(t=>t.cover||t.image)).size,trips.length,'Every trip needs a distinct main photograph');
 assert(fs.existsSync('.pages.yml'),'Online editor configuration');
+const editorConfig=JSON.parse(fs.readFileSync('.pages.yml','utf8'));
+for(const collection of editorConfig.content.filter(c=>c.type==='collection'))assert(collection.filename.endsWith('.json'),`${collection.name}: editor must list JSON files rather than default Markdown files`);
 assert(fs.readFileSync('admin.html','utf8').includes('noindex,follow'),'Owner entry page must stay out of search');
 console.log(`PASS: ${pages.length} pages, ${links} local references, ${images} image elements, unique SEO metadata, structured data, labels, sitemap, image budgets, and preserved CNAME.`);
