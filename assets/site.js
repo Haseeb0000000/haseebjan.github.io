@@ -47,6 +47,7 @@ document.querySelectorAll('[data-enquiry]').forEach(form=>{
   const result=form.querySelector('.enquiry-result');let summary='';
   const field=name=>form.elements.namedItem(name);
   if(form.id==='enquiry'){
+    const interest=parameters.get('interest');if(interest)field('notes').value='I would like to discuss: '+interest.slice(0,200);
     const region=parameters.get('region');if(['Kashmir','Ladakh','Jammu','Combined journey'].includes(region))field('destination').value=region;
     const date=parameters.get('date');if(/^\d{4}-\d{2}-\d{2}$/.test(date||'')&&date>=minDate)field('date').value=date;
     const trip=parameters.get('trip');if([...field('trip').options].some(o=>o.value===trip)){field('trip').value=trip;catalogue().then(items=>{const selected=items.find(t=>t.slug===trip);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;}).catch(()=>{});}
@@ -89,3 +90,6 @@ if(tripPlanner){
 }
 document.querySelector('[data-print-trip]')?.addEventListener('click',()=>{document.querySelectorAll('.itinerary-day').forEach(d=>d.open=true);window.print();});
 document.querySelector('[data-share-trip]')?.addEventListener('click',async()=>{const status=document.querySelector('[data-share-status]');try{await navigator.clipboard.writeText(location.origin+location.pathname);status.textContent='Trip link copied';}catch{status.textContent='Copy this page’s address from your browser.';}});
+
+const guideSearch=document.querySelector('#guide-search');
+guideSearch?.addEventListener('input',()=>{const terms=guideSearch.value.trim().toLocaleLowerCase().split(/\s+/);let count=0;document.querySelectorAll('[data-guide-card]').forEach(card=>{card.hidden=!terms.every(term=>card.textContent.toLocaleLowerCase().includes(term));if(!card.hidden)count++;});document.querySelector('#guide-count').textContent=count?`${count} ${count===1?'guide':'guides'} to explore`:'No matching guides. Try a different word.';});

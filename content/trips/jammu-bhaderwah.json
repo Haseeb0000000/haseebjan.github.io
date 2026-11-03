@@ -1,0 +1,90 @@
+{
+  "slug": "jammu-bhaderwah",
+  "name": "Bhaderwah & the Meadow Roads",
+  "region": "Jammu",
+  "type": "Group",
+  "days": 6,
+  "price": null,
+  "image": "bhaderwah",
+  "difficulty": "Moderate",
+  "season": "Local access dependent",
+  "start": "Jammu",
+  "route": "Jammu · Bhaderwah · Patnitop",
+  "description": "A longer hill-country proposal, designed around local conditions and quiet days.",
+  "highlights": [
+    "Bhaderwah base stay",
+    "Meadow day option",
+    "Flexible Patnitop return"
+  ],
+  "itinerary": [
+    {
+      "title": "Arrive in Jammu",
+      "place": "Jammu",
+      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "stay": "Jammu",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Journey to Bhaderwah",
+      "place": "Bhaderwah",
+      "description": "Travel towards Bhaderwah with realistic breaks and a relaxed evening on arrival.",
+      "stay": "Bhaderwah",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "A valley day",
+      "place": "Bhaderwah",
+      "description": "Discuss a local sightseeing circuit and suitable village walks with the operator.",
+      "stay": "Bhaderwah",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Meadow roads",
+      "place": "Bhaderwah",
+      "description": "Choose a meadow excursion only if the road is open and local advice supports the plan. Keep a lower-altitude alternative ready.",
+      "stay": "Bhaderwah",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Return through the hills",
+      "place": "Patnitop",
+      "description": "Travel towards Patnitop for a final hill stay and a quieter evening.",
+      "stay": "Patnitop",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Until next time",
+      "place": "Jammu",
+      "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "extras": [
+    "Proposed locally coordinated hill excursions"
+  ],
+  "nights": 5,
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Proposed locally coordinated hill excursions"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed small group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 10,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

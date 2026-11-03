@@ -1,0 +1,41 @@
+{
+  "title": "Transport & vehicle enquiries",
+  "description": "Request a transfer, sightseeing vehicle or information about self-drive options in Kashmir, Ladakh and Jammu.",
+  "copy": [
+    {
+      "original": "Travel your way",
+      "value": "Travel your way"
+    },
+    {
+      "original": "Travel your way",
+      "value": "Travel your way"
+    },
+    {
+      "original": "Discuss airport transfers, a private sightseeing vehicle, or a self-drive enquiry. Vehicle availability and supplier terms need confirmation.",
+      "value": "Discuss airport transfers, a private sightseeing vehicle, or a self-drive enquiry. Vehicle availability and supplier terms need confirmation."
+    },
+    {
+      "original": "Tell us what you need",
+      "value": "Tell us what you need"
+    },
+    {
+      "original": "Considering self-drive?",
+      "value": "Considering self-drive?"
+    },
+    {
+      "original": "Self-drive is an enquiry option only. We do not advertise an owned fleet or confirmed rental rates. Supplier availability, licence eligibility, permitted areas and vehicle documents must be checked first.",
+      "value": "Self-drive is an enquiry option only. We do not advertise an owned fleet or confirmed rental rates. Supplier availability, licence eligibility, permitted areas and vehicle documents must be checked first."
+    },
+    {
+      "original": "Confirm in writing",
+      "value": "Confirm in writing"
+    }
+  ],
+  "photos": [
+    {
+      "original": "assets/leh-road-1280.jpg",
+      "image": "",
+      "alt": "Khurdung La Pass"
+    }
+  ]
+}

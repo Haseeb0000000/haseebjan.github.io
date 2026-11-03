@@ -3,10 +3,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/prepare-media.mjs && node scripts/build.mjs",
     "check": "node scripts/check.mjs",
     "dev": "node scripts/serve.mjs",
     "package": "node scripts/build.mjs && node scripts/check.mjs && node scripts/package.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
 }

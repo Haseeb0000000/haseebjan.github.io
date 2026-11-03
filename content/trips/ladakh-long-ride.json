@@ -1,0 +1,135 @@
+{
+  "slug": "ladakh-long-ride",
+  "name": "The Long Ladakh Riding Journey",
+  "region": "Ladakh",
+  "type": "Motorcycle",
+  "days": 12,
+  "price": null,
+  "benchmarkUSD": 2399,
+  "guideUSD": 2279,
+  "reference": "leh-ladakh-bike-trip",
+  "image": "leh-road",
+  "route": "Leh · Nubra · Pangong · Approved extended circuit",
+  "description": "An extended riding enquiry with a detailed route and rental basis to be agreed.",
+  "highlights": [
+    "Longer riding format",
+    "Rest and contingency time",
+    "Specialist support proposal"
+  ],
+  "riding": true,
+  "quoteReason": "The reference is priced in USD. Ask for a currency-specific quote; no unsupported exchange-rate conversion is applied.",
+  "itinerary": [
+    {
+      "title": "Leh arrival",
+      "place": "Leh arrival",
+      "description": "Arrive and keep the day for rest; no riding is assumed.",
+      "stay": "Leh arrival",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Leh rest day",
+      "place": "Leh rest day",
+      "description": "Retain a second gentle day and seek individual professional advice about altitude suitability.",
+      "stay": "Leh rest day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh orientation",
+      "place": "Leh orientation",
+      "description": "Complete the agreed motorcycle handover, briefing, and optional suitable orientation.",
+      "stay": "Leh orientation",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Nubra route",
+      "place": "Nubra route",
+      "description": "Ride only if health, roads, permits, and operator advice support the stage.",
+      "stay": "Nubra route",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Nubra village day",
+      "place": "Nubra village day",
+      "description": "Keep a flexible local day with rest as needed.",
+      "stay": "Nubra village day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Nubra surroundings",
+      "place": "Nubra surroundings",
+      "description": "Discuss a suitable approved excursion with the riding operator.",
+      "stay": "Nubra surroundings",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Pangong route",
+      "place": "Pangong route",
+      "description": "Continue only on a confirmed suitable route; alternative stays may be required.",
+      "stay": "Pangong route",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Extended circuit",
+      "place": "Extended circuit",
+      "description": "The exact highland stage must be specified by the specialist operator before booking.",
+      "stay": "Extended circuit",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Approved route day",
+      "place": "Approved route day",
+      "description": "Ride only the agreed stage with named support and contingency arrangements.",
+      "stay": "Approved route day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Return towards Leh",
+      "place": "Return towards Leh",
+      "description": "Return along the confirmed route, allowing time for disruptions.",
+      "stay": "Return towards Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh buffer day",
+      "place": "Leh buffer day",
+      "description": "Retain a contingency and rest day before departure.",
+      "stay": "Leh buffer day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh departure",
+      "place": "Leh departure",
+      "description": "Return the motorcycle and depart using the agreed transfer.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 11,
+  "difficulty": "Challenging",
+  "season": "Dates and access on request",
+  "start": "Leh",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Motorcycle model, rider/pillion basis, route fuel, mechanic, and backup support to be costed and confirmed"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote",
+    "Riding deposits, damage liability, and personal protective equipment unless explicitly included"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 22,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

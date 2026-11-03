@@ -1,0 +1,96 @@
+{
+  "slug": "keran-lolab-bangus",
+  "name": "Lolab, Keran & the Valley Roads",
+  "region": "Kashmir",
+  "type": "Group",
+  "days": 7,
+  "price": 26350,
+  "benchmark": 27750,
+  "reference": "keran-valley-offbeat-trip",
+  "image": "lolab",
+  "route": "Srinagar · Lolab · Keran · Bangus",
+  "description": "A quieter valley circuit with village time and flexible meadow days.",
+  "highlights": [
+    "Lolab countryside",
+    "Keran route option",
+    "Bangus meadow proposal"
+  ],
+  "itinerary": [
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
+      "stay": "Srinagar",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Lolab",
+      "place": "Lolab",
+      "description": "Travel into Lolab with stops agreed around access and the day’s conditions.",
+      "stay": "Lolab",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Lolab villages",
+      "place": "Lolab villages",
+      "description": "Take a locally coordinated village day, leaving time for walks and rest.",
+      "stay": "Lolab villages",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Keran",
+      "place": "Keran",
+      "description": "Continue towards Keran only with required permissions and local approval.",
+      "stay": "Keran",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Keran surroundings",
+      "place": "Keran surroundings",
+      "description": "Explore the approved local area; keep an alternative day ready if access changes.",
+      "stay": "Keran surroundings",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Bangus / Srinagar",
+      "place": "Bangus / Srinagar",
+      "description": "Consider a Bangus excursion if access allows, otherwise choose a lower-route alternative before returning.",
+      "stay": "Bangus / Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar departure",
+      "place": "Srinagar departure",
+      "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 6,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 12,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

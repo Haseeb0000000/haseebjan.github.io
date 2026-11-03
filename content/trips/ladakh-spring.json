@@ -1,0 +1,110 @@
+{
+  "slug": "ladakh-spring",
+  "name": "Ladakh’s Apricot Season",
+  "region": "Ladakh",
+  "type": "Group",
+  "days": 9,
+  "price": 32050,
+  "benchmark": 33750,
+  "reference": "ladakh-apricot-blossom",
+  "image": "alchi",
+  "route": "Leh · Sham Valley · Kargil region · Leh",
+  "description": "A seasonal cultural route proposal. Blossom timing varies and is never guaranteed.",
+  "highlights": [
+    "Village exploration",
+    "Seasonal orchard scenery",
+    "Gentle arrival pacing"
+  ],
+  "itinerary": [
+    {
+      "title": "Leh arrival",
+      "place": "Leh arrival",
+      "description": "Arrive and rest, keeping the day free of exertion.",
+      "stay": "Leh arrival",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Leh rest day",
+      "place": "Leh rest day",
+      "description": "Leave further time to settle in; any outing depends on individual wellbeing.",
+      "stay": "Leh rest day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Indus Valley",
+      "place": "Indus Valley",
+      "description": "Discuss a gentle cultural circuit with the operator.",
+      "stay": "Indus Valley",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Sham Valley",
+      "place": "Sham Valley",
+      "description": "Travel towards the agreed village base if access allows.",
+      "stay": "Sham Valley",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Village day",
+      "place": "Village day",
+      "description": "Explore local surroundings by consent, with flexible orchard visits where appropriate.",
+      "stay": "Village day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Kargil region",
+      "place": "Kargil region",
+      "description": "Continue only on a confirmed route with suitable permissions and conditions.",
+      "stay": "Kargil region",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Seasonal countryside",
+      "place": "Seasonal countryside",
+      "description": "Plan a local cultural day; blossoms depend on the year and travel date.",
+      "stay": "Seasonal countryside",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh",
+      "place": "Leh",
+      "description": "Return to Leh with contingency time.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh departure",
+      "place": "Leh departure",
+      "description": "Take the agreed departure transfer.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 8,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Leh",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 23,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

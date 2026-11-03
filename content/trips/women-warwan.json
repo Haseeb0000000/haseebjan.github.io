@@ -1,0 +1,68 @@
+{
+  "slug": "women-warwan",
+  "name": "Warwan, Together",
+  "region": "Kashmir",
+  "type": "Women-only",
+  "days": 3,
+  "price": 5950,
+  "benchmark": 6250,
+  "reference": "women-only-warwan-valley",
+  "image": "warwan",
+  "route": "Agreed pickup · Warwan · Agreed drop",
+  "description": "A women-only valley proposal, subject to seasonal road access and confirmed support.",
+  "highlights": [
+    "Women-only format",
+    "Remote-valley planning",
+    "Flexible walks"
+  ],
+  "itinerary": [
+    {
+      "title": "Warwan arrival",
+      "place": "Warwan arrival",
+      "description": "Travel from the agreed meeting point only when access and operator support are confirmed.",
+      "stay": "Warwan arrival",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Warwan valley",
+      "place": "Warwan valley",
+      "description": "Choose locally approved walks and village exploration suitable for the group.",
+      "stay": "Warwan valley",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Return journey",
+      "place": "Return journey",
+      "description": "Depart along the confirmed route. Keep onward arrangements flexible for mountain-road changes.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 2,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 18,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

@@ -64,7 +64,7 @@
   },
   {
     "license": "CC BY 3.0",
-    "author": " KuwarOnline Talk",
+    "author": "KuwarOnline Talk",
     "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/VaishnoDeviBhawan.JPG/1920px-VaishnoDeviBhawan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "title": "File:VaishnoDeviBhawan.JPG",
     "key": "katra",
@@ -115,5 +115,167 @@
     "title": "File:Flowers and golden leaves.jpg",
     "author": "Firdousparray546",
     "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Flowers_and_golden_leaves.jpg/1920px-Flowers_and_golden_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "key": "pahalgam",
+    "title": "File:Betaab Valley, Pahalgam, Kashmir.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Betaab_Valley,_Pahalgam,_Kashmir.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Betaab_Valley%2C_Pahalgam%2C_Kashmir.jpg/1920px-Betaab_Valley%2C_Pahalgam%2C_Kashmir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "ThePoeticFrame",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "houseboat",
+    "title": "File:Houseboat- Dal Lake, srinagar Kashmir.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Houseboat-_Dal_Lake,_srinagar_Kashmir.JPG",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Houseboat-_Dal_Lake%2C_srinagar_Kashmir.JPG/1920px-Houseboat-_Dal_Lake%2C_srinagar_Kashmir.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Basharat Shah",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "key": "sanasar",
+    "title": "File:Sanasar Lake Jammu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sanasar_Lake_Jammu.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sanasar_Lake_Jammu.jpg/1920px-Sanasar_Lake_Jammu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Rupali Kushwaha",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "key": "sonamarg",
+    "title": "File:Sonamarg 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sonamarg_2.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sonamarg_2.jpg/1920px-Sonamarg_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Harshruti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "gurez-village",
+    "title": "File:Gurez Valley 09.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gurez_Valley_09.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Gurez_Valley_09.jpg/1920px-Gurez_Valley_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Journo Mohsin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "alchi",
+    "title": "File:Alchi Monastery Ladakh.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alchi_Monastery_Ladakh.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Alchi_Monastery_Ladakh.jpg/1920px-Alchi_Monastery_Ladakh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Intrepid wanderer",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "key": "suru",
+    "title": "File:Suru Valley - Kargil (LADAKH).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Suru_Valley_-_Kargil_(LADAKH).jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Suru_Valley_-_Kargil_%28LADAKH%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "Anwaraj",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "key": "aru-winter",
+    "title": "File:Aru Valley Kashmir in winter view.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Aru_Valley_Kashmir_in_winter_view.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Aru_Valley_Kashmir_in_winter_view.jpg/1920px-Aru_Valley_Kashmir_in_winter_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "AdilAru",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "key": "lolab",
+    "title": "File:Lolab Valley-Kupwara.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Lolab_Valley-Kupwara.JPG",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Lolab_Valley-Kupwara.JPG/1920px-Lolab_Valley-Kupwara.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Eshankaul007",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "zanskar-road",
+    "title": "File:Road Padum Zanskar Range Jun24 A7CR 00818.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg/1920px-Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "apricot",
+    "title": "File:Apricot Flowers.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apricot_Flowers.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Apricot_Flowers.jpg/1920px-Apricot_Flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Sarthak232001",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "aru",
+    "title": "File:Pahalgam Aru Valley.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Pahalgam_Aru_Valley.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Pahalgam_Aru_Valley.jpg/1920px-Pahalgam_Aru_Valley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Nilmay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "kokernag",
+    "title": "File:A view of Kokernag botanical garden Jammu and Kashmir.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Kokernag_botanical_garden_Jammu_and_Kashmir.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/A_view_of_Kokernag_botanical_garden_Jammu_and_Kashmir.jpg/1920px-A_view_of_Kokernag_botanical_garden_Jammu_and_Kashmir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "KahkashaaN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "verinag",
+    "title": "File:Verinag spring and Mughal garden, verinag Kashmir.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Verinag_spring_and_Mughal_garden,_verinag_Kashmir.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Verinag_spring_and_Mughal_garden%2C_verinag_Kashmir.jpg/1920px-Verinag_spring_and_Mughal_garden%2C_verinag_Kashmir.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "KahkashaaN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "leh-road",
+    "title": "File:Khurdung La Pass.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Khurdung_La_Pass.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Khurdung_La_Pass.jpg/1920px-Khurdung_La_Pass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Mohdirfaniitmandi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "zangla",
+    "title": "File:Fields Zangla Zanskar River Ladakh Jun24 A7CR 00981.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Fields_Zangla_Zanskar_River_Ladakh_Jun24_A7CR_00981.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Fields_Zangla_Zanskar_River_Ladakh_Jun24_A7CR_00981.jpg/1920px-Fields_Zangla_Zanskar_River_Ladakh_Jun24_A7CR_00981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information. Please contact me before commercial use. Please do not upload an edited image here without consulting me. I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "key": "gurez-river",
+    "title": "File:Habba Khatoon.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Habba_Khatoon.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Habba_Khatoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "Zahid samoon",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+    "key": "sham",
+    "title": "File:Sham Valley Ladakh.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sham_Valley_Ladakh.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sham_Valley_Ladakh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "Himalayan community and knowledge",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 ]

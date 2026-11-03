@@ -1,0 +1,96 @@
+{
+  "slug": "kashmir-ladakh-circuit",
+  "name": "From the Kashmir Valley to Ladakh",
+  "region": "Kashmir & Ladakh",
+  "type": "Group",
+  "days": 7,
+  "price": 30150,
+  "benchmark": 31750,
+  "reference": "kashmir-leh-ladakh-group-trip",
+  "image": "sham",
+  "route": "Srinagar · Sonamarg · Kargil · Leh",
+  "description": "A cross-region road proposal; direction, pacing, and suitability need careful confirmation.",
+  "highlights": [
+    "Two-region road journey",
+    "Kargil break",
+    "Flexible finishing point"
+  ],
+  "itinerary": [
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
+      "stay": "Srinagar",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Sonamarg",
+      "place": "Sonamarg",
+      "description": "Travel to Sonamarg and retain a gentle afternoon.",
+      "stay": "Sonamarg",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Kargil",
+      "place": "Kargil",
+      "description": "Cross only if roads and permissions allow, with an overnight break.",
+      "stay": "Kargil",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh",
+      "place": "Leh",
+      "description": "Continue towards Leh with stops planned around the group’s needs.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh rest day",
+      "place": "Leh rest day",
+      "description": "Keep the day gentle and seek professional guidance if altitude causes concerns.",
+      "stay": "Leh rest day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Indus Valley",
+      "place": "Indus Valley",
+      "description": "Choose a suitable cultural outing or further rest.",
+      "stay": "Indus Valley",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh / agreed departure",
+      "place": "Leh / agreed departure",
+      "description": "Depart from the confirmed finishing point. A return to Srinagar is not assumed and must be quoted separately.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 6,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 25,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

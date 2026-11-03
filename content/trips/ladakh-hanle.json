@@ -1,0 +1,115 @@
+{
+  "slug": "ladakh-hanle",
+  "name": "Nubra to Hanle: The Long Way Round",
+  "region": "Ladakh",
+  "type": "Group",
+  "days": 9,
+  "price": 34200,
+  "benchmark": 35999,
+  "reference": "ladakh-group-trip-nubra-pangong-hanle",
+  "image": "pangong",
+  "difficulty": "Challenging",
+  "season": "Permissions & road access dependent",
+  "start": "Leh",
+  "route": "Leh · Nubra · Pangong · Hanle · Leh",
+  "description": "A longer high-altitude proposal, with permissions and suitability at the centre.",
+  "highlights": [
+    "Extended highland circuit",
+    "Hanle village option",
+    "Flexible contingency planning"
+  ],
+  "itinerary": [
+    {
+      "title": "Arrive in Leh",
+      "place": "Leh",
+      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "stay": "Leh",
+      "meals": "Dinner"
+    },
+    {
+      "title": "A second gentle day",
+      "place": "Leh",
+      "description": "Keep a further easy day for rest and acclimatisation. Short local outings are optional and depend on individual wellbeing and professional advice.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Monasteries & the Indus",
+      "place": "Leh",
+      "description": "Consider a relaxed cultural circuit near Leh. Confirm the specific sights, opening times, and transport arrangements before departure.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Across to Nubra",
+      "place": "Nubra",
+      "description": "Travel to Nubra only when wellbeing, road access, and permissions allow. The day’s stops and pace remain flexible.",
+      "stay": "Nubra",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "A village day in Nubra",
+      "place": "Nubra",
+      "description": "Explore village surroundings and discuss an optional Turtuk excursion. Confirm access requirements and the day’s driving plan.",
+      "stay": "Nubra",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Lake horizons",
+      "place": "Pangong / alternative stay",
+      "description": "Continue towards Pangong on a suitable confirmed route. A high-altitude overnight is optional; an alternative stay may be necessary for your group.",
+      "stay": "Pangong or lower-altitude alternative",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Towards Hanle",
+      "place": "Hanle / approved alternative",
+      "description": "Proceed towards Hanle only if nationality-specific permissions, route access, and wellbeing allow. Astronomical-site access and stargazing are not guaranteed.",
+      "stay": "Hanle or suitable alternative",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Return to Leh",
+      "place": "Leh",
+      "description": "Return to Leh and keep the rest of the day free. Leave contingency time for weather and road disruptions.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Until next time",
+      "place": "Leh",
+      "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "extras": [
+    "Route-specific permit coordination, subject to eligibility",
+    "Hanle routing and stay subject to explicit written confirmation"
+  ],
+  "nights": 8,
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Route-specific permit coordination, subject to eligibility",
+    "Hanle routing and stay subject to explicit written confirmation"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed small group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 8,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}
