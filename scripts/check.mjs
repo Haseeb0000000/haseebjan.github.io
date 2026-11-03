@@ -41,6 +41,12 @@ assert(trips.length>=26);
 assert.deepEqual([...new Set(trips.map(t=>t.region))].sort(),['Jammu','Kashmir','Kashmir & Ladakh','Ladakh']);
 for(const trip of trips){assert.equal(trip.days,trip.itinerary.length,`${trip.slug}: itinerary length`);assert.equal(trip.nights,trip.days-1);assert.equal(trip.dates.length,0,'Confirmed dates need a separately reviewed inventory feature');assert(trip.price==null||Number.isFinite(trip.price)&&trip.price>0,`${trip.slug}: a positive guide price or no price`);const html=fs.readFileSync(trip.slug+'.html','utf8');for(const section of ['itinerary','inclusions','dates','packing','trip-faq','trip-enquiry'])assert(html.includes(`id="${section}"`));assert(html.includes('data-enquiry-fields disabled'));}
 assert.equal(regions.length,3);
+for(const trip of trips){
+ assert(trip.suggestedDates?.length>0,`${trip.slug}: suggested dates`);
+ for(const proposal of trip.suggestedDates){assert.match(proposal.date,/^\d{4}-\d{2}-\d{2}$/);assert(Number.isFinite(Date.parse(proposal.date)));assert(proposal.note.includes('not a confirmed'));}
+ assert.equal(trip.accommodation.reduce((total,stay)=>total+stay.nights,0),trip.nights,`${trip.slug}: stay nights match itinerary`);
+ const html=fs.readFileSync(trip.slug+'.html','utf8');assert(html.includes('id="stays"'));assert(html.includes('id="package-details"'));assert(trip.bookingDetails?.confirmation);
+}
 const photoCredits=JSON.parse(fs.readFileSync('data/photo-credits.json','utf8').replace(/^\uFEFF/,''));
 assert(photoCredits.length>=30);
 assert.equal(new Set(photoCredits.map(p=>p.source)).size,photoCredits.length,'Photo credits must not alias the same source under multiple names');

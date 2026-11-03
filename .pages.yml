@@ -329,6 +329,162 @@
           "name": "order",
           "label": "Display order",
           "type": "number"
+        },
+        {
+          "name": "suggestedDates",
+          "label": "Suggested dates — not confirmed departures",
+          "type": "object",
+          "list": {
+            "max": 12,
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{date} — {label}"
+            }
+          },
+          "fields": [
+            {
+              "name": "date",
+              "label": "Suggested start (YYYY-MM-DD)",
+              "type": "string"
+            },
+            {
+              "name": "label",
+              "label": "Season / trip label",
+              "type": "string"
+            },
+            {
+              "name": "note",
+              "label": "Availability note",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "accommodation",
+          "label": "Sample accommodation plan",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{location} — {nights} nights"
+            }
+          },
+          "fields": [
+            {
+              "name": "location",
+              "label": "Overnight location",
+              "type": "string"
+            },
+            {
+              "name": "nights",
+              "label": "Nights",
+              "type": "number",
+              "options": {
+                "min": 1
+              }
+            },
+            {
+              "name": "property",
+              "label": "Sample hotel / stay name",
+              "type": "string"
+            },
+            {
+              "name": "category",
+              "label": "Room / stay category",
+              "type": "string"
+            },
+            {
+              "name": "note",
+              "label": "Confirmation note",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "hotelShortlist",
+          "label": "Hotel examples — not guaranteed inclusions",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{name}"
+            }
+          },
+          "fields": [
+            {
+              "name": "name",
+              "label": "Property or directory name",
+              "type": "string"
+            },
+            {
+              "name": "location",
+              "label": "Location",
+              "type": "string"
+            },
+            {
+              "name": "url",
+              "label": "Official source URL",
+              "type": "string"
+            },
+            {
+              "name": "note",
+              "label": "Important price / availability note",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "bookingDetails",
+          "label": "Detailed package information",
+          "type": "object",
+          "fields": [
+            {
+              "name": "sharing",
+              "label": "Room sharing",
+              "type": "text"
+            },
+            {
+              "name": "roomPlan",
+              "label": "Room facilities",
+              "type": "text"
+            },
+            {
+              "name": "meals",
+              "label": "Meal plan",
+              "type": "text"
+            },
+            {
+              "name": "transport",
+              "label": "Vehicle / riding arrangements",
+              "type": "text"
+            },
+            {
+              "name": "pickup",
+              "label": "Pickup and drop",
+              "type": "text"
+            },
+            {
+              "name": "group",
+              "label": "Group size proposal",
+              "type": "text"
+            },
+            {
+              "name": "childPolicy",
+              "label": "Children / bedding",
+              "type": "text"
+            },
+            {
+              "name": "upgradeOptions",
+              "label": "Optional upgrades",
+              "type": "string",
+              "list": true
+            },
+            {
+              "name": "confirmation",
+              "label": "Pre-payment confirmation checklist",
+              "type": "text"
+            }
+          ]
         }
       ],
       "filename": "{primary}.json"
@@ -561,6 +717,62 @@
           "type": "text"
         }
       ]
+    },
+    {
+      "name": "policies",
+      "label": "Draft policies & payment terms",
+      "type": "collection",
+      "path": "content/policies",
+      "format": "json",
+      "operations": {
+        "create": false,
+        "rename": false,
+        "delete": false
+      },
+      "view": {
+        "primary": "title"
+      },
+      "fields": [
+        {
+          "name": "title",
+          "label": "Policy title",
+          "type": "string"
+        },
+        {
+          "name": "intro",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "notice",
+          "label": "Draft / approval notice",
+          "type": "text"
+        },
+        {
+          "name": "sections",
+          "label": "Policy sections",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title}"
+            }
+          },
+          "fields": [
+            {
+              "name": "title",
+              "label": "Section heading",
+              "type": "string"
+            },
+            {
+              "name": "text",
+              "label": "Policy wording",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "filename": "{primary}.json"
     }
   ],
   "actions": [

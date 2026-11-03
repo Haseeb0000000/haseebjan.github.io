@@ -1,0 +1,2 @@
+import {readJson} from './content.mjs';
+export function policyContent(esc){return Object.fromEntries(['terms','cancellation','privacy'].map(slug=>{const p=readJson(`content/policies/${slug}.json`);return [slug,`<div class="notice"><strong>Draft policy · owner review</strong><p>${esc(p.notice)}</p></div><p>${esc(p.intro)}</p>${p.sections.map(s=>`<h2>${esc(s.title)}</h2><p>${esc(s.text)}</p>`).join('')}`];}));}

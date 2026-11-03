@@ -1,29 +1,34 @@
-# Proposed price positioning
+# Owner-requested planning guides
 
-Reviewed 3 November 2026. The owner authorised guide prices about 5% below comparable Wildfloc listings, pending supplier costing and confirmation. The following are planning estimates, not confirmed offers or asserted margins. No fake original prices, crossed-out prices, savings badges, or countdowns are displayed.
+Updated 3 November 2026. Comparable recorded INR reference guides are now approximately 10% lower, rounded to 50 rupees. All prices remain sample shared-occupancy land-package estimates, pending supplier costing and an accepted written quote. No crossed-out price or false savings claim is advertised.
 
-| Holiday Host proposal | Wildfloc displayed benchmark | Proposed guide / person | Reference |
-| --- | ---: | ---: | --- |
-| Kashmir Beyond the Postcards | ₹24,999 | ₹23,750 | [Offbeat Kashmir](https://wildfloc.com/trip/offbeat-kashmir-tour) |
-| The Gurez Valley Chapter | ₹29,999 | ₹28,500 | [Gurez itinerary](https://wildfloc.com/trip/gurez-valley-itinerary) |
-| Kashmir in Winter | ₹37,750 | ₹35,850 | [Winter group trip](https://wildfloc.com/trip/kashmir-winter-group-trip) |
-| Kashmir, Together | ₹29,999 | ₹28,500 | [Women-only winter](https://wildfloc.com/trip/kashmir-women-winter) |
-| Kashmir Alpine Lakes Trek | ₹14,750 | ₹14,000 | [Great Lakes trek](https://wildfloc.com/trip/kashmir-great-lakes) |
-| Kashmir with a Little More Comfort | ₹39,999 | ₹38,000 | [Luxury trip](https://wildfloc.com/trip/kashmir-luxury-trip) |
-| Ladakh, Beyond the Horizon | ₹31,499 | ₹29,900 | [Leh Ladakh package](https://wildfloc.com/trip/tour-packages-for-leh-ladakh) |
-| The Ladakh Riding Chapter | ₹39,999 | ₹38,000 | [Ladakh bike trip](https://wildfloc.com/trip/ladakh-bike-trip) |
-| Nubra to Hanle | ₹35,999 | ₹34,200 | [Nubra/Pangong/Hanle](https://wildfloc.com/trip/ladakh-group-trip-nubra-pangong-hanle) |
+| Journey | Guide per person (INR) | Basis |
+| --- | ---: | --- |
+| Kashmir Beyond the Postcards | 22,500 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| The Gurez Valley Chapter | 27,000 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Kashmir in Winter | 34,000 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Kashmir, Together | 27,000 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Kashmir Alpine Lakes Trek | 13,300 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Kashmir with a Little More Comfort | 36,000 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Ladakh, Beyond the Horizon | 28,350 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| The Ladakh Riding Chapter | 36,000 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Nubra to Hanle: The Long Way Round | 32,400 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Jammu’s Quiet Hill Country | 11,950 | Independent sample INR planning estimate requested by the owner; not a verified supplier rate or currency conversion. |
+| Bhaderwah & the Meadow Roads | 17,950 | Independent sample INR planning estimate requested by the owner; not a verified supplier rate or currency conversion. |
+| Katra & a Mountain Pause | 12,950 | Independent sample INR planning estimate requested by the owner; not a verified supplier rate or currency conversion. |
+| Lolab, Keran & the Valley Roads | 25,000 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Kashmir in Autumn Colours | 32,200 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| From Kashmir to the Kargil Highlands | 31,300 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| South Kashmir & the Winter Valleys | 31,300 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Tulian: A Short Alpine Escape | 7,200 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Gurez, Just Us | 5,650 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Warwan, Together | 5,650 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Babagil Waterfall Day Walk | 900 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Wasturwan Ridge Day Walk | 900 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Kashmir, Just the Two of You | 39,950 | Independent sample INR planning estimate requested by the owner; not a verified supplier rate or currency conversion. |
+| The Long Ladakh Riding Journey | 69,950 | Independent sample INR planning estimate requested by the owner; not a verified supplier rate or currency conversion. |
+| Ladakh’s Apricot Season | 30,400 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| Zanskar by the Longer Road | 49,500 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
+| From the Kashmir Valley to Ladakh | 28,600 | Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain. |
 
-Listing pages reviewed: [Kashmir](https://wildfloc.com/explore/region/kashmir), [Ladakh](https://wildfloc.com/explore/region/ladakh). Prices are snapshots and may change. The proposed Ladakh routes allow additional arrival time, and the women-only route is not restricted to winter. These are positioning references, not like-for-like competitive quotations.
-
-The reference has no Jammu catalogue, so Jammu proposals use **price on request**. No conversion from unrelated trips or invented supplier cost is used.
-
-## What the guide assumes
-
-- Per person, proposed shared occupancy; room types, group size, dates, vehicle type, and local charges must be costed.
-- Overnight stays, specified meals, route transport, and stated activities are proposed inclusions only.
-- Flights, insurance, most lunches, optional activities, extra nights, and supplements are generally excluded unless itemised.
-- Trek leadership, equipment, support, emergency arrangements, motorcycle rental basis/deposits/liability, and women-only staffing require specialist/operator confirmation.
-- The final written quote must state the total including applicable taxes and all mandatory charges. Do not accept payment based only on the guide price.
-
-No claim is made that these guide prices are profitable or that the owner can fulfil the proposed services at them. Replace them with supplier-backed confirmed prices before advertising bookable inventory.
+Jammu, the couple-focused journey and the extended ride use independent sample INR estimates requested by the owner. They are not converted from unrelated or conflicting reference prices. Hotel upgrades, single supplements, activities, permits and taxes require itemisation. Verified hotel examples are not allocations within these guides.

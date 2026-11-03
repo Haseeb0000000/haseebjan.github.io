@@ -1,0 +1,35 @@
+{
+  "title": "Privacy notice",
+  "intro": "How the current enquiry website works, and the handling standards proposed for the business.",
+  "sections": [
+    {
+      "title": "Information you choose to provide",
+      "text": "Enquiries may include your name, phone, email, destination, travel date, group size and preferences. Share only what is needed for an initial quotation. Do not send payment-card details, passport scans or medical records through the public enquiry form."
+    },
+    {
+      "title": "What the form does",
+      "text": "The form prepares a WhatsApp message, email draft or copyable summary in your browser. It does not submit enquiries to a website database or store form entries in browser storage. Nothing is sent until you send it in the external messaging or email app."
+    },
+    {
+      "title": "After you send an enquiry",
+      "text": "The business should use enquiry details to respond, prepare a quote, coordinate requested services and maintain necessary booking records. Share relevant details with an actual hotel, driver or operator only as needed for the agreed service, and explain material third-party handling before sharing sensitive documents."
+    },
+    {
+      "title": "Third-party services",
+      "text": "GitHub Pages hosts the site; Google Fonts serves fonts; WhatsApp and your email provider process communications under their own policies. The owner editor uses Pages CMS and GitHub for public website content and photos. No analytics or advertising scripts have been added. External links and providers operate separately."
+    },
+    {
+      "title": "Retention and access",
+      "text": "Proposed handling standard: review unconverted enquiries after 90 days and remove details no longer needed, unless there is a continuing request or lawful reason to retain them. Keep confirmed-booking records only for the applicable operational and legal period. The owner must confirm the final retention schedule, responsible legal entity and authorised staff before adopting this policy."
+    },
+    {
+      "title": "Photos and customer stories",
+      "text": "Publish customer photos or identifiable stories only with appropriate permission. Do not upload customer documents to the website photo library, which is part of a public repository. Public review summaries should stay linked to their original source and must not be invented."
+    },
+    {
+      "title": "Your requests",
+      "text": "Use sales@theholidayhost.in or the confirmed business WhatsApp number to ask about your information, request corrections or raise a deletion concern. The business should verify a request appropriately and explain any retention obligation. Detailed legal business identity and full office address remain owner-supplied information."
+    }
+  ],
+  "notice": "Draft planning policy prepared for owner review. These sample terms do not reserve services or collect payment. The accepted written quotation must state the final terms before any payment; applicable consumer rights remain unaffected."
+}

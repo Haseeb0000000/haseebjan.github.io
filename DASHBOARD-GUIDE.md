@@ -12,6 +12,8 @@ The hosted editor is provided by Pages CMS. No website password or GitHub token 
 
 - **Homepage:** main headline, highlighted words, introduction, hero upload and featured trip IDs.
 - **Trips & itineraries:** select a trip; edit its title, guide price, route, highlights, inclusions, exclusions, group information and each day. The itinerary length sets the displayed day/night count.
+- **Trip planning details:** the same editor now includes suggested starts, sample overnight plans, hotel examples and detailed meals/vehicle/room/child/upgrade information. Suggested dates are not confirmed seats or official event dates.
+- **Draft policies & payment terms:** edit booking, payment, cancellation/refund and privacy sections. Defaults are proposals for review and adoption in written quotes, not proof of supplier terms or legal certification.
 - **Destination pages:** introductions, highlights and a replacement cover.
 - **Page wording & SEO:** search descriptions, plain-text wording and per-page photo replacements. The original matching key is read-only; edit “Your wording”. Existing layout is preserved. Some shared trip information is edited in Trips instead.
 - **Business contact details:** email, phone, WhatsApp and address. Use country-code digits for WhatsApp, for example `919906269900`.
