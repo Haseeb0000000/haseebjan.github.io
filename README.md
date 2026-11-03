@@ -1,29 +1,32 @@
 # The Holiday Host
 
-Premium, buildless static website for the existing GitHub Pages repository. No hosting provider migration or production deployment is part of this development branch.
+Original static travel website for Kashmir, Ladakh, and Jammu: 36 pages, 12 proposed journeys, guide prices, search/filters, route and itinerary pages, date requests, gallery dialogs, planning guides, and WhatsApp/email enquiries.
 
 ## Work locally
 
-- `npm run dev` starts the local preview at http://127.0.0.1:4173.
-- `npm run build` regenerates committed HTML, sitemap, robots.txt, and contact configuration from `scripts/build.mjs` and `site.config.json`.
-- `npm run check` checks local references, fragments, labels, page metadata, image budgets, and CNAME.
+Requires Node 20+; no package installation needed.
 
-Requires Node 20+ and no package installation. GitHub Pages serves the committed root HTML directly; no runtime or build action is required.
+- `npm run build` regenerates the root HTML, sitemap, contact configuration, and catalogue JSON.
+- `npm run check` checks local links/fragments, page metadata, labels, image references/budgets, catalogue durations/prices, and unchanged CNAME.
+- `npm run dev` serves http://127.0.0.1:4173 for local review.
+- `npm run package` builds/checks and prepares allowlisted public files in ignored `dist/` for optional Cloudflare hosting. It does not deploy.
 
-## Editing
+## Edit
 
-Edit shared layout and page content in `scripts/build.mjs`, styles in `assets/site.css`, and interactions in `assets/site.js`. Run build and check, then review the resulting HTML diff. All root paths use relative links compatible with the current custom domain.
+- `data/trips.mjs`: proposed routes, itinerary days, prices, and inclusion/exclusion lists.
+- `site.config.json`: owner contact and price-disclaimer settings. Phone and WhatsApp are +91 99062 69900, supplied by the owner on 3 November 2026.
+- `scripts/build.mjs`: shared layout and all page content.
+- `assets/site.css` and `assets/site.js`: responsive design and browser interactions.
+- `data/policies.json`: policy drafts; final business-approved terms still needed.
 
-Business contact details are copied from the original homepage at `009c54a`; they are not newly verified. Set `whatsapp` in `site.config.json` to an international digits-only number **only after owner confirmation** and update the Contact/FAQ copy accordingly, then regenerate. `null` keeps WhatsApp disabled. No external message is sent by the site.
+The form prepares messages locally. It does not send data to a server, save personal data in browser storage, accept payment, reserve seats, or claim that an enquiry has been received. Required fields are disabled until the script/configuration load, so a no-JavaScript submission cannot leak user details into URL query parameters. Direct email/WhatsApp links remain available.
 
-## Enquiries
+## Review and hosting
 
-The static form validates user input and prepares a reviewable email draft and copyable text locally. Nothing is posted, stored, or claimed as received. The traveller must send the email. An actual form delivery service can be added later after the business selects a destination and privacy/retention practices.
+Work is on `development/regional-adventures`, based on the published main branch. Preserve `CNAME` (`theholidayhost.in`). GitHub Pages can serve the committed root HTML as before. Do not merge or publish this revision until approved. No Cloudflare resource or DNS changes were made; the owner may supply a different Cloudflare account later.
 
-## Publishing
+See `PRICING.md` for price snapshots/assumptions, `FEATURES.md` for the reference feature map and hosting decision, and `LAUNCH-READINESS.md` for validation and outstanding content.
 
-Keep `CNAME` exactly as supplied (`theholidayhost.in`). Keep the current production branch/source unchanged until the owner approves the PR. Do not enable automatic merge or introduce a development-branch deployment action. See `LAUNCH-READINESS.md` for outstanding content and QA evidence.
+## Photography
 
-## Images
-
-Three existing repository photographs were retained and resized to 640px and 1000/1600px JPEG variants. The motorcycle image is explicitly illustrative; a verified Ladakh photo is still needed. Original photographer/licence records were not present. The owner must confirm rights for retained images or supply licensed replacements before launch. `Readme.txt` preserves the former template attribution record; the new HTML, CSS, scripts, and SVG mark are original replacements.
+New Pangong and Patnitop images are attributed on `credits.html` with source/licence/adaptation details. Three prior repository photos remain pending owner licence confirmation. The former template attribution record in `Readme.txt` is retained as historical provenance; the public design/code is original.

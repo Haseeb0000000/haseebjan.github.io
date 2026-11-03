@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "offbeat-kashmir",
+    "name": "Kashmir Beyond the Postcards",
+    "region": "Kashmir",
+    "days": 7,
+    "price": 23750,
+    "type": "Group"
+  },
+  {
+    "slug": "gurez-valley",
+    "name": "The Gurez Valley Chapter",
+    "region": "Kashmir",
+    "days": 7,
+    "price": 28500,
+    "type": "Group"
+  },
+  {
+    "slug": "kashmir-winter",
+    "name": "Kashmir in Winter",
+    "region": "Kashmir",
+    "days": 7,
+    "price": 35850,
+    "type": "Group"
+  },
+  {
+    "slug": "kashmir-women",
+    "name": "Kashmir, Together",
+    "region": "Kashmir",
+    "days": 6,
+    "price": 28500,
+    "type": "Women-only"
+  },
+  {
+    "slug": "kashmir-great-lakes",
+    "name": "Kashmir Alpine Lakes Trek",
+    "region": "Kashmir",
+    "days": 7,
+    "price": 14000,
+    "type": "Trek"
+  },
+  {
+    "slug": "kashmir-premium",
+    "name": "Kashmir with a Little More Comfort",
+    "region": "Kashmir",
+    "days": 7,
+    "price": 38000,
+    "type": "Private"
+  },
+  {
+    "slug": "ladakh-discovery",
+    "name": "Ladakh, Beyond the Horizon",
+    "region": "Ladakh",
+    "days": 8,
+    "price": 29900,
+    "type": "Group"
+  },
+  {
+    "slug": "ladakh-motorcycle",
+    "name": "The Ladakh Riding Chapter",
+    "region": "Ladakh",
+    "days": 8,
+    "price": 38000,
+    "type": "Motorcycle"
+  },
+  {
+    "slug": "ladakh-hanle",
+    "name": "Nubra to Hanle: The Long Way Round",
+    "region": "Ladakh",
+    "days": 9,
+    "price": 34200,
+    "type": "Group"
+  },
+  {
+    "slug": "jammu-hills",
+    "name": "Jammu’s Quiet Hill Country",
+    "region": "Jammu",
+    "days": 4,
+    "price": null,
+    "type": "Private"
+  },
+  {
+    "slug": "jammu-bhaderwah",
+    "name": "Bhaderwah & the Meadow Roads",
+    "region": "Jammu",
+    "days": 6,
+    "price": null,
+    "type": "Group"
+  },
+  {
+    "slug": "katra-patnitop",
+    "name": "Katra & a Mountain Pause",
+    "region": "Jammu",
+    "days": 4,
+    "price": null,
+    "type": "Pilgrimage"
+  }
+]

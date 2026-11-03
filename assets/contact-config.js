@@ -1,2 +1,1 @@
-// Generated from site.config.json. Only set whatsapp after owner verification.
-window.HOLIDAY_HOST_CONTACT={"email":"sales@theholidayhost.in","whatsapp":null};
+window.HOLIDAY_HOST_CONTACT={"email":"sales@theholidayhost.in","whatsapp":"919906269900","pricingNote":"Guide prices for planning only. Final price, availability, taxes, and inclusions require a written quote."};
