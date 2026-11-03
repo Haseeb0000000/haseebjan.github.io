@@ -1,0 +1,51 @@
+{
+  "title": "Kashmir, through its living heritage",
+  "intro": "Shrines beside the Jhelum, timber courtyards, neighbourhood markets and hands keeping old skills alive. Choose a focused Srinagar experience, or make heritage the reason to stay longer.",
+  "heroImage": "jamia",
+  "heroAlt": "Courtyard and timber architecture of Jamia Masjid in Srinagar",
+  "routes": [
+    {
+      "title": "Shrines, river lanes and the old bazaar",
+      "duration": "Half-day proposal · allow roughly 3–4 hours",
+      "route": "Khanqah-e-Moula · Zaina Kadal · Maharaj Gunj · Jamia Masjid / Nowhatta",
+      "description": "Begin near Khanqah-e-Moula for an introduction to the Jhelum-side city, then explore selected lanes around Zaina Kadal and Maharaj Gunj before continuing towards Jamia Masjid and the Nowhatta market area. The guide adjusts the direction, walking length and stops around prayer, access and your pace. A short vehicle link can be requested; this is not an all-sites guarantee.",
+      "stops": ["Khanqah-e-Moula / Shah-e-Hamdan: architecture and the river setting; interior access only when permitted", "Zaina Kadal and Maharaj Gunj: bridge-side streets, traders and copperware browsing", "Jamia Masjid and Nowhatta: timber architecture, courtyard and surrounding market when access allows", "Optional bakery and kahwa pause: food preferences and cost agreed first"],
+      "effort": "Uneven lanes, steps, crowds and limited drop-off points. Discuss walking limits, seating and a shorter route before booking."
+    },
+    {
+      "title": "Museum stories and the maker’s workshop",
+      "duration": "Separate half-day or a slower full-day proposal",
+      "route": "SPS Museum, Lal Mandi · one appointed craft visit · optional Polo View browsing",
+      "description": "Make the Sri Pratap Singh Museum the starting point for a discussion of Kashmir’s material history, then choose one working craft visit. A carpet loom, papier-mâché painter, sozni embroiderer or walnut-wood workshop rewards time and questions. Workshop location determines the transfer plan; these places are not all on the old-city walking circuit.",
+      "stops": ["Sri Pratap Singh (SPS) Museum: confirm current opening days, galleries, tickets and photography rules", "One carpet or shawl-weaving demonstration: host, craft and visit fee confirmed by appointment", "Papier-mâché, sozni, walnut carving or khatamband: choose an alternative demonstration rather than assuming every workshop", "Polo View: optional browsing if it fits the museum-and-workshop route"],
+      "effort": "Walking and vehicle-assisted visits can be discussed. Workshop stairs and museum access must be checked individually."
+    },
+    {
+      "title": "Sacred Srinagar, at your own pace",
+      "duration": "A separate day · choose two or three sites",
+      "route": "Hazratbal · Hari Parbat area · optional Shankaracharya visit",
+      "description": "Plan a respectful introduction to Srinagar’s different living traditions. Hazratbal can be paired with selected sites around the Hari Parbat area, such as Chatti Padshahi Gurdwara or Sharika Devi Temple, according to guest interests and current permission. Shankaracharya is a separate hill approach with steps and security arrangements; choose it as an alternative rather than squeezing it into every circuit.",
+      "stops": ["Hazratbal: shrine surroundings and a lakeside pause when visits are permitted", "Chatti Padshahi Gurdwara: a respectful visit following the local community’s guidance", "Sharika Devi Temple: an optional Hari Parbat-area visit, subject to access and walking suitability", "Shankaracharya Temple: an alternative hill visit after checking steps, access and security rules"],
+      "effort": "Some sites involve substantial steps. Religious interiors and ceremonies are never guaranteed visitor experiences."
+    }
+  ],
+  "crafts": [
+    {"title":"Hand-knotted carpets","description":"Ask a willing weaver about the loom, knotting and the time behind a carpet. Confirm that the visit is a demonstration rather than a compulsory sales stop. Materials, origin and any certification must be explained by the seller in writing."},
+    {"title":"Pashmina, kani and sozni","description":"Explore the distinction between fibre, weaving and embroidery. Choose a shawl-weaving or embroidery appointment according to the artisan’s availability; a retail label alone does not verify a product’s composition or provenance."},
+    {"title":"Papier-mâché painting","description":"Request an introduction to shaping and painted decoration with a participating maker. A hands-on session needs advance agreement about time, materials, price and what you can take away."},
+    {"title":"Copper, walnut wood and khatamband","description":"See how useful objects and interiors carry local craft traditions. Select a copperware lane or an appointed woodcraft visit; workshop entry, demonstrations and photography require consent."}
+  ],
+  "etiquette": [
+    "Ask before entering any shrine, mosque, temple, gurdwara, workshop or private courtyard. Follow the custodian’s current visitor rules, including any restrictions on particular spaces.",
+    "Dress modestly; carry a head covering and follow local guidance about shoes and clothing. Keep voices low and do not interrupt worship or photograph people without permission.",
+    "Prayer, Friday congregations, observances, security arrangements or local closures may change the route. A respectful exterior visit or another stop may replace an interior visit.",
+    "Pay agreed guide and artisan visit fees fairly. Purchases are optional. Ask for material descriptions, an itemised receipt and shipping or return terms before buying.",
+    "Confirm the guide, meeting point, walking length, vehicle links, food, tickets, host fees and total in writing. No named guide, artisan partnership or entry permission is promised by this proposal."
+  ],
+  "sources": [
+    {"title":"Srinagar district: traditional crafts and market areas","url":"https://srinagar.nic.in/local-craft/"},
+    {"title":"INTACH Kashmir: themed Srinagar heritage trails","url":"https://heritageinkashmir.org/SgrHeritageWalks.aspx"},
+    {"title":"Incredible India: Sri Pratap Singh Museum","url":"https://www.incredibleindia.gov.in/en/jammu-and-kashmir/srinagar/sri-pratap-singh-museum"},
+    {"title":"Development Commissioner Handicrafts: Kashmir papier-mâché","url":"https://handicrafts.nic.in/crafts/All_Crafts/Craft_Categories/Paper/Paper_Crafts/kashmir_paper_mache/KashmirPaperMacheWebPage.html"}
+  ]
+}

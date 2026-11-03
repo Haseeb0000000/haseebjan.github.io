@@ -224,6 +224,9 @@
               "zangla",
               "gurez-river",
               "sham",
+              "khanqah",
+              "jamia",
+              "pashmina-loom",
               "pangong",
               "patnitop"
             ]
@@ -605,6 +608,9 @@
               "zangla",
               "gurez-river",
               "sham",
+              "khanqah",
+              "jamia",
+              "pashmina-loom",
               "pangong",
               "patnitop"
             ]
@@ -811,6 +817,216 @@
         }
       ],
       "filename": "{primary}.json"
+    },
+    {
+      "name": "heritage",
+      "label": "Kashmir heritage experiences",
+      "type": "file",
+      "path": "content/heritage.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Headline",
+          "type": "string"
+        },
+        {
+          "name": "intro",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "heroImage",
+          "label": "Stock hero photo",
+          "type": "select",
+          "options": {
+            "values": [
+              "gurez",
+              "gulmarg",
+              "nubra",
+              "dal",
+              "great-lakes",
+              "khardung",
+              "bhaderwah",
+              "katra",
+              "gurez-landscape",
+              "vishansar",
+              "tulian",
+              "warwan",
+              "autumn",
+              "pahalgam",
+              "houseboat",
+              "sanasar",
+              "sonamarg",
+              "gurez-village",
+              "alchi",
+              "suru",
+              "aru-winter",
+              "lolab",
+              "zanskar-road",
+              "apricot",
+              "aru",
+              "kokernag",
+              "verinag",
+              "leh-road",
+              "zangla",
+              "gurez-river",
+              "sham",
+              "khanqah",
+              "jamia",
+              "pashmina-loom",
+              "pangong",
+              "patnitop"
+            ]
+          }
+        },
+        {
+          "name": "heroAlt",
+          "label": "Hero photo description",
+          "type": "string"
+        },
+        {
+          "name": "routes",
+          "label": "Route choices",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title}"
+            }
+          },
+          "fields": [
+            {
+              "name": "title",
+              "label": "Route title",
+              "type": "string"
+            },
+            {
+              "name": "duration",
+              "label": "Suggested duration",
+              "type": "string"
+            },
+            {
+              "name": "route",
+              "label": "Route summary",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "text"
+            },
+            {
+              "name": "stops",
+              "label": "Places and experiences",
+              "type": "string",
+              "list": true
+            },
+            {
+              "name": "effort",
+              "label": "Walking and access notes",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "crafts",
+          "label": "Traditional crafts",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "Craft title",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "etiquette",
+          "label": "Visiting guidance",
+          "type": "string",
+          "list": true
+        }
+      ]
+    },
+    {
+      "name": "collections",
+      "label": "Homepage signature journeys",
+      "type": "file",
+      "path": "content/collections.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "journeys",
+          "label": "Featured themes",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "region",
+              "label": "Region",
+              "type": "string"
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Introduction",
+              "type": "text"
+            },
+            {
+              "name": "suits",
+              "label": "Who it suits and duration",
+              "type": "text"
+            },
+            {
+              "name": "trip",
+              "label": "Linked trip",
+              "type": "select",
+              "options": {
+                "values": [
+                  "offbeat-kashmir",
+                  "gurez-valley",
+                  "kashmir-winter",
+                  "kashmir-women",
+                  "kashmir-great-lakes",
+                  "kashmir-premium",
+                  "ladakh-discovery",
+                  "ladakh-motorcycle",
+                  "ladakh-hanle",
+                  "jammu-hills",
+                  "jammu-bhaderwah",
+                  "katra-patnitop",
+                  "keran-lolab-bangus",
+                  "kashmir-autumn",
+                  "kashmir-kargil",
+                  "south-kashmir-winter",
+                  "tulian-lake",
+                  "women-gurez",
+                  "women-warwan",
+                  "babagil-waterfall",
+                  "wasturwan-ridge",
+                  "kashmir-honeymoon",
+                  "ladakh-long-ride",
+                  "ladakh-spring",
+                  "zanskar-riding",
+                  "kashmir-ladakh-circuit",
+                  "kashmir-heritage-stay"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
   "actions": [
