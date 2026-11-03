@@ -1,0 +1,112 @@
+{
+  "slug": "ladakh-motorcycle",
+  "name": "The Ladakh Riding Chapter",
+  "region": "Ladakh",
+  "type": "Motorcycle",
+  "days": 8,
+  "price": 38000,
+  "benchmark": 39999,
+  "reference": "ladakh-bike-trip",
+  "image": "khardung",
+  "difficulty": "Challenging",
+  "season": "Seasonal riding access",
+  "start": "Leh",
+  "route": "Leh · Nubra · Pangong · Leh",
+  "description": "A riding proposal for licensed, experienced riders, with full support terms agreed first.",
+  "highlights": [
+    "Acclimatisation time",
+    "Supported riding proposal",
+    "Mountain-road journey"
+  ],
+  "itinerary": [
+    {
+      "title": "Arrive in Leh",
+      "place": "Leh",
+      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "stay": "Leh",
+      "meals": "Dinner"
+    },
+    {
+      "title": "A second gentle day",
+      "place": "Leh",
+      "description": "Keep a further easy day for rest and acclimatisation. Short local outings are optional and depend on individual wellbeing and professional advice.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Monasteries & the Indus",
+      "place": "Leh",
+      "description": "Consider a relaxed cultural circuit near Leh. Confirm the specific sights, opening times, and transport arrangements before departure. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Across to Nubra",
+      "place": "Nubra",
+      "description": "Travel to Nubra only when wellbeing, road access, and permissions allow. The day’s stops and pace remain flexible. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
+      "stay": "Nubra",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "A village day in Nubra",
+      "place": "Nubra",
+      "description": "Explore village surroundings and discuss an optional Turtuk excursion. Confirm access requirements and the day’s driving plan. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
+      "stay": "Nubra",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Lake horizons",
+      "place": "Pangong / alternative stay",
+      "description": "Continue towards Pangong on a suitable confirmed route. A high-altitude overnight is optional; an alternative stay may be necessary for your group. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
+      "stay": "Pangong or lower-altitude alternative",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Return to Leh",
+      "place": "Leh",
+      "description": "Return to Leh and keep the rest of the day free. Leave contingency time for weather and road disruptions. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
+      "stay": "Leh",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Until next time",
+      "place": "Leh",
+      "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "extras": [
+    "Proposed shared motorcycle allocation; model and rider/pillion basis to be agreed",
+    "Route fuel, mechanic, backup vehicle, and riding lead to be costed and confirmed",
+    "Helmet provision, damage deposit, insurance excess, and breakdown terms require confirmation"
+  ],
+  "riding": true,
+  "nights": 7,
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Proposed shared motorcycle allocation; model and rider/pillion basis to be agreed",
+    "Route fuel, mechanic, backup vehicle, and riding lead to be costed and confirmed",
+    "Helmet provision, damage deposit, insurance excess, and breakdown terms require confirmation"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote",
+    "Motorcycle damage, refundable deposits, personal riding gear, and any separately stated rental liability"
+  ],
+  "group": "Proposed small group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 7,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

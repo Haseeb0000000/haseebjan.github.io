@@ -1,0 +1,119 @@
+{
+  "slug": "zanskar-riding",
+  "name": "Zanskar by the Longer Road",
+  "region": "Ladakh",
+  "type": "Motorcycle",
+  "days": 10,
+  "price": 52250,
+  "benchmark": 54999,
+  "reference": "ladakh-offbeat-bike-trip",
+  "image": "zanskar-road",
+  "route": "Leh · Approved Zanskar circuit · Leh",
+  "description": "A demanding riding proposal with route-specific support and escape plans confirmed first.",
+  "highlights": [
+    "Zanskar route enquiry",
+    "Specialist riding support",
+    "Flexible contingency plan"
+  ],
+  "riding": true,
+  "itinerary": [
+    {
+      "title": "Leh arrival",
+      "place": "Leh arrival",
+      "description": "Arrive and rest; no riding today.",
+      "stay": "Leh arrival",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Leh rest day",
+      "place": "Leh rest day",
+      "description": "Leave further time to settle in and assess individual suitability.",
+      "stay": "Leh rest day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Orientation ride",
+      "place": "Orientation ride",
+      "description": "Collect the agreed bike and complete a supported briefing and suitable test route.",
+      "stay": "Orientation ride",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Towards Zanskar",
+      "place": "Towards Zanskar",
+      "description": "Begin only the operator-approved stage with suitable roads and permissions.",
+      "stay": "Towards Zanskar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Zanskar circuit",
+      "place": "Zanskar circuit",
+      "description": "Follow the confirmed stage with the named riding leader and support.",
+      "stay": "Zanskar circuit",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Valley base day",
+      "place": "Valley base day",
+      "description": "Retain time for rest or a suitable local route.",
+      "stay": "Valley base day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Highland circuit",
+      "place": "Highland circuit",
+      "description": "Continue only when conditions and group wellbeing allow.",
+      "stay": "Highland circuit",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Return stage",
+      "place": "Return stage",
+      "description": "Take the confirmed return route with realistic riding limits.",
+      "stay": "Return stage",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh buffer",
+      "place": "Leh buffer",
+      "description": "Keep a day for contingency, handover, and rest.",
+      "stay": "Leh buffer",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Leh departure",
+      "place": "Leh departure",
+      "description": "Take the agreed transfer for your onward travel.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 9,
+  "difficulty": "Challenging",
+  "season": "Dates and access on request",
+  "start": "Leh",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Motorcycle model, rider/pillion basis, route fuel, mechanic, and backup support to be costed and confirmed"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote",
+    "Riding deposits, damage liability, and personal protective equipment unless explicitly included"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 24,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

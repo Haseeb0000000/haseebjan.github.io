@@ -1,0 +1,101 @@
+{
+  "slug": "kashmir-winter",
+  "name": "Kashmir in Winter",
+  "region": "Kashmir",
+  "type": "Group",
+  "days": 7,
+  "price": 35850,
+  "benchmark": 37750,
+  "reference": "kashmir-winter-group-trip",
+  "image": "gulmarg",
+  "difficulty": "Moderate",
+  "season": "Winter · conditions dependent",
+  "start": "Srinagar",
+  "route": "Srinagar · Gulmarg · Pahalgam",
+  "description": "Crisp mornings, warm kahwa, and a flexible winter circuit.",
+  "highlights": [
+    "Winter valley scenery",
+    "Lakefront evenings",
+    "Weather-aware pacing"
+  ],
+  "itinerary": [
+    {
+      "title": "Arrive in Srinagar",
+      "place": "Srinagar",
+      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "stay": "Srinagar",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Gardens, old lanes & lake light",
+      "place": "Srinagar",
+      "description": "Explore a selection of Srinagar gardens and the lakefront. A shared shikara session and specified garden entry are part of the proposed plan.",
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "A mountain day in Gulmarg",
+      "place": "Gulmarg",
+      "description": "Travel to Gulmarg for time in the mountain landscape. Gondola tickets and specialist snow activities are separately priced unless confirmed in your quote.",
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Follow the Lidder",
+      "place": "Pahalgam",
+      "description": "Continue towards Pahalgam and check in. Leave space for riverside time and an easy evening.",
+      "stay": "Pahalgam",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Meadows at your pace",
+      "place": "Pahalgam",
+      "description": "Choose from suitable local sightseeing or time to unwind. Any local union transport must be itemised before confirmation.",
+      "stay": "Pahalgam",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "One more lakeside evening",
+      "place": "Srinagar",
+      "description": "Return to Srinagar for a relaxed final night. Snow is never guaranteed; routes may change for access and weather.",
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Until next time",
+      "place": "Srinagar",
+      "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "extras": [
+    "Shared shikara session if operating",
+    "Proposed winter-route support; chains/local transfers itemised separately"
+  ],
+  "nights": 6,
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Shared shikara session if operating",
+    "Proposed winter-route support; chains/local transfers itemised separately"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed small group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 2,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

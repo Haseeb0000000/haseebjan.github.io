@@ -1,0 +1,622 @@
+[
+  {
+    "reference": "https://wildfloc.com/",
+    "title": "Offbeat Trips Across India",
+    "target": "index.html"
+  },
+  {
+    "reference": "https://wildfloc.com/about",
+    "title": "About Wildfloc Adventures – Offbeat Travel India",
+    "target": "about.html"
+  },
+  {
+    "reference": "https://wildfloc.com/contact",
+    "title": "Contact Us – Offbeat Travel India Specialists",
+    "target": "contact.html"
+  },
+  {
+    "reference": "https://wildfloc.com/explore",
+    "title": "Discover Your Next Offbeat Travel India Adventure",
+    "target": "destinations.html"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/all",
+    "title": "Browse All Offbeat Travel India Trips",
+    "target": "packages.html"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/departures",
+    "title": "Upcoming Kashmir Trekking & Ladakh Departures",
+    "target": "departures.html"
+  },
+  {
+    "reference": "https://wildfloc.com/departures",
+    "title": "This page doesn’t exist",
+    "target": "departures.html"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/region/kashmir",
+    "title": "Kashmir",
+    "target": "kashmir.html"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/region/karnataka",
+    "title": "Karnataka",
+    "target": "Outside regional scope"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/region/kerala",
+    "title": "Kerala",
+    "target": "Outside regional scope"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/region/tamil-nadu",
+    "title": "Tamil Nadu",
+    "target": "Outside regional scope"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/region/ladakh",
+    "title": "Ladakh",
+    "target": "ladakh.html"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/trips/group",
+    "title": "Group Trips",
+    "target": "packages.html — corresponding travel-style filter"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/trips/women-only",
+    "title": "Women-Only Trips",
+    "target": "packages.html — corresponding travel-style filter"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/trips/trek",
+    "title": "Treks & Expeditions",
+    "target": "packages.html — corresponding travel-style filter"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/trips/weekend",
+    "title": "Weekend Getaways",
+    "target": "packages.html — corresponding travel-style filter"
+  },
+  {
+    "reference": "https://wildfloc.com/explore/trips/honeymoon",
+    "title": "Honeymoon Packages",
+    "target": "packages.html — corresponding travel-style filter"
+  },
+  {
+    "reference": "https://wildfloc.com/blog",
+    "title": "Adventure Travel Blog India: Stories & Guides",
+    "target": "blog.html"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/best-time-to-visit-kashmir",
+    "title": "Best Time to Visit Kashmir: A Season by Season Guide for 2026",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/drass-valley-travel-guide",
+    "title": "Drass Valley Travel Guide: Gateway to Ladakh and Second Coldest Place on Earth",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/gurez-valley-complete-guide",
+    "title": "Gurez Valley Travel Guide 2026: Complete Road Trip Breakdown",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/yusmarg-kashmir",
+    "title": "Yusmarg Kashmir: The Honest Travel Guide",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/offbeat-places-kashmir",
+    "title": "11 Offbeat Places in Kashmir Beyond Gulmarg (2026)",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/popular-springs-in-kashmir",
+    "title": "Popular Springs in Kashmir: Verinaag, Kokernaag, Achabal and Cheshmashahi",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/ladakh-budget-trip-cost-2026",
+    "title": "Ladakh Budget Trip: Rs 29,000 on the Ground for 8 Days in 2026",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kerala-itinerary-7-days",
+    "title": "Kerala Itinerary 7 Days: Fort Kochi to Alleppey the Actual Way",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/best-time-to-visit-kerala",
+    "title": "Best Time to Visit Kerala: Month by Month Guide 2026",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/offbeat-places-in-kerala",
+    "title": "Offbeat Places in Kerala: Spots Most Travellers Skip",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/women-group-trip-kashmir",
+    "title": "Women Group Trip to Kashmir: What Nobody Tells You Before You Go",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/self-drive-car-rental-srinagar-2026",
+    "title": "Self Drive in Kashmir 2026: What to Know Before You Book",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/shillong-cherry-blossom-festival-2026",
+    "title": "Shillong Cherry Blossom Festival 2026: The Complete Guide",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/meghalaya-travel-guide-2026",
+    "title": "Meghalaya Travel Guide 2026: Kaziranga, Dawki, Cherrapunji and What Nobody Tells You",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/is-ladakh-safe-for-solo-female-travel",
+    "title": "Solo Female Travel in Ladakh: What to Know Before You Go (2026)",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/apricot-blossom-festival-ladakh-2027",
+    "title": "Apricot Blossom Festival Ladakh 2027: Dates, Villages, and What to Expect",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/wayanad-travel-guide-2026",
+    "title": "Wayanad Travel Guide 2026: The Kerala Highlands Most People Skip",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/things-to-know-before-traveling-to-kashmir",
+    "title": "Things to Know Before Traveling to Kashmir in 2026",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/ziro-festival-of-music-2026",
+    "title": "Ziro Festival of Music 2026: Dates, Permits, and Travel Guide",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/suru-outdoor-fest",
+    "title": "Suru Outdoor Fest: Dates, Travel, and What to Expect",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/offbeat-places-meghalaya",
+    "title": "8 Offbeat Places in Meghalaya Beyond Cherrapunji and Shillong",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/best-waterfalls-in-kashmir",
+    "title": "12 Best Waterfalls in Kashmir (2026): A Complete Guide",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/razdan-top-gurez",
+    "title": "Razdan Top: The Pass That Guards Gurez Valley",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/tulail-valley-gurez",
+    "title": "Tulail Valley, Gurez: The Village That Time Left Behind",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/keran-valley-kashmir",
+    "title": "Keran Valley, Kashmir: Close Enough to Wave Across the Border",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/habba-khatoon-peak-story",
+    "title": "The Legend of Habba Khatoon Peak",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/chakwali-last-village-gurez",
+    "title": "Chakwali, Gurez: The Last Village Before the Line of Control",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/solo-trip-for-women-india",
+    "title": "Solo Trip for Women in India: 7 Truths From the Road",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/offbeat-kashmir-itinerary-hidden-valleys",
+    "title": "Offbeat Kashmir Itinerary: 10 Days",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/self-drive-car-rental-leh-ladakh",
+    "title": "Self Drive Car Rental Leh 2026",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/neelakurinji-bloom-2026",
+    "title": "The Ultimate Travel Guide to the Neelakurinji Bloom 2026: Witness the 12-Year Wonder in Munnar",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/places-to-visit-in-kargil",
+    "title": "The Complete Guide to Places to Visit in Kargil",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/autumn-in-kashmir",
+    "title": "Autumn in Kashmir 2026",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/gulmarg-gondola-guide",
+    "title": "Gulmarg Gondola Ride Booking: Prices, Ski Passes and the 2026 Portal Guide",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/best-time-to-visit-saffron-fields-kashmir",
+    "title": "Best Time to Visit the Saffron Fields in Kashmir (Pampore Guide 2026)",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kashmir-in-winter",
+    "title": "Kashmir in Winter: A Month by Month Guide, November to March",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kazakhstan-trip-from-india",
+    "title": "Kazakhstan Trip From India: Visa, Cost, Best Time and a 7-Day Itinerary",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/best-time-to-visit-kazakhstan",
+    "title": "Best Time to Visit Kazakhstan: A Month-by-Month Guide for Indian Travellers",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/best-time-to-visit-bali",
+    "title": "Best Time to Visit Bali: Month by Month for Indian Travellers",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kazakhstan-visa-for-indians",
+    "title": "Kazakhstan Visa for Indians: Rules, Stay Limit and Documents",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/thailand-visa-for-indians",
+    "title": "Thailand Visa for Indians in 2026: What You Need Now",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/is-kashmir-safe-to-visit",
+    "title": "Is Kashmir Safe to Visit Right Now? A Kashmiri's Honest Answer",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/houseboat-in-srinagar-for-honeymoon",
+    "title": "Houseboat in Srinagar: How to Choose One for Your Honeymoon",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/places-to-visit-in-kerala-in-december",
+    "title": "Places to Visit in Kerala in December, Away From the Crowds",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kashmir-snowfall-time",
+    "title": "Kashmir Snowfall Time: When Does It Snow, Month by Month",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kashmir-in-december",
+    "title": "Kashmir in December: Weather, Snow and Where to Go",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kashmir-in-november",
+    "title": "Kashmir in November: First Snow, Fewer People",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/honeymoon-destinations-in-india-in-december",
+    "title": "Honeymoon Destinations in India in December: 8 Picks for Winter 2026",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/theyyam-calendar-kannur",
+    "title": "Theyyam Calendar: When and Where to Watch in Kannur",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kolukkumalai-sunrise-jeep-safari",
+    "title": "Kolukkumalai Sunrise Jeep Safari Guide",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/hill-stations-in-kerala-beyond-munnar",
+    "title": "Hill Stations in Kerala Beyond Munnar",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/kashmir-honeymoon-places",
+    "title": "Honeymoon Places in Kashmir in Winter",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/gulmarg-snowfall-winter-guide",
+    "title": "Gulmarg in Winter: When Snowfall Starts and What to Do",
+    "target": "blog.html — original introductory guides; this article is not copied"
+  },
+  {
+    "reference": "https://wildfloc.com/blog/vattavada-tourist-places",
+    "title": "Vattavada Tourist Places: Kerala's Last Village Before Tamil Nadu",
+    "target": "Outside regional scope / general editorial"
+  },
+  {
+    "reference": "https://wildfloc.com/self-drive-car-rental-in-srinagar",
+    "title": "Self Drive Car Rental in Srinagar, Kashmir",
+    "target": "transport.html"
+  },
+  {
+    "reference": "https://wildfloc.com/things-to-do-in-kashmir",
+    "title": "Things to Doin Kashmir",
+    "target": "experiences.html"
+  },
+  {
+    "reference": "https://wildfloc.com/himalayan-rides",
+    "title": "Ride the World's HighestMotorcycle Roads",
+    "target": "motorcycle-tours.html"
+  },
+  {
+    "reference": "https://wildfloc.com/himalayan-motorcycle-rides",
+    "title": "Ride the World's HighestMotorcycle Roads",
+    "target": "motorcycle-tours.html"
+  },
+  {
+    "reference": "https://wildfloc.com/himalayan-rides/leh-ladakh-expedition",
+    "title": "This page doesn’t exist",
+    "target": "motorcycle-tours.html"
+  },
+  {
+    "reference": "https://wildfloc.com/himalayan-rides/himalaya-circuit",
+    "title": "This page doesn’t exist",
+    "target": "Outside the three-region route scope"
+  },
+  {
+    "reference": "https://wildfloc.com/himalayan-rides/leh-ladakh",
+    "title": "This page doesn’t exist",
+    "target": "motorcycle-tours.html"
+  },
+  {
+    "reference": "https://wildfloc.com/himalayan-rides/spiti-valley",
+    "title": "This page doesn’t exist",
+    "target": "Outside the three-region route scope"
+  },
+  {
+    "reference": "https://wildfloc.com/explore-gulf",
+    "title": "ExploreGulf",
+    "target": "Outside agreed regional scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/gokarna",
+    "title": "Gokarna Beach Escape",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kerala",
+    "title": "Kerala Group Trip: The Slow Descent from Hills to Sea",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kodachadri",
+    "title": "Kodachadri SummitConquer the Western Ghats",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kodaikanal",
+    "title": "Kodaikanal EscapePrincess of Hill Stations",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-women-winter",
+    "title": "Kashmir Women-Only Winter Trip",
+    "target": "kashmir-women.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/ladakh-bike-trip",
+    "title": "Ladakh Motorcycle Trip7 Days, Leh to Pangong",
+    "target": "ladakh-motorcycle.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/leh-ladakh-bike-trip",
+    "title": "Leh Ladakh Bike Trip",
+    "target": "ladakh-long-ride.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/south-india-motorcycle-tour",
+    "title": "Motorcycle Tour South IndiaThe 70 Hairpin Challenge",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-winter-honeymoon-package",
+    "title": "Kashmir Winter Honeymoon Package6 Nights, 7 Days of Romantic Kashmir",
+    "target": "kashmir-honeymoon.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/wayanad-weekend-trip",
+    "title": "Wayanad Weekend TripGreen Paradise of Kerala",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kerala-tour",
+    "title": "Kerala Tour 7 Days Through God's Own Country",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kerala-beach-trip",
+    "title": "Kerala Beach Trip 6 Nights, 7 Days of Coastal Bliss",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/offbeat-kerala-tour",
+    "title": "Offbeat Kerala Tour: From Village Canals to Tea Above the Clouds",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-great-lakes",
+    "title": "Kashmir Great Lakes Trek7 Days Through Paradise",
+    "target": "kashmir-great-lakes.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-luxury-trip",
+    "title": "Kashmir Luxury Trip7 Days, 6 Nights of Luxury Kashmir",
+    "target": "kashmir-premium.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/meghalaya-tour",
+    "title": "Meghalaya Tour6 Nights, 7 Days of Wonder",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/arunachal-pradesh-tour",
+    "title": "Arunachal Pradesh Tour6 Nights, 7 Days of Discovery",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/uttari-betta-day-trek",
+    "title": "Uttari Betta Day TrekAncient Fort Trek Near Bangalore",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/babagil-waterfall-trek",
+    "title": "Babagil Waterfall Day TrekLimber Wildlife Sanctuary, Baramulla",
+    "target": "babagil-waterfall.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/wasturwan-trek",
+    "title": "Wasturwan Top Day TrekTral / Awantipora, South Kashmir",
+    "target": "wasturwan-ridge.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/ladakh-apricot-blossom",
+    "title": "Ladakh Apricot Blossom Festival 2027: Small Group Trip9 Days of Spring Magic in Ladakh",
+    "target": "ladakh-spring.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/ladakh-group-trip-nubra-pangong-hanle",
+    "title": "Ladakh Group Trip with Nubra Valley, Pangong and HanleThe Ladakh Most Repeat Visitors Never See",
+    "target": "ladakh-hanle.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/offbeat-kashmir-tour",
+    "title": "Offbeat Kashmir Tour Package: The Kashmir Nobody Else Sees",
+    "target": "offbeat-kashmir.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/keran-valley-offbeat-trip",
+    "title": "Keran Valley Offbeat Trip: Seven Days Where India Meets Pakistan Across the River",
+    "target": "keran-lolab-bangus.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-autumn-trip",
+    "title": "Kashmir Autumn Trip: Six Weeks of Chinar Gold",
+    "target": "kashmir-autumn.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-kargil-autumn-trip",
+    "title": "Kashmir Kargil Autumn Trip: Gold Chinars to Aryan Valley, With a Local Guide",
+    "target": "kashmir-kargil.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-winter-group-trip",
+    "title": "Kashmir Winter Group Trip",
+    "target": "kashmir-winter.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-winter-tour",
+    "title": "Offbeat Kashmir Winter Tour",
+    "target": "south-kashmir-winter.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/gurez-valley-itinerary",
+    "title": "Gurez Valley Itinerary",
+    "target": "gurez-valley.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/tour-packages-for-leh-ladakh",
+    "title": "Tour Packages for Leh Ladakh7 Days Across Ladakh's High Plateau",
+    "target": "ladakh-discovery.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/tulian-lake-trek",
+    "title": "Tulian Lake Trek",
+    "target": "tulian-lake.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/ladakh-offbeat-bike-trip",
+    "title": "Ladakh Offbeat Motorcycle Trip10 Days Through Zanskar's Forgotten Roads",
+    "target": "zanskar-riding.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/women-only-gurez-valley",
+    "title": "Women-Only Gurez Valley TripThe Valley Which Tells Stories",
+    "target": "women-gurez.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/women-only-warwan-valley",
+    "title": "Women-Only Warwan Valley Trip, KashmirThe Valley Past Margan Top",
+    "target": "women-warwan.html"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/cherry-blossom-festival-shillong",
+    "title": "Cherry Blossom Festival Shillong: Meghalaya in Full Pink Bloom",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/offbeat-meghalaya-tour",
+    "title": "Offbeat Meghalaya TourSix Days with the Guides Who Grew Up Here",
+    "target": "Outside Kashmir / Ladakh / Jammu scope"
+  },
+  {
+    "reference": "https://wildfloc.com/trip/kashmir-leh-ladakh-group-trip",
+    "title": "Kashmir Leh Ladakh Group Trip: A 7 Day Road Crossing",
+    "target": "kashmir-ladakh-circuit.html"
+  },
+  {
+    "reference": "https://wildfloc.com/privacy",
+    "title": "Privacy Policy",
+    "target": "privacy.html"
+  },
+  {
+    "reference": "https://wildfloc.com/terms",
+    "title": "Terms & Conditions",
+    "target": "terms.html"
+  },
+  {
+    "reference": "https://wildfloc.com/cancellation",
+    "title": "Cancellation & Refund Policy",
+    "target": "cancellation.html"
+  },
+  {
+    "reference": "https://wildfloc.com/media",
+    "title": "Wildfloc in the Media",
+    "target": "credits.html"
+  },
+  {
+    "reference": "https://wildfloc.com/refund",
+    "title": "Refund Policy",
+    "target": "cancellation.html"
+  },
+  {
+    "reference": "https://wildfloc.com/reviews",
+    "title": "Wildfloc Adventures Reviews | Offbeat Travel India",
+    "target": "reviews.html"
+  }
+]

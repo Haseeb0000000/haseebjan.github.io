@@ -1,0 +1,561 @@
+{
+  "media": [
+    {
+      "name": "uploads",
+      "label": "Your photo library",
+      "input": "assets/uploads",
+      "output": "/assets/uploads",
+      "extensions": [
+        "jpg",
+        "jpeg",
+        "png",
+        "webp"
+      ],
+      "rename": "random"
+    }
+  ],
+  "settings": {
+    "content": {
+      "merge": true
+    }
+  },
+  "content": [
+    {
+      "name": "home",
+      "label": "Homepage",
+      "type": "file",
+      "path": "content/home.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "heroTitle",
+          "label": "Main headline",
+          "type": "string"
+        },
+        {
+          "name": "heroEmphasis",
+          "label": "Highlighted headline",
+          "type": "string"
+        },
+        {
+          "name": "heroDescription",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "heroImage",
+          "label": "Upload homepage hero",
+          "type": "image",
+          "options": {
+            "media": "uploads"
+          }
+        },
+        {
+          "name": "heroAlt",
+          "label": "Describe the hero photo",
+          "type": "string"
+        },
+        {
+          "name": "heroCaption",
+          "label": "Hero location caption",
+          "type": "string"
+        },
+        {
+          "name": "departureSlugs",
+          "label": "Departure card trip IDs",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "featuredSlugs",
+          "label": "Featured trip IDs",
+          "type": "string",
+          "list": true
+        }
+      ]
+    },
+    {
+      "name": "trips",
+      "label": "Trips & itineraries",
+      "type": "collection",
+      "path": "content/trips",
+      "format": "json",
+      "subfolders": false,
+      "operations": {
+        "create": false,
+        "rename": false,
+        "delete": false
+      },
+      "view": {
+        "primary": "name",
+        "fields": [
+          "name",
+          "region",
+          "type",
+          "price"
+        ],
+        "sort": "order"
+      },
+      "fields": [
+        {
+          "name": "slug",
+          "label": "Page ID",
+          "type": "string",
+          "readonly": true
+        },
+        {
+          "name": "name",
+          "label": "Trip title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "region",
+          "label": "Destination",
+          "type": "select",
+          "options": {
+            "values": [
+              "Kashmir",
+              "Ladakh",
+              "Jammu",
+              "Kashmir & Ladakh"
+            ]
+          }
+        },
+        {
+          "name": "type",
+          "label": "Travel style",
+          "type": "select",
+          "options": {
+            "values": [
+              "Group",
+              "Women-only",
+              "Private",
+              "Trek",
+              "Day trip",
+              "Motorcycle",
+              "Pilgrimage"
+            ]
+          }
+        },
+        {
+          "name": "description",
+          "label": "Trip introduction",
+          "type": "text"
+        },
+        {
+          "name": "price",
+          "label": "Guide price per person — INR",
+          "type": "number",
+          "description": "Leave empty for a tailored quote. Enter only an owner-approved guide rate.",
+          "options": {
+            "min": 0
+          }
+        },
+        {
+          "name": "priceBasis",
+          "label": "Sharing / pricing basis",
+          "type": "string"
+        },
+        {
+          "name": "quoteReason",
+          "label": "Quote explanation",
+          "type": "text"
+        },
+        {
+          "name": "start",
+          "label": "Meeting point",
+          "type": "string"
+        },
+        {
+          "name": "route",
+          "label": "Route summary",
+          "type": "string"
+        },
+        {
+          "name": "difficulty",
+          "label": "Activity level",
+          "type": "string"
+        },
+        {
+          "name": "season",
+          "label": "Suggested season",
+          "type": "string"
+        },
+        {
+          "name": "group",
+          "label": "Group arrangement",
+          "type": "string"
+        },
+        {
+          "name": "image",
+          "label": "Stock cover photo",
+          "type": "select",
+          "options": {
+            "values": [
+              "gurez",
+              "gulmarg",
+              "nubra",
+              "dal",
+              "great-lakes",
+              "khardung",
+              "bhaderwah",
+              "katra",
+              "gurez-landscape",
+              "vishansar",
+              "tulian",
+              "warwan",
+              "autumn",
+              "pahalgam",
+              "houseboat",
+              "sanasar",
+              "sonamarg",
+              "gurez-village",
+              "alchi",
+              "gurez-river",
+              "suru",
+              "aru-winter",
+              "lolab",
+              "zanskar-road",
+              "apricot",
+              "aru",
+              "kokernag",
+              "verinag",
+              "leh-road",
+              "zangla",
+              "pangong",
+              "patnitop"
+            ]
+          }
+        },
+        {
+          "name": "cover",
+          "label": "Upload a replacement cover photo",
+          "type": "image",
+          "description": "Optional. Upload your own photo from your computer. Leave empty to keep the stock photo.",
+          "options": {
+            "media": "uploads"
+          }
+        },
+        {
+          "name": "coverAlt",
+          "label": "Describe your replacement cover",
+          "type": "string"
+        },
+        {
+          "name": "gallery",
+          "label": "Upload gallery photos",
+          "type": "image",
+          "options": {
+            "media": "uploads",
+            "multiple": {
+              "max": 6
+            },
+            "unique": true
+          }
+        },
+        {
+          "name": "highlights",
+          "label": "Trip highlights",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "inclusions",
+          "label": "Proposed inclusions",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "exclusions",
+          "label": "Exclusions",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "itinerary",
+          "label": "Day-by-day itinerary",
+          "type": "object",
+          "list": {
+            "min": 1,
+            "max": 30,
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title} — {place}"
+            }
+          },
+          "fields": [
+            {
+              "name": "title",
+              "label": "Day title",
+              "type": "string"
+            },
+            {
+              "name": "place",
+              "label": "Places / route",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Day description",
+              "type": "text"
+            },
+            {
+              "name": "places",
+              "label": "Places to discover",
+              "type": "string",
+              "list": true
+            },
+            {
+              "name": "experiences",
+              "label": "Experiences to request",
+              "type": "string",
+              "list": true
+            },
+            {
+              "name": "stay",
+              "label": "Proposed overnight",
+              "type": "string"
+            },
+            {
+              "name": "meals",
+              "label": "Proposed meals",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "order",
+          "label": "Display order",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "destinations",
+      "label": "Destination pages",
+      "type": "collection",
+      "path": "content/regions",
+      "format": "json",
+      "operations": {
+        "create": false,
+        "rename": false,
+        "delete": false
+      },
+      "view": {
+        "primary": "name"
+      },
+      "fields": [
+        {
+          "name": "slug",
+          "label": "Page ID",
+          "type": "string",
+          "readonly": true
+        },
+        {
+          "name": "name",
+          "label": "Destination",
+          "type": "string"
+        },
+        {
+          "name": "line",
+          "label": "Short headline",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "note",
+          "label": "Planning note",
+          "type": "text"
+        },
+        {
+          "name": "image",
+          "label": "Stock photo",
+          "type": "select",
+          "options": {
+            "values": [
+              "gurez",
+              "gulmarg",
+              "nubra",
+              "dal",
+              "great-lakes",
+              "khardung",
+              "bhaderwah",
+              "katra",
+              "gurez-landscape",
+              "vishansar",
+              "tulian",
+              "warwan",
+              "autumn",
+              "pahalgam",
+              "houseboat",
+              "sanasar",
+              "sonamarg",
+              "gurez-village",
+              "alchi",
+              "gurez-river",
+              "suru",
+              "aru-winter",
+              "lolab",
+              "zanskar-road",
+              "apricot",
+              "aru",
+              "kokernag",
+              "verinag",
+              "leh-road",
+              "zangla",
+              "pangong",
+              "patnitop"
+            ]
+          }
+        },
+        {
+          "name": "cover",
+          "label": "Upload a replacement cover photo",
+          "type": "image",
+          "description": "Optional. Upload your own photo from your computer. Leave empty to keep the stock photo.",
+          "options": {
+            "media": "uploads"
+          }
+        },
+        {
+          "name": "coverAlt",
+          "label": "Describe your uploaded photo",
+          "type": "string"
+        },
+        {
+          "name": "highlights",
+          "label": "Destination highlights",
+          "type": "string",
+          "list": true
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "label": "Page wording & SEO",
+      "type": "collection",
+      "path": "content/pages",
+      "format": "json",
+      "operations": {
+        "create": false,
+        "rename": false,
+        "delete": false
+      },
+      "view": {
+        "primary": "title"
+      },
+      "fields": [
+        {
+          "name": "title",
+          "label": "Search / browser title",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "label": "Search description",
+          "type": "text"
+        },
+        {
+          "name": "copy",
+          "label": "Page wording — layout stays fixed",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{value}"
+            }
+          },
+          "fields": [
+            {
+              "name": "original",
+              "label": "Original text — matching key",
+              "type": "text",
+              "readonly": true
+            },
+            {
+              "name": "value",
+              "label": "Your wording",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "photos",
+          "label": "Page photos",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{original}"
+            }
+          },
+          "fields": [
+            {
+              "name": "original",
+              "label": "Original image — matching key",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "image",
+              "label": "Upload replacement photo",
+              "type": "image",
+              "options": {
+                "media": "uploads"
+              }
+            },
+            {
+              "name": "alt",
+              "label": "Describe your replacement photo",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "business",
+      "label": "Business contact details",
+      "type": "file",
+      "path": "site.config.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Business name",
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "label": "Enquiry email",
+          "type": "string"
+        },
+        {
+          "name": "phone",
+          "label": "Phone with +country code",
+          "type": "string"
+        },
+        {
+          "name": "whatsapp",
+          "label": "WhatsApp — digits with country code",
+          "type": "string"
+        },
+        {
+          "name": "location",
+          "label": "Office address / locality",
+          "type": "text"
+        },
+        {
+          "name": "pricingNote",
+          "label": "Guide-price notice",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

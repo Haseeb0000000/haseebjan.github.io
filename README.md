@@ -13,7 +13,7 @@ Requires Node 20+; no package installation needed.
 
 ## Edit
 
-- `data/trips.mjs`: proposed routes, itinerary days, prices, and inclusion/exclusion lists.
+- `content/trips/*.json`: editable proposed routes, itinerary days, prices, and inclusion/exclusion lists. `data/trips.mjs` loads this collection.
 - `site.config.json`: owner contact and price-disclaimer settings. Phone and WhatsApp are +91 99062 69900, supplied by the owner on 3 November 2026.
 - `scripts/build.mjs`: shared layout and all page content.
 - `assets/site.css` and `assets/site.js`: responsive design and browser interactions.
@@ -29,4 +29,10 @@ See `PRICING.md` for price snapshots/assumptions, `FEATURES.md` for the referenc
 
 ## Photography
 
-All displayed photographs are now licence-verified, with 13 new Commons sources plus the prior licensed Pangong/Patnitop photos. Source, author, licence, adapted sizes, and credits appear on `credits.html`. Prior unknown-origin images are no longer referenced by public pages. The former template attribution record in `Readme.txt` is retained as historical provenance; the public design/code is original.
+Displayed photographs are licence-verified, with 31 distinct Commons sources plus the prior licensed Pangong/Patnitop photos. Each of the 26 trips has a distinct cover; checks reject repeated photographs within a public page. Source, author, licence and adapted sizes appear on `credits.html`. The former template attribution record in `Readme.txt` is retained as historical provenance.
+
+## Online editing update
+
+Current development branch: `development/content-dashboard-photos`. See `DASHBOARD-GUIDE.md` for the prepared Pages CMS editor and `REFERENCE-COMPARISON.md` for the 124-page reference inventory. Homepage, destination pages, trip details and page wording/photos now use editable JSON under `content/`. Run `npm ci` once, then `npm run build` and `npm run check`; Sharp optimizes owner photo uploads during the build. `node scripts/check-editor.mjs` verifies a reversible edit/upload and restores real content.
+
+The owner must connect the external editor's GitHub App. Automatic production rebuilding is not enabled: its write permissions await explicit approval described in `PUBLISHING-PROPOSAL.md`. No Cloudflare, DNS or domain change was made.

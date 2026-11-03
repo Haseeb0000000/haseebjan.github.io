@@ -1,0 +1,96 @@
+{
+  "slug": "south-kashmir-winter",
+  "name": "South Kashmir & the Winter Valleys",
+  "region": "Kashmir",
+  "type": "Group",
+  "days": 7,
+  "price": 33000,
+  "benchmark": 34750,
+  "reference": "kashmir-winter-tour",
+  "image": "aru-winter",
+  "route": "Srinagar · South Kashmir · Sind Valley",
+  "description": "A winter planning option that leaves the exact route responsive to conditions.",
+  "highlights": [
+    "Winter valley stays",
+    "Flexible local excursions",
+    "Riverside pauses"
+  ],
+  "itinerary": [
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
+      "stay": "Srinagar",
+      "meals": "Dinner"
+    },
+    {
+      "title": "South Kashmir",
+      "place": "South Kashmir",
+      "description": "Travel towards the agreed valley base, choosing roads supported by current conditions.",
+      "stay": "South Kashmir",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Valley exploration",
+      "place": "Valley exploration",
+      "description": "Take a gentle local outing or rest day; snow and activity access are not guaranteed.",
+      "stay": "Valley exploration",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Countryside day",
+      "place": "Countryside day",
+      "description": "Discuss suitable village or garden visits with the trip coordinator.",
+      "stay": "Countryside day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Sind Valley",
+      "place": "Sind Valley",
+      "description": "Continue towards the Sind Valley if the route is suitable.",
+      "stay": "Sind Valley",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Return to Srinagar and leave room for changes to the winter plan.",
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar departure",
+      "place": "Srinagar departure",
+      "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 6,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 15,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

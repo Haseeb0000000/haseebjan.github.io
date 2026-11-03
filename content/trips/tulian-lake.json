@@ -1,0 +1,69 @@
+{
+  "slug": "tulian-lake",
+  "name": "Tulian: A Short Alpine Escape",
+  "region": "Kashmir",
+  "type": "Trek",
+  "days": 3,
+  "price": 7600,
+  "benchmark": 7999,
+  "reference": "tulian-lake-trek",
+  "image": "tulian",
+  "route": "Pahalgam · Approved Tulian route · Pahalgam",
+  "description": "A specialist trek proposal with the trail, camps, and support agreed before booking.",
+  "highlights": [
+    "Short trekking format",
+    "Alpine landscape",
+    "Specialist support proposal"
+  ],
+  "trek": true,
+  "itinerary": [
+    {
+      "title": "Pahalgam / trailhead",
+      "place": "Pahalgam / trailhead",
+      "description": "Reach the approved trailhead, review equipment, and begin the agreed approach if conditions allow.",
+      "stay": "Pahalgam / trailhead",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Tulian route",
+      "place": "Tulian route",
+      "description": "Follow the specialist operator’s approved stage only when weather, permissions, and wellbeing allow. Lake access is not guaranteed.",
+      "stay": "Tulian route",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Pahalgam departure",
+      "place": "Pahalgam departure",
+      "description": "Return along the confirmed exit route and transfer to the agreed finishing point.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 2,
+  "difficulty": "Challenging",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Specialist trek support and camping equipment to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 16,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

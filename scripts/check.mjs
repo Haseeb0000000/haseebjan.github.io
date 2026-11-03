@@ -36,14 +36,19 @@ for(const file of pages){
 }
 assert.equal(fs.readFileSync('CNAME','utf8').trim(),'theholidayhost.in');
 const sitemap=fs.readFileSync('sitemap.xml','utf8');for(const page of pages.filter(p=>!fs.readFileSync(p,'utf8').includes('noindex,follow')))assert(sitemap.includes(page==='index.html'?'<loc>https://theholidayhost.in/</loc>':`/${page}</loc>`));
-assert.equal(JSON.parse(fs.readFileSync('site.config.json')).whatsapp,'919906269900','Only use the owner-supplied WhatsApp number');
-assert.equal(trips.length,26);
+assert.match(JSON.parse(fs.readFileSync('site.config.json')).whatsapp,/^\d{10,15}$/,'WhatsApp must use country-code digits');
+assert(trips.length>=26);
 assert.deepEqual([...new Set(trips.map(t=>t.region))].sort(),['Jammu','Kashmir','Kashmir & Ladakh','Ladakh']);
-for(const trip of trips){assert.equal(trip.days,trip.itinerary.length,`${trip.slug}: itinerary length`);assert.equal(trip.nights,trip.days-1);assert.equal(trip.dates.length,0,'Never invent confirmed departures');if(trip.benchmark){assert(trip.price<trip.benchmark);assert(Math.abs(trip.price/trip.benchmark-.95)<.003,`${trip.slug}: about 5% below benchmark`);}else assert.equal(trip.price,null,'Unbenchmarked Jammu rates stay on request');const html=fs.readFileSync(trip.slug+'.html','utf8');for(const section of ['itinerary','inclusions','dates','packing','trip-faq','trip-enquiry'])assert(html.includes(`id="${section}"`));assert(html.includes('data-enquiry-fields disabled'));}
+for(const trip of trips){assert.equal(trip.days,trip.itinerary.length,`${trip.slug}: itinerary length`);assert.equal(trip.nights,trip.days-1);assert.equal(trip.dates.length,0,'Confirmed dates need a separately reviewed inventory feature');assert(trip.price==null||Number.isFinite(trip.price)&&trip.price>0,`${trip.slug}: a positive guide price or no price`);const html=fs.readFileSync(trip.slug+'.html','utf8');for(const section of ['itinerary','inclusions','dates','packing','trip-faq','trip-enquiry'])assert(html.includes(`id="${section}"`));assert(html.includes('data-enquiry-fields disabled'));}
 assert.equal(regions.length,3);
 const photoCredits=JSON.parse(fs.readFileSync('data/photo-credits.json','utf8').replace(/^\uFEFF/,''));
-assert.equal(photoCredits.length,13);
+assert(photoCredits.length>=30);
+assert.equal(new Set(photoCredits.map(p=>p.source)).size,photoCredits.length,'Photo credits must not alias the same source under multiple names');
 for(const photo of photoCredits){assert(photo.source.startsWith('https://commons.wikimedia.org/'));assert(photo.license&&photo.author&&photo.licenseUrl);}
 for(const asset of fs.readdirSync('assets').filter(f=>/\.[a-f0-9]{12}\.(css|js|json)$/.test(f))){const expected=asset.match(/\.([a-f0-9]{12})\./)[1];const text=fs.readFileSync('assets/'+asset,'utf8').replace(/\r\n/g,'\n');assert.equal(createHash('sha256').update(text).digest('hex').slice(0,12),expected,`${asset}: content-version match`);}
 for(const file of fs.readdirSync('assets').filter(f=>f.endsWith('.jpg')))assert(fs.statSync('assets/'+file).size<300000,`${file}: image size budget`);
+for(const file of pages){const photoPaths=[...fs.readFileSync(file,'utf8').matchAll(/<img\b[^>]*\bsrc="([^"]+\.jpg)"/g)].map(m=>m[1]);assert.equal(photoPaths.length,new Set(photoPaths).size,`${file}: photographs must not repeat within a page`);}
+assert.equal(new Set(trips.map(t=>t.cover||t.image)).size,trips.length,'Every trip needs a distinct main photograph');
+assert(fs.existsSync('.pages.yml'),'Online editor configuration');
+assert(fs.readFileSync('admin.html','utf8').includes('noindex,follow'),'Owner entry page must stay out of search');
 console.log(`PASS: ${pages.length} pages, ${links} local references, ${images} image elements, unique SEO metadata, structured data, labels, sitemap, image budgets, and preserved CNAME.`);

@@ -1,0 +1,50 @@
+{
+  "slug": "babagil-waterfall",
+  "name": "Babagil Waterfall Day Walk",
+  "region": "Kashmir",
+  "type": "Day trip",
+  "days": 1,
+  "price": 950,
+  "benchmark": 999,
+  "reference": "babagil-waterfall-trek",
+  "image": "sonamarg",
+  "route": "Agreed meeting point · Babagil route · Return",
+  "description": "A proposed guided day walk with route access and meeting arrangements confirmed first.",
+  "highlights": [
+    "Day-walk format",
+    "Local route guidance",
+    "No overnight stay"
+  ],
+  "itinerary": [
+    {
+      "title": "Babagil day route",
+      "place": "Babagil day route",
+      "description": "Meet at the confirmed location and walk only the locally approved trail with a suitable guide. Access, difficulty, transport, food, and the return time must be agreed before booking.",
+      "stay": "No overnight stay",
+      "meals": "Meals to be confirmed"
+    }
+  ],
+  "nights": 0,
+  "difficulty": "Moderate",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Proposed local guide for the agreed route",
+    "Transport and meals only if specifically included in the final quote"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed guided day trip",
+  "status": "proposal",
+  "order": 19,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "kashmir-honeymoon",
+  "name": "Kashmir, Just the Two of You",
+  "region": "Kashmir",
+  "type": "Private",
+  "days": 7,
+  "price": null,
+  "reference": "kashmir-winter-honeymoon-package",
+  "image": "houseboat",
+  "route": "Srinagar · Gulmarg · Pahalgam · Srinagar",
+  "description": "A private couple’s journey, shaped around the stays and experiences you choose.",
+  "highlights": [
+    "Private couple format",
+    "Stay-category choice",
+    "Personal itinerary"
+  ],
+  "tags": [
+    "Honeymoon",
+    "Couples"
+  ],
+  "quoteReason": "The reference shows conflicting per-person and per-couple pricing; request a clear couple-specific quote.",
+  "itinerary": [
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
+      "stay": "Srinagar",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Gulmarg",
+      "place": "Gulmarg",
+      "description": "Travel to Gulmarg and settle into your selected stay.",
+      "stay": "Gulmarg",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Mountain day",
+      "place": "Mountain day",
+      "description": "Keep a private sightseeing day with optional activities itemised before confirmation.",
+      "stay": "Mountain day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Pahalgam",
+      "place": "Pahalgam",
+      "description": "Travel into the Lidder Valley with stops suited to your pace.",
+      "stay": "Pahalgam",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Pahalgam surroundings",
+      "place": "Pahalgam surroundings",
+      "description": "Choose local exploration or time together; discuss private excursions separately.",
+      "stay": "Pahalgam surroundings",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Return for your final stay. A houseboat, dinner, or photographer can be quoted if requested.",
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar departure",
+      "place": "Srinagar departure",
+      "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 6,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Your private group",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 21,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

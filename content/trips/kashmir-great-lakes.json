@@ -1,0 +1,104 @@
+{
+  "slug": "kashmir-great-lakes",
+  "name": "Kashmir Alpine Lakes Trek",
+  "region": "Kashmir",
+  "type": "Trek",
+  "days": 7,
+  "price": 14000,
+  "benchmark": 14750,
+  "reference": "kashmir-great-lakes",
+  "image": "vishansar",
+  "difficulty": "Challenging",
+  "season": "Seasonal trail access",
+  "start": "Srinagar / agreed trailhead",
+  "route": "Sonamarg · Alpine lake circuit · Agreed exit",
+  "description": "An expedition proposal for experienced walkers, with logistics agreed before booking.",
+  "highlights": [
+    "Alpine landscapes",
+    "Multi-day camping",
+    "Supported trail proposal"
+  ],
+  "itinerary": [
+    {
+      "title": "Trailhead transfer & briefing",
+      "place": "Sonamarg area",
+      "description": "Reach the agreed trailhead, inspect equipment, and review the route with the trek operator.",
+      "stay": "Trailhead camp",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Approach the high meadows",
+      "place": "Approved alpine route",
+      "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
+      "stay": "Approved camp 1",
+      "meals": "Breakfast, packed lunch & dinner"
+    },
+    {
+      "title": "Walk to the first lake basin",
+      "place": "Approved alpine route",
+      "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
+      "stay": "Approved camp 2",
+      "meals": "Breakfast, packed lunch & dinner"
+    },
+    {
+      "title": "Traverse to the next camp",
+      "place": "Approved alpine route",
+      "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
+      "stay": "Approved camp 3",
+      "meals": "Breakfast, packed lunch & dinner"
+    },
+    {
+      "title": "A day among the lake basins",
+      "place": "Approved alpine route",
+      "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
+      "stay": "Approved camp 4",
+      "meals": "Breakfast, packed lunch & dinner"
+    },
+    {
+      "title": "Begin the exit stage",
+      "place": "Approved alpine route",
+      "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
+      "stay": "Approved camp 5",
+      "meals": "Breakfast, packed lunch & dinner"
+    },
+    {
+      "title": "Finish & transfer",
+      "place": "Agreed exit",
+      "description": "Complete the agreed exit and transfer. Keep onward travel flexible for changes to the trail plan.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "extras": [
+    "Proposed tents, sleeping equipment, and camp meals on trekking days",
+    "Qualified trek leadership, camp staff, and emergency arrangements to be specified",
+    "Portage of shared camp equipment; personal luggage terms to be agreed"
+  ],
+  "trek": true,
+  "nights": 6,
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Proposed tents, sleeping equipment, and camp meals on trekking days",
+    "Qualified trek leadership, camp staff, and emergency arrangements to be specified",
+    "Portage of shared camp equipment; personal luggage terms to be agreed"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed small group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 4,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}

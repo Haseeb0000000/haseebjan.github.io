@@ -1,0 +1,96 @@
+{
+  "slug": "kashmir-kargil",
+  "name": "From Kashmir to the Kargil Highlands",
+  "region": "Kashmir",
+  "type": "Group",
+  "days": 7,
+  "price": 33000,
+  "benchmark": 34750,
+  "reference": "kashmir-kargil-autumn-trip",
+  "image": "suru",
+  "route": "Srinagar · Sonamarg · Kargil · Srinagar",
+  "description": "A mountain-road proposal with deliberate pacing and flexible pass crossings.",
+  "highlights": [
+    "Sonamarg base",
+    "Kargil highland time",
+    "Route contingency planning"
+  ],
+  "itinerary": [
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
+      "stay": "Srinagar",
+      "meals": "Dinner"
+    },
+    {
+      "title": "Sonamarg",
+      "place": "Sonamarg",
+      "description": "Travel to Sonamarg for a gentle afternoon and preparation for the onward road.",
+      "stay": "Sonamarg",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Kargil",
+      "place": "Kargil",
+      "description": "Cross towards Kargil only if the road is open and individual suitability has been assessed.",
+      "stay": "Kargil",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Kargil surroundings",
+      "place": "Kargil surroundings",
+      "description": "Keep a locally coordinated cultural day with suitable rest time.",
+      "stay": "Kargil surroundings",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Kargil valley day",
+      "place": "Kargil valley day",
+      "description": "Explore an approved valley excursion or retain the day as a weather buffer.",
+      "stay": "Kargil valley day",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar",
+      "place": "Srinagar",
+      "description": "Return over the confirmed route. Conditions may require a different plan or extra time.",
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner"
+    },
+    {
+      "title": "Srinagar departure",
+      "place": "Srinagar departure",
+      "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
+      "stay": "Departure",
+      "meals": "Breakfast"
+    }
+  ],
+  "nights": 6,
+  "difficulty": "Variable",
+  "season": "Dates and access on request",
+  "start": "Srinagar / agreed meeting point",
+  "inclusions": [
+    "Accommodation for the stated nights on the quoted sharing basis",
+    "Breakfast and dinner on overnight days; arrival dinner and departure breakfast",
+    "Trip-route vehicle, driver, fuel, tolls, and parking as itemised in the final quote",
+    "Transfers at the agreed starting and finishing points",
+    "Local coordination and the guided visits named in your proposal",
+    "Named local visits and guiding arrangements to be specified"
+  ],
+  "exclusions": [
+    "Flights, trains, and travel to the trip’s starting point",
+    "Lunches unless a specific day explicitly includes one",
+    "Travel insurance, personal expenses, tips, and shopping",
+    "Single-room supplements, extra nights, and optional activities",
+    "Any tax, permit, entry ticket, or local transport charge not explicitly itemised in your final quote"
+  ],
+  "group": "Proposed group · size to be confirmed",
+  "dates": [],
+  "priceBasis": "per person · proposed shared occupancy",
+  "status": "proposal",
+  "order": 14,
+  "cover": "",
+  "coverAlt": "",
+  "gallery": []
+}
