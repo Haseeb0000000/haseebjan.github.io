@@ -22,58 +22,133 @@
     {
       "title": "Arrive in Leh",
       "place": "Leh",
-      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "description": "Arrive in Leh and transfer directly to your accommodation. Reserve the first 48 hours after arrival for complete rest, following the Ladakh Tourism advisory; do not schedule sightseeing, rides or exertion in this period. Your operator should explain local support and escalation arrangements before the trip. Individual medical advice and wellbeing may require a longer rest period.",
       "stay": "Leh",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "A second gentle day",
       "place": "Leh",
-      "description": "Keep a further easy day for rest and acclimatisation. Short local outings are optional and depend on individual wellbeing and professional advice.",
+      "description": "Continue the arrival rest period at your Leh accommodation. Count 48 hours from the actual arrival time, rather than treating the second calendar day as permission to start sightseeing. Do not add monastery tours or a motorcycle familiarisation ride today. Discuss any concerns promptly with appropriate local medical support.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "Monasteries & the Indus",
-      "place": "Leh",
-      "description": "Consider a relaxed cultural circuit near Leh. Confirm the specific sights, opening times, and transport arrangements before departure.",
+      "place": "Leh · Shey · Thiksey",
+      "description": "After the full arrival rest period, take a measured Indus-side cultural day. Shey and Thiksey form a coherent circuit without adding the western Sham Valley to the same outing. Request a local guide if you would like more context than a photo stop, and respect prayer, entry and photography arrangements. Finish early enough for an unhurried evening at your Leh base.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Shey and Thiksey: choose an Indus-side cultural circuit after acclimatisation",
+        "A river-valley rest stop selected around the day’s road plan"
+      ],
+      "experiences": [
+        "A respectful monastery visit with shoes and photography rules observed",
+        "For riding trips, a vehicle check and short familiarisation session before longer stages"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Across to Nubra",
-      "place": "Nubra",
-      "description": "Travel to Nubra only when wellbeing, road access, and permissions allow. The day’s stops and pace remain flexible.",
+      "place": "Leh · Khardung La route · Diskit · Hunder",
+      "description": "Travel to Nubra on the approved open road after the arrival rest period and a wellbeing check. Treat the pass as a transit point rather than a place to linger. A Diskit visit can fit if the road journey and opening times allow; otherwise continue to the overnight base and enjoy a short Hunder-side walk. The driver confirms the day’s realistic stops.",
       "stay": "Nubra",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Diskit: monastery visit if opening and road timing allow",
+        "Hunder: a short walk near the dunes on permitted paths"
+      ],
+      "experiences": [
+        "A village or dune-edge walk at an unhurried pace",
+        "Photography that respects residents, religious spaces and wildlife"
+      ],
+      "pace": "Travel day with selected stops",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
-      "title": "A village day in Nubra",
-      "place": "Nubra",
-      "description": "Explore village surroundings and discuss an optional Turtuk excursion. Confirm access requirements and the day’s driving plan.",
+      "title": "Hunder slowly, or a Turtuk day",
+      "place": "Nubra · Hunder or Turtuk",
+      "description": "Choose between a quiet day around Hunder and a dedicated Turtuk excursion. The Turtuk option involves a longer return drive and needs current access checks, so do not combine it with every Nubra attraction. Request a local village guide or a hosted lunch in advance; apricot blossom and harvest are seasonal. Stay a second night in Nubra to avoid another hotel change.",
       "stay": "Nubra",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Hunder surroundings: the slower local option",
+        "Turtuk: an alternative full-day village excursion, permissions permitting"
+      ],
+      "experiences": [
+        "A locally arranged village walk or lunch",
+        "An unhurried second evening at the same Nubra base"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Lake horizons",
       "place": "Pangong / alternative stay",
-      "description": "Continue towards Pangong on a suitable confirmed route. A high-altitude overnight is optional; an alternative stay may be necessary for your group.",
+      "description": "Continue towards Pangong only on a route confirmed open and suitable by your operator. Keep stops brief on the road and use designated lake access when you arrive. A high-altitude lake overnight needs individual suitability and confirmed heating, sanitation and support arrangements; a different overnight or a revised circuit can be discussed before booking. Do not drive onto the shore or disturb wildlife.",
       "stay": "Pangong or lower-altitude alternative",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Pangong: designated shore access on the approved route",
+        "Tangtse: a practical rest break where the chosen route permits"
+      ],
+      "experiences": [
+        "Look at the changing lake colours without driving onto the shore",
+        "Decide the overnight location around wellbeing and confirmed facilities"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Return to Leh",
       "place": "Leh",
-      "description": "Return to Leh and keep the rest of the day free. Leave contingency time for weather and road disruptions.",
+      "description": "Return towards Leh on the agreed open route, allowing breaks and contingency time. If the route passes Shey or Thiksey, choose only a previously missed visit that fits comfortably; this is not a second compulsory sightseeing circuit. Keep the Leh evening free for packing and rest before the onward flight.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh: the confirmed accommodation or transfer point",
+        "Local sightseeing only after the arrival rest period is complete"
+      ],
+      "experiences": [
+        "Unhurried time at the overnight base",
+        "Keep flexibility for weather, wellbeing and onward transport"
+      ],
+      "pace": "Travel day with selected stops",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Until next time",
       "place": "Leh",
       "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Leh: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "extras": [
@@ -179,5 +254,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "More time in the Indus Valley",
+      "nights": 2,
+      "description": "Request two additional Leh-based nights for Alchi and a selected Likir or Basgo stop after the arrival rest period. Split cultural visits and village time across separate days; the drive plan, guide and added cost will be quoted."
+    }
+  ]
 }

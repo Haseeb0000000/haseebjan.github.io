@@ -21,49 +21,114 @@
       "place": "Srinagar",
       "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
       "stay": "Srinagar",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Dal Lake boulevard: a relaxed waterfront stretch",
+        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+      ],
+      "experiences": [
+        "Kahwa and time to settle into the valley’s rhythm",
+        "An artisan demonstration by prior appointment, with no obligation to buy"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Sonamarg",
       "place": "Sonamarg",
       "description": "Travel to Sonamarg and retain a gentle afternoon.",
       "stay": "Sonamarg",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Sind river corridor: a scenic stop on the chosen road",
+        "Sonamarg or Naranag: choose one branch of the valley rather than combining both"
+      ],
+      "experiences": [
+        "A riverside break with time to look around",
+        "A short guided walk only on an approved, open trail"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Kargil",
       "place": "Kargil",
       "description": "Cross only if roads and permissions allow, with an overnight break.",
       "stay": "Kargil",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Kargil town: a practical overnight and orientation base",
+        "A selected Suru-side viewpoint on a dedicated excursion day"
+      ],
+      "experiences": [
+        "A locally arranged heritage walk with time for questions",
+        "A short village visit rather than an unplanned long detour"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Leh",
       "place": "Leh",
-      "description": "Continue towards Leh with stops planned around the group’s needs.",
+      "description": "Travel from Kargil to Leh on the confirmed open road. Keep any intermediate stops brief and prioritise reaching your accommodation. Begin a full 48-hour rest period on arrival in Leh before scheduling sightseeing or higher-altitude travel; the next two days may need to be adjusted around the actual arrival time.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "Leh rest day",
       "place": "Leh rest day",
-      "description": "Keep the day gentle and seek professional guidance if altitude causes concerns.",
+      "description": "Continue the arrival rest period at your Leh accommodation. Count 48 hours from the actual arrival time, rather than treating the second calendar day as permission to start sightseeing. Do not add monastery tours or a motorcycle familiarisation ride today. Discuss any concerns promptly with appropriate local medical support.",
       "stay": "Leh rest day",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
-      "title": "Indus Valley",
+      "title": "Rest first, then an optional Indus afternoon",
       "place": "Indus Valley",
-      "description": "Choose a suitable cultural outing or further rest.",
+      "description": "Complete the full 48-hour rest period counted from arrival in Leh. Only afterwards, and if individually suitable, discuss a short Shey or Thiksey visit. If arrival was late or rest needs to continue, keep the whole day at the accommodation and remove the outing. No sightseeing entitlement takes priority over the acclimatisation plan.",
       "stay": "Indus Valley",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh accommodation until the full rest period is complete",
+        "Shey or Thiksey only as a conditional later option"
+      ],
+      "experiences": [
+        "A respectful monastery visit with shoes and photography rules observed",
+        "For riding trips, a vehicle check and short familiarisation session before longer stages"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Leh / agreed departure",
       "place": "Leh / agreed departure",
       "description": "Depart from the confirmed finishing point. A return to Srinagar is not assumed and must be quoted separately.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Leh / agreed departure: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "nights": 6,
@@ -181,5 +246,17 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "One more Pahalgam valley day",
+      "nights": 2,
+      "description": "Request two nights for a slower Pahalgam stay, choosing Aru or Betaab on separate outings rather than rushing both. This may change the main route; local transport, entry charges, hotel and extra cost are quoted separately."
+    },
+    {
+      "title": "Southern springs with an overnight",
+      "nights": 1,
+      "description": "Discuss a separate Kokernag or Daksum-area night so the southern valley has its own time. The overnight base, road access, heating and return route need confirmation rather than being added to a busy transfer day."
+    }
+  ]
 }

@@ -21,21 +21,50 @@
       "place": "Gurez arrival",
       "description": "Travel from Srinagar to Gurez only when pass access and permissions allow. Settle into the agreed stay.",
       "stay": "Gurez arrival",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Dawar: village lanes around the overnight base",
+        "Habba Khatoon surroundings: a riverside viewpoint when access allows"
+      ],
+      "experiences": [
+        "A locally accompanied village walk with residents’ permission for photographs",
+        "Time by the Kishanganga with a picnic arranged in advance"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Dawar & surroundings",
       "place": "Dawar & surroundings",
       "description": "Spend a locally coordinated day around village lanes and riverside scenery.",
       "stay": "Dawar & surroundings",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Dawar: village lanes around the overnight base",
+        "Habba Khatoon surroundings: a riverside viewpoint when access allows"
+      ],
+      "experiences": [
+        "A locally accompanied village walk with residents’ permission for photographs",
+        "Time by the Kishanganga with a picnic arranged in advance"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Srinagar departure",
       "place": "Srinagar departure",
       "description": "Return over the pass with generous contingency time.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Srinagar departure: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "nights": 2,
@@ -125,5 +154,17 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "One more Pahalgam valley day",
+      "nights": 2,
+      "description": "Request two nights for a slower Pahalgam stay, choosing Aru or Betaab on separate outings rather than rushing both. This may change the main route; local transport, entry charges, hotel and extra cost are quoted separately."
+    },
+    {
+      "title": "Southern springs with an overnight",
+      "nights": 1,
+      "description": "Discuss a separate Kokernag or Daksum-area night so the southern valley has its own time. The overnight base, road access, heating and return route need confirmation rather than being added to a busy transfer day."
+    }
+  ]
 }

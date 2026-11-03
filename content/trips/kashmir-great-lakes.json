@@ -24,49 +24,118 @@
       "place": "Sonamarg area",
       "description": "Reach the agreed trailhead, inspect equipment, and review the route with the trek operator.",
       "stay": "Trailhead camp",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Sind river corridor: a scenic stop on the chosen road",
+        "Sonamarg or Naranag: choose one branch of the valley rather than combining both"
+      ],
+      "experiences": [
+        "A riverside break with time to look around",
+        "A short guided walk only on an approved, open trail"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     },
     {
       "title": "Approach the high meadows",
       "place": "Approved alpine route",
       "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
       "stay": "Approved camp 1",
-      "meals": "Breakfast, packed lunch & dinner"
+      "meals": "Breakfast, packed lunch & dinner",
+      "places": [
+        "Agreed trailhead and approved walking route",
+        "Guide-selected rest points; named camps and exit must be confirmed"
+      ],
+      "experiences": [
+        "A guide-led walk with pace and turnaround matched to the group",
+        "Briefing on equipment, weather, water, waste and emergency arrangements"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     },
     {
       "title": "Walk to the first lake basin",
       "place": "Approved alpine route",
       "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
       "stay": "Approved camp 2",
-      "meals": "Breakfast, packed lunch & dinner"
+      "meals": "Breakfast, packed lunch & dinner",
+      "places": [
+        "Agreed trailhead and approved walking route",
+        "Guide-selected rest points; named camps and exit must be confirmed"
+      ],
+      "experiences": [
+        "A guide-led walk with pace and turnaround matched to the group",
+        "Briefing on equipment, weather, water, waste and emergency arrangements"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     },
     {
       "title": "Traverse to the next camp",
       "place": "Approved alpine route",
       "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
       "stay": "Approved camp 3",
-      "meals": "Breakfast, packed lunch & dinner"
+      "meals": "Breakfast, packed lunch & dinner",
+      "places": [
+        "Agreed trailhead and approved walking route",
+        "Guide-selected rest points; named camps and exit must be confirmed"
+      ],
+      "experiences": [
+        "A guide-led walk with pace and turnaround matched to the group",
+        "Briefing on equipment, weather, water, waste and emergency arrangements"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     },
     {
       "title": "A day among the lake basins",
       "place": "Approved alpine route",
       "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
       "stay": "Approved camp 4",
-      "meals": "Breakfast, packed lunch & dinner"
+      "meals": "Breakfast, packed lunch & dinner",
+      "places": [
+        "Agreed trailhead and approved walking route",
+        "Guide-selected rest points; named camps and exit must be confirmed"
+      ],
+      "experiences": [
+        "A guide-led walk with pace and turnaround matched to the group",
+        "Briefing on equipment, weather, water, waste and emergency arrangements"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     },
     {
       "title": "Begin the exit stage",
       "place": "Approved alpine route",
       "description": "Walk the operator-approved stage only if weather, permissions, fitness, and group wellbeing allow. Exact camps, distances, escape routes, and support arrangements must be confirmed by the specialist trek operator.",
       "stay": "Approved camp 5",
-      "meals": "Breakfast, packed lunch & dinner"
+      "meals": "Breakfast, packed lunch & dinner",
+      "places": [
+        "Agreed trailhead and approved walking route",
+        "Guide-selected rest points; named camps and exit must be confirmed"
+      ],
+      "experiences": [
+        "A guide-led walk with pace and turnaround matched to the group",
+        "Briefing on equipment, weather, water, waste and emergency arrangements"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     },
     {
       "title": "Finish & transfer",
       "place": "Agreed exit",
       "description": "Complete the agreed exit and transfer. Keep onward travel flexible for changes to the trail plan.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Agreed exit: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "extras": [
@@ -182,5 +251,17 @@
   ],
   "hotelShortlist": [],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "One more Pahalgam valley day",
+      "nights": 2,
+      "description": "Request two nights for a slower Pahalgam stay, choosing Aru or Betaab on separate outings rather than rushing both. This may change the main route; local transport, entry charges, hotel and extra cost are quoted separately."
+    },
+    {
+      "title": "Southern springs with an overnight",
+      "nights": 1,
+      "description": "Discuss a separate Kokernag or Daksum-area night so the southern valley has its own time. The overnight base, road access, heating and return route need confirmation rather than being added to a busy transfer day."
+    }
+  ]
 }

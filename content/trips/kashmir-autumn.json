@@ -8,50 +8,54 @@
   "benchmark": 35750,
   "reference": "kashmir-autumn-trip",
   "image": "autumn",
-  "route": "Srinagar · Pampore · Pahalgam · Southern springs · Gulmarg",
+  "route": "Srinagar · Pampore · Pahalgam · Achabal · Kokernag · Gulmarg",
   "description": "City gardens, mountain light, and a gentle seasonal valley circuit.",
   "highlights": [
-    "Chinar garden walks",
-    "Southern spring trail",
-    "Pahalgam & Gulmarg",
-    "Old Srinagar on foot"
+    "A grower visit by arrangement",
+    "Achabal & Kokernag garden stops",
+    "Two nights in Pahalgam",
+    "Srinagar craft and food time"
   ],
   "itinerary": [
     {
-      "title": "A lakeside welcome",
-      "place": "Srinagar",
-      "description": "Arrive in Srinagar and allow time to settle in. Plan a gentle afternoon among the Mughal gardens, followed by the Dal Lake waterfront. Request a shikara outing timed around the evening light; garden visits and the boat ride must be listed in your quote.",
+      "title": "Lake light and a garden afternoon",
+      "place": "Srinagar · Nishat · Dal Lake",
+      "description": "Settle into Srinagar before choosing one Mughal garden for the afternoon. Nishat and a Dal-side walk make a gentle first introduction without crossing the city repeatedly. If your arrival is early enough, request a shikara towards evening; a late flight simply means a quieter welcome and the lake visit moves to another day. Leave the old-city walk for its own day so there is time to enjoy it.",
       "places": [
-        "Nishat or Shalimar garden",
-        "Dal Lake waterfront"
+        "Nishat Bagh: terraces and chinar shade, subject to opening",
+        "Dal Lake boulevard: an easy waterfront stroll"
       ],
       "experiences": [
-        "An unhurried garden walk",
-        "Evening shikara outing, if confirmed"
+        "An evening shikara requested in the quote",
+        "Kahwa after the journey, with time to settle in"
       ],
       "stay": "Srinagar",
-      "meals": "Dinner, if included in your quote"
+      "meals": "Dinner, if included in your quote",
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Across the saffron country",
       "place": "Pampore · Pahalgam",
-      "description": "Follow the valley towards Pahalgam, discussing suitable stops around Pampore and Awantipora. A saffron-farm visit or local lunch can be requested from a participating host. Harvest activity depends on the season and is never guaranteed.",
+      "description": "Travel south through Pampore before continuing towards Pahalgam. Choose a pre-arranged grower conversation or the Awantipora heritage stop rather than treating every roadside stop as compulsory. A farm visit depends on a willing host; saffron flowers, apple picking and harvest activity cannot be promised for every autumn date. Reach Pahalgam with daylight left for a first walk beside the Lidder.",
       "places": [
-        "Pampore countryside",
-        "Awantipora, if included",
-        "Lidder Valley"
+        "Pampore: cultivation stories with a participating grower",
+        "Awantipora: an optional heritage pause on the onward route",
+        "Lidder riverbank: an evening walk near the stay"
       ],
       "experiences": [
-        "Seasonal farm visit by prior arrangement",
-        "A quiet riverside pause"
+        "A seasonal grower visit arranged ahead",
+        "A local lunch requested separately, with dietary preferences discussed"
       ],
       "stay": "Pahalgam",
-      "meals": "Breakfast & dinner proposed; hosted lunch only if confirmed"
+      "meals": "Breakfast & dinner proposed; hosted lunch only if confirmed",
+      "pace": "Travel day with selected stops",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
-      "title": "A day in the Lidder Valley",
+      "title": "Choose your own Pahalgam pace",
       "place": "Aru · Betaab · Pahalgam",
-      "description": "Spend the day around Pahalgam with a route suited to the group. Aru and Betaab are options for valley scenery and short walks. Agree local union-vehicle charges, entry tickets and any pony activity before choosing them; leave room for a slower afternoon.",
+      "description": "Give the Pahalgam surroundings a full day. Choose Aru for village and meadow time, or combine a shorter Aru visit with Betaab if local transport and daylight allow. Travellers who prefer fewer transfers can stay longer in one valley and return for tea beside the river. Pony activities are optional, separately agreed and dependent on a suitable operator; walking is a complete experience in its own right.",
       "places": [
         "Aru Valley, access permitting",
         "Betaab Valley, if selected",
@@ -62,67 +66,78 @@
         "Optional pony activity with terms agreed first"
       ],
       "stay": "Pahalgam",
-      "meals": "Breakfast & dinner proposed"
+      "meals": "Breakfast & dinner proposed",
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
-      "title": "The southern spring trail",
-      "place": "Daksum · Kokernag · Verinag",
-      "description": "Request a southern-valley excursion linking forest scenery and the springs at Kokernag and Verinag. This is a substantial road day, so the final route should reflect daylight, local conditions and the group’s pace. A shorter alternative can replace the full circuit.",
+      "title": "Achabal and the southern springs",
+      "place": "Pahalgam · Achabal · Kokernag · Srinagar",
+      "description": "Leave Pahalgam for a considered southern-valley return. Request Achabal and Kokernag as the main garden stops, with an early start and enough time for lunch before continuing to Srinagar. Verinag can replace a stop if the driver confirms a workable day. Daksum is better treated as an extra-night extension rather than another compulsory detour on this transfer.",
       "places": [
-        "Daksum forest surroundings",
-        "Kokernag springs",
-        "Verinag garden"
+        "Achabal: a spring-fed garden stop on the selected return route",
+        "Kokernag: garden paths and spring surroundings",
+        "Verinag: an alternative stop, not a promised third excursion"
       ],
       "experiences": [
-        "Forest-edge scenery",
-        "A slower walk around the springs"
+        "A slower garden walk between road stages",
+        "A lunch break planned before the return to Srinagar"
       ],
-      "stay": "Srinagar or agreed route base",
-      "meals": "Breakfast & dinner proposed"
+      "stay": "Srinagar",
+      "meals": "Breakfast & dinner proposed",
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Mountain light in Gulmarg",
       "place": "Gulmarg · Srinagar",
-      "description": "Head towards Gulmarg for meadow scenery and mountain views. If you want to ride the Gondola, ask for the exact phases, ticket costs and booking arrangements in writing. Operations depend on weather and availability; a lower-level walk is a possible alternative.",
+      "description": "Take the Tangmarg approach to Gulmarg, allowing a tea break before the climb. At Gulmarg, choose a lower meadow walk or a ticketed Gondola outing, depending on weather and your interests. The final quote must identify any Gondola phase and local vehicle charges. Return with a sensible daylight buffer rather than adding another distant valley to the same day.",
       "places": [
-        "Gulmarg meadows",
-        "Gondola base area"
+        "Tangmarg: a practical approach-road pause",
+        "Gulmarg: meadow or snow-appropriate lower paths"
       ],
       "experiences": [
-        "A mountain walk suited to conditions",
-        "Optional Gondola ride with confirmed tickets"
+        "A forest-edge walk matched to conditions",
+        "Gondola only when the phase and tickets have been confirmed"
       ],
       "stay": "Srinagar",
-      "meals": "Breakfast & dinner proposed"
+      "meals": "Breakfast & dinner proposed",
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
-      "title": "Nature and the old city",
-      "place": "Dachigam · Old Srinagar",
-      "description": "Explore a locally approved nature visit at Dachigam if permissions and opening arrangements allow. Later, request a guided walk through Srinagar’s older neighbourhoods, with time for craft lanes, architecture and tea. Wildlife sightings and access to individual buildings are not promised.",
+      "title": "Srinagar through local eyes",
+      "place": "Old Srinagar · Nigeen or Dal",
+      "description": "Spend the day close to Srinagar instead of adding another long drive. Request a locally guided walk around the Jhelum-side old city, allowing time for architecture, a bakery stop and a craft demonstration arranged with a willing artisan. Choose Nigeen-side quiet time or a Dal outing later. Dachigam may replace the city programme if permissions are confirmed; it is not automatically added to an already full day.",
       "places": [
-        "Dachigam, subject to permission",
-        "Old Srinagar lanes"
+        "Jhelum-side old city: a guide-selected walking route",
+        "An artisan workspace: by appointment and permission",
+        "Nigeen or Dal: choose a relaxed lakeside finish"
       ],
       "experiences": [
-        "An arranged nature walk",
-        "A locally guided city walk"
+        "A bakery and kahwa stop with dietary needs discussed",
+        "A craft demonstration without an obligation to shop"
       ],
       "stay": "Srinagar; houseboat upgrade on request",
-      "meals": "Breakfast & dinner proposed"
+      "meals": "Breakfast & dinner proposed",
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "One more valley morning",
       "place": "Srinagar departure",
       "description": "Keep your final morning flexible around your flight. A brief lakefront stop or time for shopping may fit before the arranged transfer. Confirm pickup time and allow a generous buffer for traffic and airport procedures.",
       "places": [
-        "Srinagar waterfront, time permitting"
+        "Srinagar departure: arranged departure transfer"
       ],
       "experiences": [
-        "A relaxed final morning",
-        "Departure transfer at the agreed time"
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
       ],
       "stay": "Departure",
-      "meals": "Breakfast proposed"
+      "meals": "Breakfast proposed",
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "nights": 6,
@@ -203,7 +218,7 @@
       "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
     },
     {
-      "location": "Srinagar or agreed route base",
+      "location": "Srinagar",
       "nights": 1,
       "property": "Sample local hotel / guesthouse",
       "category": "Standard shared-occupancy room proposal",
@@ -233,5 +248,17 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "One more Pahalgam valley day",
+      "nights": 2,
+      "description": "Request two nights for a slower Pahalgam stay, choosing Aru or Betaab on separate outings rather than rushing both. This may change the main route; local transport, entry charges, hotel and extra cost are quoted separately."
+    },
+    {
+      "title": "Southern springs with an overnight",
+      "nights": 1,
+      "description": "Discuss a separate Kokernag or Daksum-area night so the southern valley has its own time. The overnight base, road access, heating and return route need confirmation rather than being added to a busy transfer day."
+    }
+  ]
 }

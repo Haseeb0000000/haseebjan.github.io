@@ -302,6 +302,16 @@
               "type": "text"
             },
             {
+              "name": "pace",
+              "label": "Day rhythm",
+              "type": "string"
+            },
+            {
+              "name": "routeNote",
+              "label": "Route and timing note",
+              "type": "text"
+            },
+            {
               "name": "places",
               "label": "Places to discover",
               "type": "string",
@@ -482,6 +492,34 @@
             {
               "name": "confirmation",
               "label": "Pre-payment confirmation checklist",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "extensions",
+          "label": "Optional extra nights — separately quoted",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title}"
+            }
+          },
+          "fields": [
+            {
+              "name": "title",
+              "label": "Extension title",
+              "type": "string"
+            },
+            {
+              "name": "nights",
+              "label": "Additional nights",
+              "type": "number"
+            },
+            {
+              "name": "description",
+              "label": "Route idea and conditions",
               "type": "text"
             }
           ]

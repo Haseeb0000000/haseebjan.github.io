@@ -21,49 +21,118 @@
       "place": "Srinagar",
       "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
       "stay": "Srinagar",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Dal Lake boulevard: a relaxed waterfront stretch",
+        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+      ],
+      "experiences": [
+        "Kahwa and time to settle into the valley’s rhythm",
+        "An artisan demonstration by prior appointment, with no obligation to buy"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Lolab",
       "place": "Lolab",
       "description": "Travel into Lolab with stops agreed around access and the day’s conditions.",
       "stay": "Lolab",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Lolab Valley: a selected village loop from the agreed base",
+        "Orchard surroundings: visits only with the grower’s permission"
+      ],
+      "experiences": [
+        "A gentle village walk instead of a long sightseeing checklist",
+        "An arranged tea stop with a local host, subject to availability"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Lolab villages",
       "place": "Lolab villages",
       "description": "Take a locally coordinated village day, leaving time for walks and rest.",
       "stay": "Lolab villages",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Lolab Valley: a selected village loop from the agreed base",
+        "Orchard surroundings: visits only with the grower’s permission"
+      ],
+      "experiences": [
+        "A gentle village walk instead of a long sightseeing checklist",
+        "An arranged tea stop with a local host, subject to availability"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Keran",
       "place": "Keran",
       "description": "Continue towards Keran only with required permissions and local approval.",
       "stay": "Keran",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Keran: only the locally permitted visitor area",
+        "Kishanganga-side viewpoints designated by local authorities"
+      ],
+      "experiences": [
+        "A quiet riverside pause within the permitted area",
+        "A local orientation covering photography and movement restrictions"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Keran surroundings",
       "place": "Keran surroundings",
       "description": "Explore the approved local area; keep an alternative day ready if access changes.",
       "stay": "Keran surroundings",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Keran: only the locally permitted visitor area",
+        "Kishanganga-side viewpoints designated by local authorities"
+      ],
+      "experiences": [
+        "A quiet riverside pause within the permitted area",
+        "A local orientation covering photography and movement restrictions"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Bangus / Srinagar",
       "place": "Bangus / Srinagar",
       "description": "Consider a Bangus excursion if access allows, otherwise choose a lower-route alternative before returning.",
       "stay": "Bangus / Srinagar",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Bangus approach: only if current road and visitor permissions allow",
+        "Approved meadow access, with a shorter valley alternative"
+      ],
+      "experiences": [
+        "A guided meadow walk suited to daylight and the group",
+        "An early decision on the turnaround point; no late return is planned"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Srinagar departure",
       "place": "Srinagar departure",
       "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Srinagar departure: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "nights": 6,
@@ -181,5 +250,17 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "One more Pahalgam valley day",
+      "nights": 2,
+      "description": "Request two nights for a slower Pahalgam stay, choosing Aru or Betaab on separate outings rather than rushing both. This may change the main route; local transport, entry charges, hotel and extra cost are quoted separately."
+    },
+    {
+      "title": "Southern springs with an overnight",
+      "nights": 1,
+      "description": "Discuss a separate Kokernag or Daksum-area night so the southern valley has its own time. The overnight base, road access, heating and return route need confirmation rather than being added to a busy transfer day."
+    }
+  ]
 }

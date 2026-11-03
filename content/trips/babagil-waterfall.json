@@ -21,7 +21,17 @@
       "place": "Babagil day route",
       "description": "Meet at the confirmed location and walk only the locally approved trail with a suitable guide. Access, difficulty, transport, food, and the return time must be agreed before booking.",
       "stay": "No overnight stay",
-      "meals": "Meals to be confirmed"
+      "meals": "Meals to be confirmed",
+      "places": [
+        "Agreed trailhead and approved walking route",
+        "Guide-selected rest points; named camps and exit must be confirmed"
+      ],
+      "experiences": [
+        "A guide-led walk with pace and turnaround matched to the group",
+        "Briefing on equipment, weather, water, waste and emergency arrangements"
+      ],
+      "pace": "Walking day · guide to confirm effort",
+      "routeNote": "The operator must name the authorised trail, effort, timings, support and turnaround plan before booking."
     }
   ],
   "nights": 0,
@@ -92,5 +102,17 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "One more Pahalgam valley day",
+      "nights": 2,
+      "description": "Request two nights for a slower Pahalgam stay, choosing Aru or Betaab on separate outings rather than rushing both. This may change the main route; local transport, entry charges, hotel and extra cost are quoted separately."
+    },
+    {
+      "title": "Southern springs with an overnight",
+      "nights": 1,
+      "description": "Discuss a separate Kokernag or Daksum-area night so the southern valley has its own time. The overnight base, road access, heating and return route need confirmation rather than being added to a busy transfer day."
+    }
+  ]
 }

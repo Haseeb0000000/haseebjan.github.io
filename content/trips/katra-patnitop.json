@@ -22,28 +22,67 @@
       "place": "Katra",
       "description": "Meet the agreed transfer and check into your Katra stay. Confirm official registration and travel requirements directly with the Shrine Board.",
       "stay": "Katra",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Katra: your base for the registered pilgrimage plan",
+        "Shri Mata Vaishno Devi route: only with the required registration and arrangements"
+      ],
+      "experiences": [
+        "Plan rest and meals around the pilgrimage rather than extra sightseeing",
+        "Any helicopter, battery vehicle or assistance service requires separate confirmed arrangements"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Your pilgrimage day",
       "place": "Katra",
       "description": "Keep the day around your own approved pilgrimage arrangements. Darshan access, helicopter services, priority access, and related tickets are not promised or included.",
       "stay": "Katra",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Katra: your base for the registered pilgrimage plan",
+        "Shri Mata Vaishno Devi route: only with the required registration and arrangements"
+      ],
+      "experiences": [
+        "Plan rest and meals around the pilgrimage rather than extra sightseeing",
+        "Any helicopter, battery vehicle or assistance service requires separate confirmed arrangements"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "A pause in Patnitop",
       "place": "Patnitop",
       "description": "Travel into the hills for a quieter final night. Timing depends on the completion of your Katra visit.",
       "stay": "Patnitop",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Kud: a short food or tea break on the approach",
+        "Patnitop: pine paths close to the agreed accommodation"
+      ],
+      "experiences": [
+        "Try locally made sweets if you wish; purchases are separate",
+        "A gentle forest walk with time to rest at the hotel"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Until next time",
       "place": "Jammu",
       "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Jammu: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "extras": [
@@ -134,5 +173,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "A slower hill-country finish",
+      "nights": 2,
+      "description": "Request two additional nights at the agreed Patnitop base, keeping one day for Sanasar and another for quiet forest time. Road access, room facilities and any optional activity are checked before the extension is confirmed."
+    }
+  ]
 }

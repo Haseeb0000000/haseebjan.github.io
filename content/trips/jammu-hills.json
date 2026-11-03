@@ -20,30 +20,69 @@
     {
       "title": "Arrive in Jammu",
       "place": "Jammu",
-      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "description": "Arrive in Jammu and settle in before deciding how much city time fits. With an early arrival, request Bahu Fort surroundings or a short Tawi-side pause, followed by a local food stop. Keep this a flexible welcome rather than a fixed checklist: a late train or flight should not mean missing the start of the holiday.",
       "stay": "Jammu",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Jammu: optional city time only if arrival or departure timings allow",
+        "Bahu Fort surroundings or a short Tawi-side stop: choose one"
+      ],
+      "experiences": [
+        "A local food stop tailored to your preferences",
+        "Leave an adequate transfer buffer rather than adding a last-minute excursion"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "To the hills",
       "place": "Patnitop",
-      "description": "Travel towards Patnitop with a stop around Kud if time permits. Settle in and enjoy a gentle forest-side walk.",
+      "description": "Leave Jammu for Patnitop with a short break at Kud on the approach. Reach the hill base in time to unpack, have lunch and choose a gentle pine-path walk close to the stay. A cable-car experience is an optional alternative with its own tickets and operating conditions, rather than something assumed in the guide price.",
       "stay": "Patnitop",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Kud: a short food or tea break on the approach",
+        "Patnitop: pine paths close to the agreed accommodation"
+      ],
+      "experiences": [
+        "Try locally made sweets if you wish; purchases are separate",
+        "A gentle forest walk with time to rest at the hotel"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Sanasar & mountain air",
       "place": "Sanasar",
-      "description": "Explore the Sanasar area if access allows. Optional adventure activities and cable-car tickets are separately quoted.",
+      "description": "Follow the Sanasar road, stopping near Nathatop only when visibility and road conditions make it worthwhile. Make Sanasar the main outing, with time for a meadow walk, lunch and a slow look around the lake surroundings. Optional adventure activities need separate operator checks and pricing. Return to the same Patnitop base so there is no need to repack.",
       "stay": "Patnitop",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Nathatop: a viewpoint on the Sanasar approach when the road is open",
+        "Sanasar: meadow and lake surroundings"
+      ],
+      "experiences": [
+        "A picnic or easy meadow walk selected around mobility needs",
+        "Adventure activities only after operator, eligibility and price are agreed"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Until next time",
       "place": "Jammu",
-      "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
+      "description": "Enjoy a final hill morning before the return to Jammu. Your train or flight determines the departure time, and the route should include a practical traffic buffer. If the connection is late, discuss a short Kud break rather than a distant extra excursion. An additional Jammu night can be quoted when it makes the journey more comfortable.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Jammu: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "extras": [
@@ -137,5 +176,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "A slower hill-country finish",
+      "nights": 2,
+      "description": "Request two additional nights at the agreed Patnitop base, keeping one day for Sanasar and another for quiet forest time. Road access, room facilities and any optional activity are checked before the extension is confirmed."
+    }
+  ]
 }
