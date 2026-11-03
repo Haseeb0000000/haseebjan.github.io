@@ -542,5 +542,69 @@
         "src": "assets/pashmina-loom-1280.jpg"
       }
     ]
+  },
+  "kheer-bhawani": {
+    "width": 1280,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "assets/kheer-bhawani-640.jpg",
+        "width": 640,
+        "height": 512
+      },
+      {
+        "src": "assets/kheer-bhawani-1280.jpg",
+        "width": 1280,
+        "height": 1024
+      }
+    ]
+  },
+  "charar": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/charar-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/charar-1280.jpg",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "chatti-padshahi": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/chatti-padshahi-640.jpg",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/chatti-padshahi-1280.jpg",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "all-saints": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "assets/all-saints-640.jpg",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/all-saints-960.jpg",
+        "width": 960,
+        "height": 1280
+      }
+    ]
   }
 }

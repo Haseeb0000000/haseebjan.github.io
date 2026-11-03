@@ -304,5 +304,41 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "author": "AG"
+  },
+  {
+    "key": "charar",
+    "title": "File:Charar-e-Sharief mosque.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Charar-e-Sharief_mosque.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Charar-e-Sharief_mosque.jpg/1280px-Charar-e-Sharief_mosque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "TheBirdsShedTears"
+  },
+  {
+    "key": "chatti-padshahi",
+    "title": "File:Gurdwara Chatti Patshahi Srinagar.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gurdwara_Chatti_Patshahi_Srinagar.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gurdwara_Chatti_Patshahi_Srinagar.jpg/1280px-Gurdwara_Chatti_Patshahi_Srinagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Unpetitprole"
+  },
+  {
+    "key": "all-saints",
+    "title": "File:Allsaintschurch.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Allsaintschurch.jpg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Allsaintschurch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Tanya Rigzin"
+  },
+  {
+    "key": "kheer-bhawani",
+    "title": "File:Kheer Bhawani, Ksheer Bhawani or the Ragnya Devi temple 6.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kheer_Bhawani,_Ksheer_Bhawani_or_the_Ragnya_Devi_temple_6.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Kheer_Bhawani%2C_Ksheer_Bhawani_or_the_Ragnya_Devi_temple_6.jpg/1280px-Kheer_Bhawani%2C_Ksheer_Bhawani_or_the_Ragnya_Devi_temple_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "GharWapsi"
   }
 ]
