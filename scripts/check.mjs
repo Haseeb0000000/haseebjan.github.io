@@ -14,6 +14,8 @@ for(const file of pages){
   assert.match(html,/<link rel="canonical" href="https:\/\/theholidayhost.in\//);
   assert.match(html,/href="#main"/);
   assert.match(html,/<main id="main">/);
+  assert.match(html,/assets\/site\.[a-f0-9]{12}\.css/,'Page must load content-versioned styles');
+  assert.match(html,/assets\/site\.[a-f0-9]{12}\.js/,'Page must load matching content-versioned scripts');
   assert.doesNotMatch(html,/Sterial|Passport\s*(?:&|—|template)|mydomain|Raymouth|11234567890|9186210167|Menu One|John Doe|Lorem ipsum/i);
   const title=html.match(/<title>(.*?)<\/title>/)[1];
   assert(!titles.has(title),`${file}: duplicate title`);titles.add(title);
