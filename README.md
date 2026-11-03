@@ -35,4 +35,4 @@ Displayed photographs are licence-verified, with 31 distinct Commons sources plu
 
 Current development branch: `development/content-dashboard-photos`. See `DASHBOARD-GUIDE.md` for the prepared Pages CMS editor and `REFERENCE-COMPARISON.md` for the 124-page reference inventory. Homepage, destination pages, trip details and page wording/photos now use editable JSON under `content/`. Run `npm ci` once, then `npm run build` and `npm run check`; Sharp optimizes owner photo uploads during the build. `node scripts/check-editor.mjs` verifies a reversible edit/upload and restores real content.
 
-The owner must connect the external editor's GitHub App. Automatic production rebuilding is not enabled: its write permissions await explicit approval described in `PUBLISHING-PROPOSAL.md`. No Cloudflare, DNS or domain change was made.
+The owner must connect the external editor's GitHub App. Automatic production rebuilding was explicitly approved on 3 November 2026 and is configured in `.github/workflows/content-publish.yml`; scope and usage are described in `PUBLISHING-PROPOSAL.md` and `DASHBOARD-GUIDE.md`. No Cloudflare, DNS or domain change was made.

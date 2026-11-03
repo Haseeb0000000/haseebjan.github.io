@@ -21,9 +21,11 @@ Cover uploads replace the stock cover for that trip or destination. Add a useful
 
 ## Publishing status
 
-**Account connection and automatic publishing have not been completed.** Saving in Pages CMS writes source content to GitHub, but does not yet regenerate the live HTML.
+**Automatic publishing was approved by the owner on 3 November 2026.** Saving content on the main branch starts the publishing job: optimize photos, build pages, run checks, save generated pages, and request the existing GitHub Pages build.
 
-The proposed automated rebuild/publish job is described in [PUBLISHING-PROPOSAL.md](PUBLISHING-PROPOSAL.md). Automatic approval review blocked enabling its persistent production write access without explicit approval. Until approved and tested, ask for a rebuild after saving.
+Follow progress through **View publishing status** on the owner entry page. Pages CMS also has a **Rebuild & publish website** button for a manual retry. If validation fails, correct the reported content issue and save again. Use distinct photos and valid positive guide prices.
+
+The owner still needs to complete GitHub sign-in and connect the Pages CMS GitHub App. Authentication and the external access grant are not performed by the website configuration.
 
 The website's GitHub Pages hosting and CNAME are preserved. No Cloudflare account is needed for this setup.
 
