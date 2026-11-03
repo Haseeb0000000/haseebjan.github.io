@@ -1,0 +1,61 @@
+name: Publish dashboard changes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'assets/uploads/**'
+      - 'site.config.json'
+      - 'scripts/**'
+      - 'data/**'
+      - 'package*.json'
+      - 'assets/site.css'
+      - 'assets/site.js'
+      - '.github/workflows/content-publish.yml'
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: Optional Pages CMS action context
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: holidayhost-content-publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - name: Save generated website
+        run: |
+          git config user.name 'Holiday Host publishing'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.html' assets data/upload-manifest.json sitemap.xml robots.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish website from dashboard content'
+            git push origin HEAD:main
+          fi
+      - name: Request the existing GitHub Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh api --method POST "repos/$GH_REPO/pages/builds"

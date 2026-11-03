@@ -13,5 +13,6 @@ const schema={media:[{name:'uploads',label:'Your photo library',input:'assets/up
  {name:'business',label:'Business contact details',type:'file',path:'site.config.json',format:'json',fields:[f('name','Business name'),f('email','Enquiry email'),f('phone','Phone with +country code'),f('whatsapp','WhatsApp — digits with country code'),f('location','Office address / locality','text'),f('pricingNote','Guide-price notice','text')]}
 ]};
 schema.content.find(c=>c.name==='pages').fields.push({name:'photos',label:'Page photos',type:'object',list:{collapsible:{collapsed:true,summary:'{original}'}},fields:[f('original','Original image — matching key','string',{readonly:true}),f('image','Upload replacement photo','image',{options:{media:'uploads'}}),f('alt','Describe your replacement photo')]});
+schema.actions=[{"name":"publish-website","label":"Rebuild & publish website","workflow":"content-publish.yml","ref":"main","confirm":{"title":"Rebuild the live website?","message":"Saved main-branch content will be checked and published to theholidayhost.in.","button":"Rebuild & publish"}}];
 fs.writeFileSync('.pages.yml',JSON.stringify(schema,null,2)+'\n');
 console.log(`Prepared online editor for ${trips.length} trips, destination pages, wording, homepage photos and contact details.`);

@@ -557,5 +557,18 @@
         }
       ]
     }
+  ],
+  "actions": [
+    {
+      "name": "publish-website",
+      "label": "Rebuild & publish website",
+      "workflow": "content-publish.yml",
+      "ref": "main",
+      "confirm": {
+        "title": "Rebuild the live website?",
+        "message": "Saved main-branch content will be checked and published to theholidayhost.in.",
+        "button": "Rebuild & publish"
+      }
+    }
   ]
 }

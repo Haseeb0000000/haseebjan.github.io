@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {contentVersion} from './content-version.mjs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {trips,regions} from '../data/trips.mjs';
@@ -71,4 +72,5 @@ out('robots.txt',`User-agent: *\nAllow: /\nSitemap: ${config.url}/sitemap.xml\n`
 out('assets/contact-config.js',`window.HOLIDAY_HOST_CONTACT=${JSON.stringify({email:config.email,whatsapp:config.whatsapp,pricingNote:config.pricingNote})};\n`);
 out('assets/catalogue.json',JSON.stringify(trips.map(t=>({slug:t.slug,name:t.name,region:t.region,days:t.days,price:t.price,type:t.type})),null,2));
 versionAssets(pages);
+out('assets/content-version.json',JSON.stringify({version:contentVersion()},null,2)+'\n');
 console.log(`Generated ${pages.length} pages and ${trips.length} journey proposals with content-versioned CSS, scripts, and catalogue. CNAME unchanged.`);
