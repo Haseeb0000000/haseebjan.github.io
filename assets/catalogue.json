@@ -206,5 +206,13 @@
     "days": 7,
     "price": 28600,
     "type": "Group"
+  },
+  {
+    "slug": "kashmir-heritage-stay",
+    "name": "Srinagar, Stories and Sacred Places",
+    "region": "Kashmir",
+    "days": 4,
+    "price": null,
+    "type": "Private"
   }
 ]
