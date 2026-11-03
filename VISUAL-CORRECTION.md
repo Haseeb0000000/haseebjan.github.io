@@ -1,0 +1,13 @@
+# Live rendering and visual correction
+
+The owner's screenshots showed new regional markup combined with styling from the earlier premium design: the hero became a dark split block, search controls lost their layout, destination cards became full-width images, and travel-style links ran together. Fresh browser sessions loaded the current stylesheet, which explained why the prior visual QA did not show this update-path failure.
+
+The urgent repair was published in PR #3: generated HTML now loads content-hashed CSS, JavaScript, contact configuration, and catalogue URLs. Every page is checked for versioned asset references; each generated file's hash is checked against its content. Previous generated versions are retained for cached-page compatibility.
+
+The fuller correction replaces repeated/unknown-origin public imagery with 13 newly sourced Commons photographs plus the two previously licensed Pangong/Patnitop photographs. Public credits include source, author, licence, adaptation notice, and downloadable adapted versions. The photo preparation script generates 640px and up-to-1280px variants, with a 1920px hero, respects smaller originals, and reduces JPEG quality only as needed to meet a 290KB budget. CSS bounds all card/gallery media with consistent aspect ratios and object-fit crops.
+
+Visual changes bring the composition closer to the reference: full-width photo hero with overlay navigation, green/gold actions, tighter section spacing, rounded landscape destination cards, six featured trip cards, visual travel-style tiles, gallery, a dedicated review section, homepage custom enquiry form, and trip-page support/review sections. The reference's copyrighted wording, reviews, ratings, names, brand, and customer photographs are not copied.
+
+The catalogue covers the observed Kashmir/Ladakh trip concepts with original copy and three Jammu proposals. Reviews are rendered from data/reviews.json; the array is empty until genuine Holiday Host feedback is supplied. The public review section does not pretend competitor feedback belongs to this business.
+
+Validation: 50 pages, 26 trip proposals, 3,266 local references, 417 image elements; versioned assets, photo credits, catalogue day/night/price invariants, SEO, structured data, form labels, image budgets, and CNAME checks pass. Thirty-five representative page/width checks at 320/390/768/1440/1920px found no overflow or detected broken images. Kashmir/Ladakh filters show 17/7 listings and the Ladakh motorcycle filter shows 3. Enquiries remain traveller-sent WhatsApp/email messages; no test message or payment is sent.

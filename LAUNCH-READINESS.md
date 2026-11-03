@@ -1,10 +1,10 @@
 # Regional adventures review
 
-Branch: `development/regional-adventures`, based on published main `b358acff7c07b034968a10f4a8b82206f2af580f`. This revision is for review, not automatically published. CNAME and production/DNS settings are preserved.
+Branch: `development/visual-photo-correction`, based on published main `b358acff7c07b034968a10f4a8b82206f2af580f`. This revision is for review, not automatically published. CNAME and production/DNS settings are preserved.
 
 ## Scope
 
-- 36 pages and 12 proposed trips across Kashmir, Ladakh, and Jammu.
+- 50 pages and 26 proposed trips across Kashmir, Ladakh, and Jammu.
 - Search, region/style/duration filters, guide-price sorting, date requests, detailed routes, expandable itinerary days, proposed meal/stay/inclusion/exclusion information, packing notes, FAQs, related trips, gallery dialogs, planning guides, and mobile navigation/enquiry controls.
 - Phone/WhatsApp +91 99062 69900 supplied by the owner. Earlier phone number replaced everywhere in public output.
 - Nine owner-authorised guide prices about 5% below observed Wildfloc benchmarks; three Jammu prices on request. No fake discounts, ratings, customer counts, seat counts, or departure dates.
@@ -23,7 +23,7 @@ Branch: `development/regional-adventures`, based on published main `b358acff7c07
 
 ## Validation
 
-- Build and syntax checks pass. Static checker passes 36 pages, 1,794 local references, 227 image elements, unique page metadata, JSON-LD, labels, sitemap, responsive image references, image budgets, catalogue duration/price invariants, owner WhatsApp target, and unchanged CNAME.
+- Build and syntax checks pass. Static checker passes 50 pages, 3,266 local references, 417 image elements, unique page metadata, JSON-LD, labels, sitemap, responsive image references, image budgets, catalogue duration/price invariants, owner WhatsApp target, and unchanged CNAME.
 - Browser functional checks: homepage search returns six Kashmir proposals; combined Ladakh/Motorcycle filters return one; incompatible duration produces the empty state; clear restores twelve; guide-price sorting puts price-on-request proposals last.
 - Expand-all opens seven itinerary days. Preferred date transfers from the booking card into the enquiry form. Empty submission is blocked. Valid test data creates an encoded WhatsApp link to the owner number and an email draft. Script-shaped input remains text; copy/edit work. No external message is sent.
 - Gallery opens and closes successfully. Forty responsive combinations were checked: ten representative pages at 320, 390, 768, and 1440px. A mobile trip-content overflow from grid intrinsic sizing was corrected with `min-width: 0`; all six affected combinations were rerun and now fit the viewport. No broken image was detected.
