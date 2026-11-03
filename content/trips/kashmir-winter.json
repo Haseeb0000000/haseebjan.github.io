@@ -39,12 +39,13 @@
     {
       "title": "Gardens, old lanes & lake light",
       "place": "Srinagar",
-      "description": "Explore a selection of Srinagar gardens and the lakefront. A shared shikara session and specified garden entry are part of the proposed plan.",
+      "description": "Explore a selection of Srinagar gardens and the lakefront. A shared shikara session and specified garden entry are part of the proposed plan. Choose a focused old-city option around Khanqah-e-Moula, the Zaina Kadal / Maharaj Gunj lanes and Jamia Masjid / Nowhatta, with current religious access checked. A separate SPS Museum and appointed carpet or traditional-art visit can replace this programme or be added with an extra night; it is not assumed alongside every garden stop.",
       "stay": "Srinagar",
       "meals": "Breakfast & dinner",
       "places": [
-        "Dal Lake boulevard: a relaxed waterfront stretch",
-        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+        "Khanqah-e-Moula: permitted areas, if the heritage option is chosen",
+        "Zaina Kadal / Maharaj Gunj and Jamia Masjid / Nowhatta: guide-selected lane route",
+        "SPS Museum and one appointed craft visit: an alternative programme"
       ],
       "experiences": [
         "Kahwa and time to settle into the valley’s rhythm",
@@ -240,6 +241,11 @@
       "title": "A Srinagar craft and food day",
       "nights": 1,
       "description": "Add a Srinagar night for an appointed artisan visit, a short old-city walk and time for a meal chosen around your preferences. Keep weather alternatives and all hosted visits in the written quote."
+    },
+    {
+      "title": "Srinagar heritage, museum and craft time",
+      "nights": 1,
+      "description": "Add a separate city day for SPS Museum and one appointed carpet, weaving or traditional-art visit, or a focused shrine-and-market walk. Opening, worship, host participation and all fees must be confirmed."
     }
   ]
 }

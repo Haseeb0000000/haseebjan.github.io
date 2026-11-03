@@ -494,5 +494,53 @@
       }
     ],
     "width": 1280
+  },
+  "khanqah": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/khanqah-640.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "assets/khanqah-1280.jpg"
+      }
+    ]
+  },
+  "jamia": {
+    "width": 1280,
+    "height": 737,
+    "variants": [
+      {
+        "width": 640,
+        "height": 369,
+        "src": "assets/jamia-640.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 737,
+        "src": "assets/jamia-1280.jpg"
+      }
+    ]
+  },
+  "pashmina-loom": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/pashmina-loom-640.jpg"
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "assets/pashmina-loom-1280.jpg"
+      }
+    ]
   }
 }
