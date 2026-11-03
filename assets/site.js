@@ -75,3 +75,17 @@ document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListene
 dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',event=>{if(event.target===dialog){const box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>previousFocus?.focus());
+
+const tripPlanner=document.querySelector('#trip-planner');
+if(tripPlanner){
+  const quickPlan=document.querySelector('#quick-trip-plan');
+  let plannerTrigger;
+  const updateGuide=()=>{const rate=Number(tripPlanner.dataset.guidePrice);const count=Number(quickPlan.elements.travellers.value);if(rate)tripPlanner.querySelector('[data-plan-total]').textContent=count>=1&&count<=30?new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(rate*count):'Choose 1–30 travellers';};
+  quickPlan.addEventListener('input',updateGuide);updateGuide();
+  document.querySelectorAll('[data-open-planner]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();plannerTrigger=link;const form=document.querySelector('#trip-enquiry-form');quickPlan.elements.date.value=preferredDate?.value||form.elements.date.value;quickPlan.elements.travellers.value=form.elements.travellers.value||2;updateGuide();tripPlanner.showModal();}));
+  tripPlanner.querySelector('[data-close-planner]').addEventListener('click',()=>tripPlanner.close());
+  tripPlanner.addEventListener('close',()=>plannerTrigger?.focus());
+  quickPlan.addEventListener('submit',event=>{event.preventDefault();if(!quickPlan.reportValidity())return;const form=document.querySelector('#trip-enquiry-form');form.elements.date.value=quickPlan.elements.date.value;form.elements.travellers.value=quickPlan.elements.travellers.value;if(preferredDate)preferredDate.value=quickPlan.elements.date.value;form.querySelector('.enquiry-result').hidden=true;tripPlanner.close();location.hash='trip-enquiry';form.elements.namedItem('name').focus();});
+}
+document.querySelector('[data-print-trip]')?.addEventListener('click',()=>{document.querySelectorAll('.itinerary-day').forEach(d=>d.open=true);window.print();});
+document.querySelector('[data-share-trip]')?.addEventListener('click',async()=>{const status=document.querySelector('[data-share-status]');try{await navigator.clipboard.writeText(location.origin+location.pathname);status.textContent='Trip link copied';}catch{status.textContent='Copy this page’s address from your browser.';}});

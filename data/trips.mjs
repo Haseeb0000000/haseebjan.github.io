@@ -1,4 +1,5 @@
 import {extraTrips} from './extra-trips.mjs';
+import {autumnItinerary} from './autumn-itinerary.mjs';
 // Proposed product catalogue. Guide prices are owner-authorised planning estimates,
 // not confirmed inventory. Benchmarks and assumptions are recorded in PRICING.md.
 const day=(title,place,description,stay,meals='Breakfast & dinner')=>({title,place,description,stay,meals});
@@ -28,6 +29,8 @@ trips.push(...extraTrips.map(t=>({...t,nights:t.days-1,difficulty:t.trek||t.ridi
 const tripImages={'offbeat-kashmir':'gurez','gurez-valley':'gurez-landscape','kashmir-winter':'gulmarg','kashmir-women':'gurez','kashmir-great-lakes':'great-lakes','kashmir-premium':'dal','ladakh-discovery':'nubra','ladakh-motorcycle':'khardung','ladakh-hanle':'pangong','jammu-bhaderwah':'bhaderwah','katra-patnitop':'katra'};
 Object.assign(tripImages,{'kashmir-great-lakes':'vishansar','tulian-lake':'tulian','women-warwan':'warwan','kashmir-autumn':'autumn'});
 trips.forEach(t=>{if(tripImages[t.slug])t.image=tripImages[t.slug];if(t.type==='Day trip')t.priceBasis='per person · proposed guided day trip';});
+const autumn=trips.find(t=>t.slug==='kashmir-autumn');
+Object.assign(autumn,{itinerary:autumnItinerary,route:'Srinagar · Pampore · Pahalgam · Southern springs · Gulmarg',season:'Autumn colour window · dates to confirm',highlights:['Chinar garden walks','Southern spring trail','Pahalgam & Gulmarg','Old Srinagar on foot']});
 export const regions=[
 {name:'Kashmir',slug:'kashmir',image:'gurez-landscape',line:'The valley, at your own pace.',description:'Lake mornings, pine-framed rivers, and villages worth staying a little longer for.',highlights:['Srinagar & Dal Lake','Gurez & quieter valleys','Gulmarg & Pahalgam'],note:'Passes, snow activities, and valley access depend on dates and current local conditions.'},
 {name:'Ladakh',slug:'ladakh',image:'pangong',line:'For a wider kind of wonder.',description:'High plateaus, village courtyards, blue water, and roads that call for an unhurried plan.',highlights:['Leh & the Indus Valley','Nubra & village stays','Pangong & longer circuits'],note:'Allow time to acclimatise and seek individual medical advice before high-altitude travel. Routes and permissions vary.'},
