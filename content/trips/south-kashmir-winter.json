@@ -21,49 +21,118 @@
       "place": "Srinagar",
       "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
       "stay": "Srinagar",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Dal Lake boulevard: a relaxed waterfront stretch",
+        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+      ],
+      "experiences": [
+        "Kahwa and time to settle into the valley’s rhythm",
+        "An artisan demonstration by prior appointment, with no obligation to buy"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "South Kashmir",
       "place": "South Kashmir",
       "description": "Travel towards the agreed valley base, choosing roads supported by current conditions.",
       "stay": "South Kashmir",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Achabal or Kokernag: choose a spring-garden visit on a confirmed road plan",
+        "A nearby village or garden stop selected around winter daylight"
+      ],
+      "experiences": [
+        "A short garden walk when paths are suitable",
+        "A warm indoor lunch break rather than adding a remote snow-bound road"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Valley exploration",
       "place": "Valley exploration",
       "description": "Take a gentle local outing or rest day; snow and activity access are not guaranteed.",
       "stay": "Valley exploration",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Achabal or Kokernag: choose a spring-garden visit on a confirmed road plan",
+        "A nearby village or garden stop selected around winter daylight"
+      ],
+      "experiences": [
+        "A short garden walk when paths are suitable",
+        "A warm indoor lunch break rather than adding a remote snow-bound road"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Countryside day",
       "place": "Countryside day",
       "description": "Discuss suitable village or garden visits with the trip coordinator.",
       "stay": "Countryside day",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Achabal or Kokernag: choose a spring-garden visit on a confirmed road plan",
+        "A nearby village or garden stop selected around winter daylight"
+      ],
+      "experiences": [
+        "A short garden walk when paths are suitable",
+        "A warm indoor lunch break rather than adding a remote snow-bound road"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Sind Valley",
       "place": "Sind Valley",
       "description": "Continue towards the Sind Valley if the route is suitable.",
       "stay": "Sind Valley",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Sind river corridor: a scenic stop on the chosen road",
+        "Sonamarg or Naranag: choose one branch of the valley rather than combining both"
+      ],
+      "experiences": [
+        "A riverside break with time to look around",
+        "A short guided walk only on an approved, open trail"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Srinagar",
       "place": "Srinagar",
       "description": "Return to Srinagar and leave room for changes to the winter plan.",
       "stay": "Srinagar",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Dal Lake boulevard: a relaxed waterfront stretch",
+        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+      ],
+      "experiences": [
+        "Kahwa and time to settle into the valley’s rhythm",
+        "An artisan demonstration by prior appointment, with no obligation to buy"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Srinagar departure",
       "place": "Srinagar departure",
       "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Srinagar departure: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "nights": 6,
@@ -181,5 +250,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "A Srinagar craft and food day",
+      "nights": 1,
+      "description": "Add a Srinagar night for an appointed artisan visit, a short old-city walk and time for a meal chosen around your preferences. Keep weather alternatives and all hosted visits in the written quote."
+    }
+  ]
 }

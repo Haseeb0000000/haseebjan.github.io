@@ -22,42 +22,101 @@
       "place": "Jammu",
       "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
       "stay": "Jammu",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Jammu: optional city time only if arrival or departure timings allow",
+        "Bahu Fort surroundings or a short Tawi-side stop: choose one"
+      ],
+      "experiences": [
+        "A local food stop tailored to your preferences",
+        "Leave an adequate transfer buffer rather than adding a last-minute excursion"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Journey to Bhaderwah",
       "place": "Bhaderwah",
       "description": "Travel towards Bhaderwah with realistic breaks and a relaxed evening on arrival.",
       "stay": "Bhaderwah",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Bhaderwah town: old lanes and an unhurried local orientation",
+        "Jai Valley or Padri: select one dedicated meadow outing, weather permitting"
+      ],
+      "experiences": [
+        "A locally accompanied town walk",
+        "A meadow picnic on one chosen road; both distant outings are not assumed in a single day"
+      ],
+      "pace": "Travel day with selected stops",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "A valley day",
       "place": "Bhaderwah",
       "description": "Discuss a local sightseeing circuit and suitable village walks with the operator.",
       "stay": "Bhaderwah",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Bhaderwah town: old lanes and an unhurried local orientation",
+        "Jai Valley or Padri: select one dedicated meadow outing, weather permitting"
+      ],
+      "experiences": [
+        "A locally accompanied town walk",
+        "A meadow picnic on one chosen road; both distant outings are not assumed in a single day"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Meadow roads",
       "place": "Bhaderwah",
       "description": "Choose a meadow excursion only if the road is open and local advice supports the plan. Keep a lower-altitude alternative ready.",
       "stay": "Bhaderwah",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Bhaderwah town: old lanes and an unhurried local orientation",
+        "Jai Valley or Padri: select one dedicated meadow outing, weather permitting"
+      ],
+      "experiences": [
+        "A locally accompanied town walk",
+        "A meadow picnic on one chosen road; both distant outings are not assumed in a single day"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Return through the hills",
       "place": "Patnitop",
       "description": "Travel towards Patnitop for a final hill stay and a quieter evening.",
       "stay": "Patnitop",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Kud: a short food or tea break on the approach",
+        "Patnitop: pine paths close to the agreed accommodation"
+      ],
+      "experiences": [
+        "Try locally made sweets if you wish; purchases are separate",
+        "A gentle forest walk with time to rest at the hotel"
+      ],
+      "pace": "Travel day with selected stops",
+      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
     },
     {
       "title": "Until next time",
       "place": "Jammu",
       "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Jammu: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "extras": [
@@ -154,5 +213,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "A slower hill-country finish",
+      "nights": 2,
+      "description": "Request two additional nights at the agreed Patnitop base, keeping one day for Sanasar and another for quiet forest time. Road access, room facilities and any optional activity are checked before the extension is confirmed."
+    }
+  ]
 }

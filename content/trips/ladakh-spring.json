@@ -19,65 +19,149 @@
     {
       "title": "Leh arrival",
       "place": "Leh arrival",
-      "description": "Arrive and rest, keeping the day free of exertion.",
+      "description": "Arrive in Leh and transfer directly to your accommodation. Reserve the first 48 hours after arrival for complete rest, following the Ladakh Tourism advisory; do not schedule sightseeing, rides or exertion in this period. Your operator should explain local support and escalation arrangements before the trip. Individual medical advice and wellbeing may require a longer rest period.",
       "stay": "Leh arrival",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "Leh rest day",
       "place": "Leh rest day",
-      "description": "Leave further time to settle in; any outing depends on individual wellbeing.",
+      "description": "Continue the arrival rest period at your Leh accommodation. Count 48 hours from the actual arrival time, rather than treating the second calendar day as permission to start sightseeing. Do not add monastery tours or a motorcycle familiarisation ride today. Discuss any concerns promptly with appropriate local medical support.",
       "stay": "Leh rest day",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "Indus Valley",
       "place": "Indus Valley",
       "description": "Discuss a gentle cultural circuit with the operator.",
       "stay": "Indus Valley",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Shey and Thiksey: choose an Indus-side cultural circuit after acclimatisation",
+        "A river-valley rest stop selected around the day’s road plan"
+      ],
+      "experiences": [
+        "A respectful monastery visit with shoes and photography rules observed",
+        "For riding trips, a vehicle check and short familiarisation session before longer stages"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Sham Valley",
       "place": "Sham Valley",
       "description": "Travel towards the agreed village base if access allows.",
       "stay": "Sham Valley",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Alchi: an Indus-side heritage visit where the route includes western Ladakh",
+        "Likir or Basgo: choose one additional stop after checking the day’s distance"
+      ],
+      "experiences": [
+        "Slow looking at the architecture with a local guide requested in advance",
+        "A village lunch by prior arrangement; access to private homes is not assumed"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Village day",
       "place": "Village day",
       "description": "Explore local surroundings by consent, with flexible orchard visits where appropriate.",
       "stay": "Village day",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Alchi: an Indus-side heritage visit where the route includes western Ladakh",
+        "Likir or Basgo: choose one additional stop after checking the day’s distance"
+      ],
+      "experiences": [
+        "Slow looking at the architecture with a local guide requested in advance",
+        "A village lunch by prior arrangement; access to private homes is not assumed"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Kargil region",
       "place": "Kargil region",
       "description": "Continue only on a confirmed route with suitable permissions and conditions.",
       "stay": "Kargil region",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Kargil town: a practical overnight and orientation base",
+        "A selected Suru-side viewpoint on a dedicated excursion day"
+      ],
+      "experiences": [
+        "A locally arranged heritage walk with time for questions",
+        "A short village visit rather than an unplanned long detour"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Seasonal countryside",
       "place": "Seasonal countryside",
       "description": "Plan a local cultural day; blossoms depend on the year and travel date.",
       "stay": "Seasonal countryside",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Agreed route corridor and locally approved rest stops"
+      ],
+      "experiences": [
+        "An unhurried local pause chosen with your guide",
+        "Confirm the exact route and support before booking"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Leh",
       "place": "Leh",
       "description": "Return to Leh with contingency time.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh: the confirmed accommodation or transfer point",
+        "Local sightseeing only after the arrival rest period is complete"
+      ],
+      "experiences": [
+        "Unhurried time at the overnight base",
+        "Keep flexibility for weather, wellbeing and onward transport"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Leh departure",
       "place": "Leh departure",
       "description": "Take the agreed departure transfer.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Leh departure: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "nights": 8,
@@ -209,5 +293,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "More time in the Indus Valley",
+      "nights": 2,
+      "description": "Request two additional Leh-based nights for Alchi and a selected Likir or Basgo stop after the arrival rest period. Split cultural visits and village time across separate days; the drive plan, guide and added cost will be quoted."
+    }
+  ]
 }

@@ -22,58 +22,133 @@
     {
       "title": "Arrive in Leh",
       "place": "Leh",
-      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "description": "Arrive in Leh and transfer directly to your accommodation. Reserve the first 48 hours after arrival for complete rest, following the Ladakh Tourism advisory; do not schedule sightseeing, rides or exertion in this period. Your operator should explain local support and escalation arrangements before the trip. Individual medical advice and wellbeing may require a longer rest period.",
       "stay": "Leh",
-      "meals": "Dinner"
+      "meals": "Dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "A second gentle day",
       "place": "Leh",
-      "description": "Keep a further easy day for rest and acclimatisation. Short local outings are optional and depend on individual wellbeing and professional advice.",
+      "description": "Continue the arrival rest period at your Leh accommodation. Count 48 hours from the actual arrival time, rather than treating the second calendar day as permission to start sightseeing. Do not add monastery tours or a motorcycle familiarisation ride today. Discuss any concerns promptly with appropriate local medical support.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh accommodation: arrival, rest and agreed support arrangements"
+      ],
+      "experiences": [
+        "Complete rest; sightseeing and riding are deferred"
+      ],
+      "pace": "Arrival and rest",
+      "routeNote": "Protect at least 48 hours from arrival in Leh. Later activities move if this period is not complete."
     },
     {
       "title": "Monasteries & the Indus",
       "place": "Leh",
       "description": "Consider a relaxed cultural circuit near Leh. Confirm the specific sights, opening times, and transport arrangements before departure. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Shey and Thiksey: choose an Indus-side cultural circuit after acclimatisation",
+        "A river-valley rest stop selected around the day’s road plan"
+      ],
+      "experiences": [
+        "A respectful monastery visit with shoes and photography rules observed",
+        "For riding trips, a vehicle check and short familiarisation session before longer stages"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Across to Nubra",
       "place": "Nubra",
       "description": "Travel to Nubra only when wellbeing, road access, and permissions allow. The day’s stops and pace remain flexible. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
       "stay": "Nubra",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Diskit: monastery visit if opening and road timing allow",
+        "Hunder: a short walk near the dunes on permitted paths"
+      ],
+      "experiences": [
+        "A village or dune-edge walk at an unhurried pace",
+        "Photography that respects residents, religious spaces and wildlife"
+      ],
+      "pace": "Travel day with selected stops",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "A village day in Nubra",
       "place": "Nubra",
       "description": "Explore village surroundings and discuss an optional Turtuk excursion. Confirm access requirements and the day’s driving plan. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
       "stay": "Nubra",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Diskit: monastery visit if opening and road timing allow",
+        "Hunder: a short walk near the dunes on permitted paths"
+      ],
+      "experiences": [
+        "A village or dune-edge walk at an unhurried pace",
+        "Photography that respects residents, religious spaces and wildlife"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Lake horizons",
       "place": "Pangong / alternative stay",
       "description": "Continue towards Pangong on a suitable confirmed route. A high-altitude overnight is optional; an alternative stay may be necessary for your group. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
       "stay": "Pangong or lower-altitude alternative",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Pangong: designated shore access on the approved route",
+        "Tangtse: a practical rest break where the chosen route permits"
+      ],
+      "experiences": [
+        "Look at the changing lake colours without driving onto the shore",
+        "Decide the overnight location around wellbeing and confirmed facilities"
+      ],
+      "pace": "Local exploration with rest time",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Return to Leh",
       "place": "Leh",
       "description": "Return to Leh and keep the rest of the day free. Leave contingency time for weather and road disruptions. Riding stages replace car transfers only after the operator confirms road suitability, rider experience, and support.",
       "stay": "Leh",
-      "meals": "Breakfast & dinner"
+      "meals": "Breakfast & dinner",
+      "places": [
+        "Leh: the confirmed accommodation or transfer point",
+        "Local sightseeing only after the arrival rest period is complete"
+      ],
+      "experiences": [
+        "Unhurried time at the overnight base",
+        "Keep flexibility for weather, wellbeing and onward transport"
+      ],
+      "pace": "Travel day with selected stops",
+      "routeNote": "Road status, permits and wellbeing decide the final route. Extra stops are alternatives, not a promise to fit everything into one day."
     },
     {
       "title": "Until next time",
       "place": "Leh",
       "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
       "stay": "Departure",
-      "meals": "Breakfast"
+      "meals": "Breakfast",
+      "places": [
+        "Leh: arranged departure transfer"
+      ],
+      "experiences": [
+        "A relaxed breakfast when departure timing allows",
+        "A short final stop only if the transfer buffer is protected"
+      ],
+      "pace": "Departure and transfer",
+      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
     }
   ],
   "extras": [
@@ -183,5 +258,12 @@
     }
   ],
   "stayPhoto": "",
-  "stayPhotoAlt": ""
+  "stayPhotoAlt": "",
+  "extensions": [
+    {
+      "title": "More time in the Indus Valley",
+      "nights": 2,
+      "description": "Request two additional Leh-based nights for Alchi and a selected Likir or Basgo stop after the arrival rest period. Split cultural visits and village time across separate days; the drive plan, guide and added cost will be quoted."
+    }
+  ]
 }
