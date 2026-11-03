@@ -1,0 +1,210 @@
+{
+  "autumn": {
+    "variants": [
+      {
+        "src": "assets/autumn-640.jpg",
+        "width": 640,
+        "height": 359
+      },
+      {
+        "src": "assets/autumn-1280.jpg",
+        "width": 1280,
+        "height": 719
+      }
+    ],
+    "width": 1280,
+    "height": 719
+  },
+  "great-lakes": {
+    "variants": [
+      {
+        "src": "assets/great-lakes-640.jpg",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/great-lakes-867.jpg",
+        "width": 867,
+        "height": 1156
+      }
+    ],
+    "width": 867,
+    "height": 1156
+  },
+  "warwan": {
+    "variants": [
+      {
+        "src": "assets/warwan-640.jpg",
+        "width": 640,
+        "height": 856
+      },
+      {
+        "src": "assets/warwan-1280.jpg",
+        "width": 1280,
+        "height": 1711
+      }
+    ],
+    "width": 1280,
+    "height": 1711
+  },
+  "gurez-landscape": {
+    "variants": [
+      {
+        "src": "assets/gurez-landscape-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/gurez-landscape-1920.jpg",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "width": 1920,
+    "height": 1280
+  },
+  "bhaderwah": {
+    "variants": [
+      {
+        "src": "assets/bhaderwah-640.jpg",
+        "width": 640,
+        "height": 272
+      },
+      {
+        "src": "assets/bhaderwah-1280.jpg",
+        "width": 1280,
+        "height": 545
+      }
+    ],
+    "width": 1280,
+    "height": 545
+  },
+  "gurez": {
+    "variants": [
+      {
+        "src": "assets/gurez-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/gurez-1280.jpg",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "width": 1280,
+    "height": 853
+  },
+  "khardung": {
+    "variants": [
+      {
+        "src": "assets/khardung-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/khardung-1280.jpg",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "width": 1280,
+    "height": 853
+  },
+  "gulmarg": {
+    "variants": [
+      {
+        "src": "assets/gulmarg-640.jpg",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/gulmarg-1280.jpg",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "width": 1280,
+    "height": 960
+  },
+  "nubra": {
+    "variants": [
+      {
+        "src": "assets/nubra-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/nubra-1280.jpg",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "width": 1280,
+    "height": 853
+  },
+  "vishansar": {
+    "variants": [
+      {
+        "src": "assets/vishansar-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/vishansar-1280.jpg",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "width": 1280,
+    "height": 853
+  },
+  "katra": {
+    "variants": [
+      {
+        "src": "assets/katra-640.jpg",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/katra-1280.jpg",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "width": 1280,
+    "height": 1707
+  },
+  "tulian": {
+    "variants": [
+      {
+        "src": "assets/tulian-640.jpg",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/tulian-1280.jpg",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "width": 1280,
+    "height": 960
+  },
+  "dal": {
+    "variants": [
+      {
+        "src": "assets/dal-640.jpg",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/dal-1280.jpg",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "width": 1280,
+    "height": 960
+  }
+}

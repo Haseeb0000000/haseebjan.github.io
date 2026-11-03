@@ -8,6 +8,8 @@ mobile.addEventListener('change',()=>setMenu(!mobile.matches));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.nav-drop[open]').forEach(e=>e.open=false);if(mobile.matches&&!navigation.hidden){setMenu(false);menu.focus();}}});
 navigation.addEventListener('click',event=>{if(event.target.closest('a')&&mobile.matches)setMenu(false);});
 document.addEventListener('click',event=>{document.querySelectorAll('.nav-drop[open]').forEach(e=>{if(!e.contains(event.target))e.open=false;});});
+const syncHeader=()=>document.querySelector('.header').classList.toggle('is-scrolled',scrollY>40);
+addEventListener('scroll',syncHeader,{passive:true});syncHeader();
 const parameters=new URLSearchParams(location.search);
 const today=new Date();
 const minDate=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
@@ -22,7 +24,7 @@ if(filterForm){
     const region=data.get('region');const type=data.get('type');const duration=data.get('duration');const sort=data.get('sort');
     const ordered=[...cards].sort((a,b)=>{if(sort==='price-low'||sort==='price-high'){if(a.dataset.price==='999999')return b.dataset.price==='999999'?0:1;if(b.dataset.price==='999999')return -1;return (Number(a.dataset.price)-Number(b.dataset.price))*(sort==='price-high'?-1:1);}if(sort==='duration')return Number(a.dataset.days)-Number(b.dataset.days);return cards.indexOf(a)-cards.indexOf(b);});
     let count=0;
-    ordered.forEach(card=>{const days=Number(card.dataset.days);const matches=(!search||search.split(/\s+/).every(term=>card.dataset.search.includes(term)))&&(!region||region===card.dataset.region)&&(!type||type===card.dataset.type)&&(!duration||(duration==='short'&&days<=4)||(duration==='week'&&days>=5&&days<=7)||(duration==='long'&&days>=8));card.hidden=!matches;if(matches)count++;grid.append(card);});
+    ordered.forEach(card=>{const days=Number(card.dataset.days);const matches=(!search||search.split(/\s+/).every(term=>card.dataset.search.includes(term)))&&(!region||card.dataset.region.includes(region))&&(!type||type===card.dataset.type)&&(!duration||(duration==='short'&&days<=4)||(duration==='week'&&days>=5&&days<=7)||(duration==='long'&&days>=8));card.hidden=!matches;if(matches)count++;grid.append(card);});
     document.querySelector('#results-count').textContent=`${count} ${count===1?'journey proposal':'journey proposals'} to explore`;
     document.querySelector('#no-results').hidden=count!==0;
     if(syncUrl){const query=new URLSearchParams();for(const [k,v] of data){if(v&&!(k==='sort'&&v==='recommended'))query.set(k,String(v));}history.replaceState(null,'',location.pathname+(query.size?'?'+query.toString():''));}
@@ -47,9 +49,9 @@ document.querySelectorAll('[data-enquiry]').forEach(form=>{
   if(form.id==='enquiry'){
     const region=parameters.get('region');if(['Kashmir','Ladakh','Jammu','Combined journey'].includes(region))field('destination').value=region;
     const date=parameters.get('date');if(/^\d{4}-\d{2}-\d{2}$/.test(date||'')&&date>=minDate)field('date').value=date;
-    const trip=parameters.get('trip');if([...field('trip').options].some(o=>o.value===trip)){field('trip').value=trip;catalogue().then(items=>{const selected=items.find(t=>t.slug===trip);if(selected)field('destination').value=selected.region;}).catch(()=>{});}
+    const trip=parameters.get('trip');if([...field('trip').options].some(o=>o.value===trip)){field('trip').value=trip;catalogue().then(items=>{const selected=items.find(t=>t.slug===trip);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;}).catch(()=>{});}
   }
-  field('trip').addEventListener('change',async()=>{try{const selected=(await catalogue()).find(t=>t.slug===field('trip').value);if(selected)field('destination').value=selected.region;}catch{ /* Keep manual destination selection usable if catalogue cannot load. */ }});
+  field('trip').addEventListener('change',async()=>{try{const selected=(await catalogue()).find(t=>t.slug===field('trip').value);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;}catch{ /* Keep manual destination selection usable if catalogue cannot load. */ }});
   const hideResult=()=>result.hidden=true;
   form.addEventListener('input',hideResult);form.addEventListener('change',hideResult);
   form.addEventListener('submit',event=>{

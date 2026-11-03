@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
 import {trips,regions} from '../data/trips.mjs';
 const root=process.cwd();
 const pages=fs.readdirSync(root).filter(f=>f.endsWith('.html'));
@@ -16,6 +17,7 @@ for(const file of pages){
   assert.match(html,/<main id="main">/);
   assert.match(html,/assets\/site\.[a-f0-9]{12}\.css/,'Page must load content-versioned styles');
   assert.match(html,/assets\/site\.[a-f0-9]{12}\.js/,'Page must load matching content-versioned scripts');
+  assert.doesNotMatch(html,/assets\/(?:valley|mountain-road|dal-lake)-\d+\.jpg/,'Public pages must use licence-verified replacement photos');
   assert.doesNotMatch(html,/Sterial|Passport\s*(?:&|—|template)|mydomain|Raymouth|11234567890|9186210167|Menu One|John Doe|Lorem ipsum/i);
   const title=html.match(/<title>(.*?)<\/title>/)[1];
   assert(!titles.has(title),`${file}: duplicate title`);titles.add(title);
@@ -35,9 +37,13 @@ for(const file of pages){
 assert.equal(fs.readFileSync('CNAME','utf8').trim(),'theholidayhost.in');
 const sitemap=fs.readFileSync('sitemap.xml','utf8');for(const page of pages.filter(p=>!fs.readFileSync(p,'utf8').includes('noindex,follow')))assert(sitemap.includes(page==='index.html'?'<loc>https://theholidayhost.in/</loc>':`/${page}</loc>`));
 assert.equal(JSON.parse(fs.readFileSync('site.config.json')).whatsapp,'919906269900','Only use the owner-supplied WhatsApp number');
-assert.equal(trips.length,12);
-assert.deepEqual([...new Set(trips.map(t=>t.region))].sort(),['Jammu','Kashmir','Ladakh']);
+assert.equal(trips.length,26);
+assert.deepEqual([...new Set(trips.map(t=>t.region))].sort(),['Jammu','Kashmir','Kashmir & Ladakh','Ladakh']);
 for(const trip of trips){assert.equal(trip.days,trip.itinerary.length,`${trip.slug}: itinerary length`);assert.equal(trip.nights,trip.days-1);assert.equal(trip.dates.length,0,'Never invent confirmed departures');if(trip.benchmark){assert(trip.price<trip.benchmark);assert(Math.abs(trip.price/trip.benchmark-.95)<.003,`${trip.slug}: about 5% below benchmark`);}else assert.equal(trip.price,null,'Unbenchmarked Jammu rates stay on request');const html=fs.readFileSync(trip.slug+'.html','utf8');for(const section of ['itinerary','inclusions','dates','packing','trip-faq','trip-enquiry'])assert(html.includes(`id="${section}"`));assert(html.includes('data-enquiry-fields disabled'));}
 assert.equal(regions.length,3);
+const photoCredits=JSON.parse(fs.readFileSync('data/photo-credits.json','utf8').replace(/^\uFEFF/,''));
+assert.equal(photoCredits.length,13);
+for(const photo of photoCredits){assert(photo.source.startsWith('https://commons.wikimedia.org/'));assert(photo.license&&photo.author&&photo.licenseUrl);}
+for(const asset of fs.readdirSync('assets').filter(f=>/\.[a-f0-9]{12}\.(css|js|json)$/.test(f))){const expected=asset.match(/\.([a-f0-9]{12})\./)[1];const text=fs.readFileSync('assets/'+asset,'utf8').replace(/\r\n/g,'\n');assert.equal(createHash('sha256').update(text).digest('hex').slice(0,12),expected,`${asset}: content-version match`);}
 for(const file of fs.readdirSync('assets').filter(f=>f.endsWith('.jpg')))assert(fs.statSync('assets/'+file).size<300000,`${file}: image size budget`);
 console.log(`PASS: ${pages.length} pages, ${links} local references, ${images} image elements, unique SEO metadata, structured data, labels, sitemap, image budgets, and preserved CNAME.`);

@@ -1,6 +1,6 @@
 # The Holiday Host
 
-Original static travel website for Kashmir, Ladakh, and Jammu: 36 pages, 12 proposed journeys, guide prices, search/filters, route and itinerary pages, date requests, gallery dialogs, planning guides, and WhatsApp/email enquiries.
+Original static travel website for Kashmir, Ladakh, and Jammu: 50 pages, 26 proposed journeys, guide prices, search/filters, route and itinerary pages, date requests, gallery dialogs, planning guides, and WhatsApp/email enquiries.
 
 ## Work locally
 
@@ -23,10 +23,10 @@ The form prepares messages locally. It does not send data to a server, save pers
 
 ## Review and hosting
 
-Work is on `development/regional-adventures`, based on the published main branch. Preserve `CNAME` (`theholidayhost.in`). GitHub Pages can serve the committed root HTML as before. Do not merge or publish this revision until approved. No Cloudflare resource or DNS changes were made; the owner may supply a different Cloudflare account later.
+Work is on `development/visual-photo-correction`, based on the published main branch. Preserve `CNAME` (`theholidayhost.in`). GitHub Pages can serve the committed root HTML as before. Do not merge or publish this revision until approved. No Cloudflare resource or DNS changes were made; the owner may supply a different Cloudflare account later.
 
 See `PRICING.md` for price snapshots/assumptions, `FEATURES.md` for the reference feature map and hosting decision, and `LAUNCH-READINESS.md` for validation and outstanding content.
 
 ## Photography
 
-New Pangong and Patnitop images are attributed on `credits.html` with source/licence/adaptation details. Three prior repository photos remain pending owner licence confirmation. The former template attribution record in `Readme.txt` is retained as historical provenance; the public design/code is original.
+All displayed photographs are now licence-verified, with 13 new Commons sources plus the prior licensed Pangong/Patnitop photos. Source, author, licence, adapted sizes, and credits appear on `credits.html`. Prior unknown-origin images are no longer referenced by public pages. The former template attribution record in `Readme.txt` is retained as historical provenance; the public design/code is original.
