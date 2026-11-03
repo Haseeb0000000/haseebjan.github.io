@@ -1,0 +1,51 @@
+{
+  "title": "Sacred places. Different journeys.",
+  "intro": "Choose a Muslim shrine, Hindu temple, Sikh gurdwara or Christian church journey, or ask for a carefully planned shared-heritage route. This is a curated starting guide to prominent places, not an exhaustive list or a guarantee of access.",
+  "traditions": [
+    {"name":"Muslim shrines & mosques","trip":"kashmir-sufi-shrines","description":"A five-day Srinagar-based proposal with a separate Charar-e-Sharief day and room for prayer, local context and rest.","sites":[
+      {"name":"Khanqah-e-Moula / Shah-e-Hamdan","area":"Old Srinagar","note":"Jhelum-side heritage and permitted shrine areas; interior access follows current custodian rules."},
+      {"name":"Jamia Masjid","area":"Nowhatta, Srinagar","note":"A living congregational mosque; visits adjust around prayer, crowds and local access."},
+      {"name":"Dastgeer Sahib","area":"Khanyar, Srinagar","note":"An optional old-city shrine visit; select the exact site and permitted areas with the guide."},
+      {"name":"Hazratbal","area":"Srinagar lakeside","note":"Allow dedicated visit time. Special observances and relic displays are not guaranteed tour activities."},
+      {"name":"Makhdoom Sahib","area":"Hari Parbat slopes, Srinagar","note":"Discuss the approach, steps and walking comfort before including the visit."},
+      {"name":"Charar-e-Sharief","area":"Budgam district","note":"A dedicated excursion associated with Sheikh Noor-ud-Din Noorani / Nund Rishi; optional Yusmarg time is separately agreed."},
+      {"name":"Aishmuqam / Zain-ud-Din Wali shrine","area":"Anantnag district","note":"A southern-valley extension with its own road plan and step assessment; not added to the Charar day."}
+    ]},
+    {"name":"Hindu temples & sacred springs","trip":"kashmir-temple-trail","description":"Five days with separate Srinagar, Tulmulla and Mattan–Martand outings, adjusted to walking comfort and temple guidance.","sites":[
+      {"name":"Shankaracharya Temple","area":"Srinagar hill approach","note":"Substantial steps and security arrangements require advance discussion; do not assume step-free access."},
+      {"name":"Sharika Devi Temple","area":"Hari Parbat area, Srinagar","note":"Choose a dedicated visit or an alternative to another hill outing, according to effort and access."},
+      {"name":"Jyeshtha Devi Temple","area":"Srinagar","note":"An optional city temple visit, with the precise approach and current arrangements checked."},
+      {"name":"Kheer Bhawani / Ragnya Devi","area":"Tulmulla, Ganderbal","note":"A separate temple-and-spring day. Festival dates, rituals and access need their own confirmation."},
+      {"name":"Mattan sacred-spring temple area","area":"Near Anantnag","note":"A living place of worship, distinct from the archaeological remains at Martand."},
+      {"name":"Martand Sun Temple remains","area":"Near Anantnag","note":"A heritage-site visit; religious ceremonies and access beyond current site rules are not promised."}
+    ]},
+    {"name":"Sikh gurdwaras & heritage","trip":"kashmir-gurdwara-journey","description":"Five days with separate Srinagar, Baramulla and Mattan visits. The gurdwara management’s guidance takes priority over a sightseeing timetable.","sites":[
+      {"name":"Chatti Padshahi, Srinagar","area":"Kathi Darwaza / Hari Parbat area","note":"Follow head-covering, shoe and conduct rules. Ask management about any seva or langar participation."},
+      {"name":"Chatti Padshahi, Baramulla","area":"Baramulla","note":"A different site from the Srinagar gurdwara with the same name; give it a separate road day."},
+      {"name":"Gurdwara Guru Nanak Dev Ji / Mattan Sahib","area":"Mattan, Anantnag district","note":"A separate southern-valley outing, associated with Guru Nanak in Sikh tradition."},
+      {"name":"Gurdwara Pathar Sahib","area":"Ladakh extension","note":"Request a separately planned Leh stay with at least 48 hours of arrival rest before excursions. It is not part of a Kashmir day trip."}
+    ]},
+    {"name":"Christian churches & shared heritage","trip":"srinagar-church-heritage","description":"A four-day Srinagar stay with requested church visits and a separate Bait-ul-Meeras heritage day. Attendance at worship is arranged with the church, not sold as an activity.","sites":[
+      {"name":"Holy Family Catholic Church","area":"Maulana Azad Road, Srinagar","note":"Confirm current visitor permission or service arrangements with the Catholic parish; published schedules may change."},
+      {"name":"All Saints Church","area":"Srinagar","note":"A separate church community with its own visitor and photography guidance. No interior or service access is presumed."},
+      {"name":"St Joseph’s Church","area":"Baramulla extension","note":"Requires a separate visit request and road day. Adjacent hospital and school facilities are outside a tourist visit."}
+    ]}
+  ],
+  "specialNotes": [
+    "For Jammu, request the existing Katra / Vaishno Devi proposal or a separately costed temple extension. Do not combine a Kashmir departure transfer and a pilgrimage into one sightseeing day.",
+    "Amarnath is a separate seasonal yatra with official registration, eligibility and route requirements. No date, permit, helicopter ticket or priority access is offered by these temple itineraries.",
+    "Religious accommodation, langar, donations, offerings and priest or ceremony arrangements are not assumed hotel or meal inclusions. The relevant institution decides its own arrangements.",
+    "No Urs, Gurpurab, church feast, festival or special observance date is confirmed here. Tell us your intended purpose so the appropriate community can be consulted before the quote is finalised."
+  ],
+  "sources": [
+    {"title":"HELP Foundation: Bait-ul-Meeras","url":"https://www.helpfoundation.live/cultural-preservation"},
+    {"title":"Budgam district: Yusmarg approach via Charar-e-Sharief","url":"https://budgam.nic.in/tourist-place/yusmarg/"},
+    {"title":"Ganderbal district: Kheer Bhawani Temple","url":"https://ganderbal.nic.in/tourist-place/kheer-bhawani-temple/"},
+    {"title":"Anantnag district: Martand Sun Temple","url":"https://anantnag.nic.in/tourist-place/martand-sun-temple/"},
+    {"title":"Srinagar district: Chatti Padshahi community observance","url":"https://srinagar.nic.in/deputy-commissioner-srinagar-reviews-arrangements-for-prakash-utsav/"},
+    {"title":"National Mission on Monuments and Antiquities: Baramulla gurdwara","url":"https://nmma.nic.in/nmma/builtDetail.do?dynasty=47&refId=2240"},
+    {"title":"JK Sikhs: Mattan Sahib","url":"https://www.jksikhs.com/en/gurdwaras/gurdwaras-in-kashmir/gurdwara-guru-nanak-dev-ji-mattan-sahib/"},
+    {"title":"Holy Family Church directory entry","url":"https://churchleaf.com/church_detail.php?id=21817"},
+    {"title":"Srinagar Heritage: All Saints Church","url":"https://srinagarheritage.in/p/all-saints-church"}
+  ]
+}

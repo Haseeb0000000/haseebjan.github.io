@@ -227,6 +227,10 @@
               "khanqah",
               "jamia",
               "pashmina-loom",
+              "charar",
+              "chatti-padshahi",
+              "all-saints",
+              "kheer-bhawani",
               "pangong",
               "patnitop"
             ]
@@ -611,6 +615,10 @@
               "khanqah",
               "jamia",
               "pashmina-loom",
+              "charar",
+              "chatti-padshahi",
+              "all-saints",
+              "kheer-bhawani",
               "pangong",
               "patnitop"
             ]
@@ -875,6 +883,10 @@
               "khanqah",
               "jamia",
               "pashmina-loom",
+              "charar",
+              "chatti-padshahi",
+              "all-saints",
+              "kheer-bhawani",
               "pangong",
               "patnitop"
             ]
@@ -1020,11 +1032,121 @@
                   "ladakh-spring",
                   "zanskar-riding",
                   "kashmir-ladakh-circuit",
-                  "kashmir-heritage-stay"
+                  "kashmir-heritage-stay",
+                  "kashmir-sufi-shrines",
+                  "kashmir-temple-trail",
+                  "kashmir-gurdwara-journey",
+                  "srinagar-church-heritage"
                 ]
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "faith",
+      "label": "Faith journeys and sacred places",
+      "type": "file",
+      "path": "content/faith-journeys.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Headline",
+          "type": "string"
+        },
+        {
+          "name": "intro",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "traditions",
+          "label": "Faith route groups",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Group name",
+              "type": "string"
+            },
+            {
+              "name": "trip",
+              "label": "Linked itinerary",
+              "type": "select",
+              "options": {
+                "values": [
+                  "offbeat-kashmir",
+                  "gurez-valley",
+                  "kashmir-winter",
+                  "kashmir-women",
+                  "kashmir-great-lakes",
+                  "kashmir-premium",
+                  "ladakh-discovery",
+                  "ladakh-motorcycle",
+                  "ladakh-hanle",
+                  "jammu-hills",
+                  "jammu-bhaderwah",
+                  "katra-patnitop",
+                  "keran-lolab-bangus",
+                  "kashmir-autumn",
+                  "kashmir-kargil",
+                  "south-kashmir-winter",
+                  "tulian-lake",
+                  "women-gurez",
+                  "women-warwan",
+                  "babagil-waterfall",
+                  "wasturwan-ridge",
+                  "kashmir-honeymoon",
+                  "ladakh-long-ride",
+                  "ladakh-spring",
+                  "zanskar-riding",
+                  "kashmir-ladakh-circuit",
+                  "kashmir-heritage-stay",
+                  "kashmir-sufi-shrines",
+                  "kashmir-temple-trail",
+                  "kashmir-gurdwara-journey",
+                  "srinagar-church-heritage"
+                ]
+              }
+            },
+            {
+              "name": "description",
+              "label": "Introduction",
+              "type": "text"
+            },
+            {
+              "name": "sites",
+              "label": "Selected places",
+              "type": "object",
+              "list": true,
+              "fields": [
+                {
+                  "name": "name",
+                  "label": "Place name",
+                  "type": "string"
+                },
+                {
+                  "name": "area",
+                  "label": "Area / route",
+                  "type": "string"
+                },
+                {
+                  "name": "note",
+                  "label": "Visiting note",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "specialNotes",
+          "label": "Planning notes",
+          "type": "string",
+          "list": true
         }
       ]
     }
