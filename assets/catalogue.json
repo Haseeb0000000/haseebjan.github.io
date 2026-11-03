@@ -4,7 +4,7 @@
     "name": "Kashmir Beyond the Postcards",
     "region": "Kashmir",
     "days": 7,
-    "price": 23750,
+    "price": 22500,
     "type": "Group"
   },
   {
@@ -12,7 +12,7 @@
     "name": "The Gurez Valley Chapter",
     "region": "Kashmir",
     "days": 7,
-    "price": 28500,
+    "price": 27000,
     "type": "Group"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Kashmir in Winter",
     "region": "Kashmir",
     "days": 7,
-    "price": 35850,
+    "price": 34000,
     "type": "Group"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Kashmir, Together",
     "region": "Kashmir",
     "days": 6,
-    "price": 28500,
+    "price": 27000,
     "type": "Women-only"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Kashmir Alpine Lakes Trek",
     "region": "Kashmir",
     "days": 7,
-    "price": 14000,
+    "price": 13300,
     "type": "Trek"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Kashmir with a Little More Comfort",
     "region": "Kashmir",
     "days": 7,
-    "price": 38000,
+    "price": 36000,
     "type": "Private"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Ladakh, Beyond the Horizon",
     "region": "Ladakh",
     "days": 8,
-    "price": 29900,
+    "price": 28350,
     "type": "Group"
   },
   {
@@ -60,7 +60,7 @@
     "name": "The Ladakh Riding Chapter",
     "region": "Ladakh",
     "days": 8,
-    "price": 38000,
+    "price": 36000,
     "type": "Motorcycle"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Nubra to Hanle: The Long Way Round",
     "region": "Ladakh",
     "days": 9,
-    "price": 34200,
+    "price": 32400,
     "type": "Group"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Jammu’s Quiet Hill Country",
     "region": "Jammu",
     "days": 4,
-    "price": null,
+    "price": 11950,
     "type": "Private"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Bhaderwah & the Meadow Roads",
     "region": "Jammu",
     "days": 6,
-    "price": null,
+    "price": 17950,
     "type": "Group"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Katra & a Mountain Pause",
     "region": "Jammu",
     "days": 4,
-    "price": null,
+    "price": 12950,
     "type": "Pilgrimage"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Lolab, Keran & the Valley Roads",
     "region": "Kashmir",
     "days": 7,
-    "price": 26350,
+    "price": 25000,
     "type": "Group"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Kashmir in Autumn Colours",
     "region": "Kashmir",
     "days": 7,
-    "price": 33950,
+    "price": 32200,
     "type": "Group"
   },
   {
@@ -116,7 +116,7 @@
     "name": "From Kashmir to the Kargil Highlands",
     "region": "Kashmir",
     "days": 7,
-    "price": 33000,
+    "price": 31300,
     "type": "Group"
   },
   {
@@ -124,7 +124,7 @@
     "name": "South Kashmir & the Winter Valleys",
     "region": "Kashmir",
     "days": 7,
-    "price": 33000,
+    "price": 31300,
     "type": "Group"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Tulian: A Short Alpine Escape",
     "region": "Kashmir",
     "days": 3,
-    "price": 7600,
+    "price": 7200,
     "type": "Trek"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Gurez, Just Us",
     "region": "Kashmir",
     "days": 3,
-    "price": 5950,
+    "price": 5650,
     "type": "Women-only"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Warwan, Together",
     "region": "Kashmir",
     "days": 3,
-    "price": 5950,
+    "price": 5650,
     "type": "Women-only"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Babagil Waterfall Day Walk",
     "region": "Kashmir",
     "days": 1,
-    "price": 950,
+    "price": 900,
     "type": "Day trip"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Wasturwan Ridge Day Walk",
     "region": "Kashmir",
     "days": 1,
-    "price": 950,
+    "price": 900,
     "type": "Day trip"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Kashmir, Just the Two of You",
     "region": "Kashmir",
     "days": 7,
-    "price": null,
+    "price": 39950,
     "type": "Private"
   },
   {
@@ -180,7 +180,7 @@
     "name": "The Long Ladakh Riding Journey",
     "region": "Ladakh",
     "days": 12,
-    "price": null,
+    "price": 69950,
     "type": "Motorcycle"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Ladakh’s Apricot Season",
     "region": "Ladakh",
     "days": 9,
-    "price": 32050,
+    "price": 30400,
     "type": "Group"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Zanskar by the Longer Road",
     "region": "Ladakh",
     "days": 10,
-    "price": 52250,
+    "price": 49500,
     "type": "Motorcycle"
   },
   {
@@ -204,7 +204,7 @@
     "name": "From the Kashmir Valley to Ladakh",
     "region": "Kashmir & Ladakh",
     "days": 7,
-    "price": 30150,
+    "price": 28600,
     "type": "Group"
   }
 ]

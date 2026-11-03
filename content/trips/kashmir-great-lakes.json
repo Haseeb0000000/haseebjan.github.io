@@ -4,7 +4,7 @@
   "region": "Kashmir",
   "type": "Trek",
   "days": 7,
-  "price": 14000,
+  "price": 13300,
   "benchmark": 14750,
   "reference": "kashmir-great-lakes",
   "image": "vishansar",
@@ -95,10 +95,92 @@
   ],
   "group": "Proposed small group · size to be confirmed",
   "dates": [],
-  "priceBasis": "per person · proposed shared occupancy",
+  "priceBasis": "per person · sample shared-occupancy land package",
   "status": "proposal",
   "order": 4,
   "cover": "",
   "coverAlt": "",
-  "gallery": []
+  "gallery": [],
+  "quoteReason": "Owner-authorised planning estimate. Supplier costs, hotel selection, taxes and exact inclusions must be checked before a final offer.",
+  "pricingSource": "Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain.",
+  "suggestedDates": [
+    {
+      "date": "2027-06-05",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-06-19",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-07-10",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    }
+  ],
+  "bookingDetails": {
+    "sharing": "Sample twin/double sharing; a single room is quoted separately.",
+    "roomPlan": "Shared trekking tents on trail nights, with base guesthouse arrangements agreed separately.",
+    "meals": "Breakfast, packed lunch and dinner proposed on supported trail days; arrival/departure meals as specified.",
+    "transport": "Suggested vehicle: sedan for 2–3 guests, suitable SUV for 4–6, or a larger tourist vehicle for bigger groups. Luggage, route permits, local union vehicles and winter suitability affect the final choice.",
+    "pickup": "Pickup/drop at Srinagar / agreed trailhead at agreed times; flights and trains are not included.",
+    "group": "Suggested 6–12 travellers; viability and support to confirm.",
+    "childPolicy": "Request child-specific costing, bedding, meals and activity eligibility. No child discount or infant arrangement is assumed.",
+    "upgradeOptions": [
+      "Single-room option",
+      "Higher-category hotel or houseboat",
+      "Extra arrival or departure night",
+      "Private vehicle or extra local sightseeing"
+    ],
+    "confirmation": "Before paying, receive named hotels, room categories, meal plan, dates, vehicle/support details, total price, inclusions, exclusions and cancellation conditions in writing."
+  },
+  "accommodation": [
+    {
+      "location": "Trailhead camp",
+      "nights": 1,
+      "property": "Sample supported camp / base guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Approved camp 1",
+      "nights": 1,
+      "property": "Sample supported camp / base guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Approved camp 2",
+      "nights": 1,
+      "property": "Sample supported camp / base guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Approved camp 3",
+      "nights": 1,
+      "property": "Sample supported camp / base guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Approved camp 4",
+      "nights": 1,
+      "property": "Sample supported camp / base guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Approved camp 5",
+      "nights": 1,
+      "property": "Sample supported camp / base guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    }
+  ],
+  "hotelShortlist": [],
+  "stayPhoto": "",
+  "stayPhotoAlt": ""
 }

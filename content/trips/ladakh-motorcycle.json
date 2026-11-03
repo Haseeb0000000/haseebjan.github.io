@@ -4,7 +4,7 @@
   "region": "Ladakh",
   "type": "Motorcycle",
   "days": 8,
-  "price": 38000,
+  "price": 36000,
   "benchmark": 39999,
   "reference": "ladakh-bike-trip",
   "image": "khardung",
@@ -103,10 +103,85 @@
   ],
   "group": "Proposed small group · size to be confirmed",
   "dates": [],
-  "priceBasis": "per person · proposed shared occupancy",
+  "priceBasis": "per person · sample shared-occupancy land package",
   "status": "proposal",
   "order": 7,
   "cover": "",
   "coverAlt": "",
-  "gallery": []
+  "gallery": [],
+  "quoteReason": "Owner-authorised planning estimate. Supplier costs, hotel selection, taxes and exact inclusions must be checked before a final offer.",
+  "pricingSource": "Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain.",
+  "suggestedDates": [
+    {
+      "date": "2027-06-05",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-06-19",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-07-10",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    }
+  ],
+  "bookingDetails": {
+    "sharing": "Sample twin/double sharing; a single room is quoted separately.",
+    "roomPlan": "Private bathroom requested where available; exact room category, heating and hot-water arrangements require written confirmation.",
+    "meals": "Breakfast and dinner proposed on overnight days; arrival dinner and departure breakfast. Other lunches are separate.",
+    "transport": "Motorcycle package requested: model, rider/pillion basis, fuel, mechanic, backup vehicle and rental liability must be itemised. No allocation is reserved.",
+    "pickup": "Pickup/drop at Leh at agreed times; flights and trains are not included.",
+    "group": "Suggested 6–12 travellers; viability and support to confirm.",
+    "childPolicy": "Request child-specific costing, bedding, meals and activity eligibility. No child discount or infant arrangement is assumed.",
+    "upgradeOptions": [
+      "Single-room option",
+      "Higher-category hotel or houseboat",
+      "Extra arrival or departure night",
+      "Private vehicle or extra local sightseeing"
+    ],
+    "confirmation": "Before paying, receive named hotels, room categories, meal plan, dates, vehicle/support details, total price, inclusions, exclusions and cancellation conditions in writing."
+  },
+  "accommodation": [
+    {
+      "location": "Leh",
+      "nights": 3,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Nubra",
+      "nights": 2,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Pangong or lower-altitude alternative",
+      "nights": 1,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Leh",
+      "nights": 1,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Standard shared-occupancy room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    }
+  ],
+  "hotelShortlist": [
+    {
+      "name": "The Grand Dragon Ladakh — optional upgrade enquiry",
+      "location": "Leh",
+      "url": "https://www.thegranddragonladakh.com/",
+      "note": "Premium upgrade example, outside the sample standard-stay guide price unless separately confirmed."
+    }
+  ],
+  "stayPhoto": "",
+  "stayPhotoAlt": ""
 }

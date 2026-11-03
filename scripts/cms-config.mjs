@@ -14,6 +14,16 @@ const schema={media:[{name:'uploads',label:'Your photo library',input:'assets/up
 ]};
 schema.content.find(c=>c.name==='pages').fields.push({name:'photos',label:'Page photos',type:'object',list:{collapsible:{collapsed:true,summary:'{original}'}},fields:[f('original','Original image — matching key','string',{readonly:true}),f('image','Upload replacement photo','image',{options:{media:'uploads'}}),f('alt','Describe your replacement photo')]});
 schema.actions=[{"name":"publish-website","label":"Rebuild & publish website","workflow":"content-publish.yml","ref":"main","confirm":{"title":"Rebuild the live website?","message":"Saved main-branch content will be checked and published to theholidayhost.in.","button":"Rebuild & publish"}}];
+
+const tripEditor=schema.content.find(c=>c.name==='trips');
+tripEditor.fields.push(
+ f('suggestedDates','Suggested dates — not confirmed departures','object',{list:{max:12,collapsible:{collapsed:true,summary:'{date} — {label}'}},fields:[f('date','Suggested start (YYYY-MM-DD)'),f('label','Season / trip label'),f('note','Availability note','text')]}),
+ f('accommodation','Sample accommodation plan','object',{list:{collapsible:{collapsed:true,summary:'{location} — {nights} nights'}},fields:[f('location','Overnight location'),f('nights','Nights','number',{options:{min:1}}),f('property','Sample hotel / stay name'),f('category','Room / stay category'),f('note','Confirmation note','text')]}),
+ f('hotelShortlist','Hotel examples — not guaranteed inclusions','object',{list:{collapsible:{collapsed:true,summary:'{name}'}},fields:[f('name','Property or directory name'),f('location','Location'),f('url','Official source URL'),f('note','Important price / availability note','text')]}),
+ f('bookingDetails','Detailed package information','object',{fields:[f('sharing','Room sharing','text'),f('roomPlan','Room facilities','text'),f('meals','Meal plan','text'),f('transport','Vehicle / riding arrangements','text'),f('pickup','Pickup and drop','text'),f('group','Group size proposal','text'),f('childPolicy','Children / bedding','text'),list('upgradeOptions','Optional upgrades'),f('confirmation','Pre-payment confirmation checklist','text')]})
+);
+schema.content.push({name:'policies',label:'Draft policies & payment terms',type:'collection',path:'content/policies',format:'json',operations:{create:false,rename:false,delete:false},view:{primary:'title'},fields:[f('title','Policy title'),f('intro','Introduction','text'),f('notice','Draft / approval notice','text'),f('sections','Policy sections','object',{list:{collapsible:{collapsed:true,summary:'{title}'}},fields:[f('title','Section heading'),f('text','Policy wording','text')]})]});
+
 schema.content.filter(item=>item.type==='collection').forEach(item=>item.filename='{primary}.json');
 fs.writeFileSync('.pages.yml',JSON.stringify(schema,null,2)+'\n');
 console.log(`Prepared online editor for ${trips.length} trips, destination pages, wording, homepage photos and contact details.`);

@@ -4,7 +4,7 @@
   "region": "Kashmir",
   "type": "Private",
   "days": 7,
-  "price": 38000,
+  "price": 36000,
   "benchmark": 39999,
   "reference": "kashmir-luxury-trip",
   "image": "dal",
@@ -96,10 +96,78 @@
   ],
   "group": "Your private group",
   "dates": [],
-  "priceBasis": "per person · proposed shared occupancy",
+  "priceBasis": "per person · sample shared-occupancy land package",
   "status": "proposal",
   "order": 5,
   "cover": "",
   "coverAlt": "",
-  "gallery": []
+  "gallery": [],
+  "quoteReason": "Owner-authorised planning estimate. Supplier costs, hotel selection, taxes and exact inclusions must be checked before a final offer.",
+  "pricingSource": "Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain.",
+  "suggestedDates": [
+    {
+      "date": "2027-04-10",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-05-08",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-06-05",
+      "label": "Seasonal journey proposal",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    }
+  ],
+  "bookingDetails": {
+    "sharing": "Sample twin/double sharing; a single room is quoted separately.",
+    "roomPlan": "Private bathroom requested where available; exact room category, heating and hot-water arrangements require written confirmation.",
+    "meals": "Breakfast and dinner proposed on overnight days; arrival dinner and departure breakfast. Other lunches are separate.",
+    "transport": "Suggested vehicle: sedan for 2–3 guests, suitable SUV for 4–6, or a larger tourist vehicle for bigger groups. Luggage, route permits, local union vehicles and winter suitability affect the final choice.",
+    "pickup": "Pickup/drop at Srinagar at agreed times; flights and trains are not included.",
+    "group": "Private group; sample costing assumes two adults.",
+    "childPolicy": "Request child-specific costing, bedding, meals and activity eligibility. No child discount or infant arrangement is assumed.",
+    "upgradeOptions": [
+      "Single-room option",
+      "Higher-category hotel or houseboat",
+      "Extra arrival or departure night",
+      "Private vehicle or extra local sightseeing"
+    ],
+    "confirmation": "Before paying, receive named hotels, room categories, meal plan, dates, vehicle/support details, total price, inclusions, exclusions and cancellation conditions in writing."
+  },
+  "accommodation": [
+    {
+      "location": "Srinagar",
+      "nights": 3,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Comfort-focused room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Pahalgam",
+      "nights": 2,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Comfort-focused room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    },
+    {
+      "location": "Srinagar",
+      "nights": 1,
+      "property": "Sample local hotel / guesthouse",
+      "category": "Comfort-focused room proposal",
+      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+    }
+  ],
+  "hotelShortlist": [
+    {
+      "name": "JKTDC Hotel Alpine Pahalgam",
+      "location": "Pahalgam",
+      "url": "https://www.jktdc.co.in/CityHotels.aspx?Cid=2",
+      "note": "Verified property example where the route visits Pahalgam. Not reserved and not promised within the guide price."
+    }
+  ],
+  "stayPhoto": "",
+  "stayPhotoAlt": ""
 }
