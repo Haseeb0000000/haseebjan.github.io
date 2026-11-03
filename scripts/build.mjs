@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {trips,regions} from '../data/trips.mjs';
+import {versionAssets} from './version-assets.mjs';
 process.chdir(path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'));
 const config=JSON.parse(fs.readFileSync('site.config.json','utf8'));
 const policies=JSON.parse(fs.readFileSync('data/policies.json','utf8').replace(/^\uFEFF/,''));
@@ -51,4 +52,5 @@ out('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http:/
 out('robots.txt',`User-agent: *\nAllow: /\nSitemap: ${config.url}/sitemap.xml\n`);
 out('assets/contact-config.js',`window.HOLIDAY_HOST_CONTACT=${JSON.stringify({email:config.email,whatsapp:config.whatsapp,pricingNote:config.pricingNote})};\n`);
 out('assets/catalogue.json',JSON.stringify(trips.map(t=>({slug:t.slug,name:t.name,region:t.region,days:t.days,price:t.price,type:t.type})),null,2));
-console.log(`Generated ${pages.length} pages and ${trips.length} journey proposals. CNAME unchanged.`);
+versionAssets(pages);
+console.log(`Generated ${pages.length} pages and ${trips.length} journey proposals with content-versioned CSS, scripts, and catalogue. CNAME unchanged.`);
