@@ -1,47 +1,43 @@
 {
   "title": "Booking & payment terms",
-  "intro": "A practical draft for clear quotations, responsible planning and written confirmation.",
+  "intro": "How enquiries, quotations and bookings work with The Holiday Host.",
+  "notice": "Your written quotation sets out the services, payment schedule and booking conditions for your trip. Please review it before making a payment.",
   "sections": [
     {
-      "title": "Enquiry and quotation",
-      "text": "An enquiry, guide price or suggested start date is a planning request, not a confirmed booking. Ask for a written quotation showing the legal business/payee name, traveller details, exact dates, named properties, room categories, meal plan, transport, services, exclusions, total price and taxes."
+      "title": "Planning your trip",
+      "text": "Browse an itinerary or send your dates, group size and preferences by WhatsApp or email. An enquiry does not reserve a room, vehicle or place on a group trip."
     },
     {
-      "title": "Guide prices and package basis",
-      "text": "Displayed amounts are sample per-person shared-occupancy land-package guides. Flights, personal purchases, insurance and optional services are excluded unless listed. Hotel upgrades, single rooms, peak dates, children, permits and local transport can change the price. No unsupported discount, star classification or partner relationship is implied."
+      "title": "Your quotation",
+      "text": "Check the travel dates, named accommodation, room category and sharing, meals, pickup and drop-off, vehicle arrangements, included activities, total price and taxes. Optional activities, supplements and exclusions should be listed separately. Your quote will also identify the business and payee details."
     },
     {
-      "title": "Proposed deposit and balance",
-      "text": "Suggested payment schedule: 20% of the confirmed package total as a deposit after the quotation is accepted and suppliers can be secured; the remaining 80% seven days before departure. For bookings within seven days, full payment may be required. Any earlier supplier deadline must be disclosed and accepted before payment. This schedule applies only when adopted in your written quote."
+      "title": "Guide prices",
+      "text": "Website prices are per-person planning estimates, with the sharing and package basis shown on the trip page. Your dates, group size, room choice and local services affect the final amount. A guide price is not a live availability offer."
     },
     {
-      "title": "Payee and confirmation",
-      "text": "Use only the payee and payment method shown on the business invoice and independently confirmed with the team. Request a receipt and written booking confirmation. The website does not take card details or online payment. Never treat a chat message alone as proof that a hotel or ticket is reserved."
+      "title": "Payments and confirmation",
+      "text": "The deposit, balance amount and due dates are set out in your quotation. Check any non-refundable supplier charges and their deadlines before accepting. Pay only using the invoice details confirmed directly with The Holiday Host on +91 99062 69900. Keep your receipt and written booking confirmation. This website does not collect online payments."
     },
     {
-      "title": "Accommodation and substitutions",
-      "text": "Sample hotels and room descriptions are proposals. The final quote must identify the property, occupancy, amenities and check-in rules. A material substitution must be explained with a suitable alternative and any price difference for the traveller to accept; a named hotel is not guaranteed by a planning page."
+      "title": "Accommodation and transport",
+      "text": "The confirmed package identifies the selected hotels, room types, meal plan and transport. Any material substitution or change in cost needs to be discussed with you. Local vehicles, permits and ticketed activities are included only when listed in your accepted quote."
     },
     {
-      "title": "Transport, access and activities",
-      "text": "Vehicle category, luggage capacity, driver hours, kilometres, fuel, tolls, local union vehicles, permits and activity tickets must be itemised. Roads, Gondola operations, park access, pilgrimage services, riding and trekking stages depend on current conditions and permissions. No special access or wildlife, snowfall or blossom sighting is guaranteed."
+      "title": "Changes to your plans",
+      "text": "Contact us in writing if you need to change dates, travellers or services. Availability, supplier rules and any additional costs or savings need to be agreed before an amendment is confirmed."
     },
     {
-      "title": "Changes requested by travellers",
-      "text": "Request amendments in writing. The team should disclose availability, supplier charges, additional cost or savings before the change is accepted. Name/date changes and unused services may follow supplier-specific rules disclosed before booking."
+      "title": "Group trips and route changes",
+      "text": "For group travel, confirm the group arrangements and departure status before booking onward travel. Weather, road conditions, access permissions and activity operations can affect mountain itineraries. If arrangements change, contact the trip coordinator to discuss the available options and costs."
     },
     {
-      "title": "Group viability and operator changes",
-      "text": "The quotation should state any minimum group requirement and the confirmation deadline. If the proposed departure cannot operate, discuss a revised date or comparable alternative; if the traveller declines, reconcile and refund recoverable unprovided services under the cancellation policy. Do not assume a future credit must be accepted."
+      "title": "Preparing to travel",
+      "text": "Tell us about accessibility, room, dietary and activity needs while planning. Check the identification, permissions and insurance relevant to your journey. Discuss altitude and exertion suitability with an appropriate professional where needed."
     },
     {
-      "title": "Preparation and suitability",
-      "text": "Travellers should check identification, permissions, personal insurance and activity eligibility. Discuss accessibility, room needs, dietary preferences and altitude or exertion suitability before booking. Seek individual professional advice where appropriate. Ladakh plans must allow at least 48 hours of rest on arrival before higher-altitude travel, following current official guidance."
-    },
-    {
-      "title": "Concerns and complaints",
-      "text": "Raise concerns promptly with the trip coordinator so practical remedies can be considered. After travel, send the booking reference, facts, requested remedy and relevant receipts to the enquiry email. Request a written acknowledgement and resolution timetable. Nothing here excludes applicable statutory remedies."
+      "title": "Questions or concerns",
+      "text": "Contact sales@theholidayhost.in or +91 99062 69900 with your booking reference and details of your concern. Keep the accepted quote, receipts and correspondence. Cancellation and refund information is available on our separate policy page. Nothing in these terms removes applicable consumer rights."
     }
-  ],
-  "notice": "Draft planning policy prepared for owner review. These sample terms do not reserve services or collect payment. The accepted written quotation must state the final terms before any payment; applicable consumer rights remain unaffected."
+  ]
 }

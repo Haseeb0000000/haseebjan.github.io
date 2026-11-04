@@ -60,3 +60,7 @@ const editorConfig=JSON.parse(fs.readFileSync('.pages.yml','utf8'));
 for(const collection of editorConfig.content.filter(c=>c.type==='collection'))assert(collection.filename.endsWith('.json'),`${collection.name}: editor must list JSON files rather than default Markdown files`);
 assert(fs.readFileSync('admin.html','utf8').includes('noindex,follow'),'Owner entry page must stay out of search');
 console.log(`PASS: ${pages.length} pages, ${links} local references, ${images} image elements, unique SEO metadata, structured data, labels, sitemap, image budgets, and preserved CNAME.`);
+
+// Enquiry review needs its initially empty live status node; copy cleanup must retain it.
+for(const file of fs.readdirSync('.').filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(file,'utf8');if(html.includes('data-enquiry-fields'))assert(html.includes('class="copy-status small" role="status"'),'Missing enquiry status node in '+file);}
+

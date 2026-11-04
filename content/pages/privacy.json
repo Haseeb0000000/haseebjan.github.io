@@ -1,39 +1,6 @@
 {
-  "title": "Privacy notice — draft",
-  "description": "Privacy notice. Draft information awaiting final owner-approved business terms.",
-  "copy": [
-    {
-      "original": "Privacy notice",
-      "value": "Privacy notice"
-    },
-    {
-      "original": "Draft business policy · final terms require owner confirmation.",
-      "value": "Draft business policy · final terms require owner confirmation."
-    },
-    {
-      "original": "What this website does",
-      "value": "What this website does"
-    },
-    {
-      "original": "The enquiry form processes the details you enter in your browser to prepare an WhatsApp message, email draft, or copyable text. It does not submit your information to a website database or use browser storage. Sending the email shares those details with your email provider and the receiving business.",
-      "value": "The enquiry form processes the details you enter in your browser to prepare an WhatsApp message, email draft, or copyable text. It does not submit your information to a website database or use browser storage. Sending the email shares those details with your email provider and the receiving business."
-    },
-    {
-      "original": "Information you may choose to share",
-      "value": "Information you may choose to share"
-    },
-    {
-      "original": "Name, email, optional phone number, travel dates, destination, group size, trip length, and your preferences. Please do not include passport scans, payment card details, medical records, or other sensitive information in this enquiry.",
-      "value": "Name, email, optional phone number, travel dates, destination, group size, trip length, and your preferences. Please do not include passport scans, payment card details, medical records, or other sensitive information in this enquiry."
-    },
-    {
-      "original": "Hosting and external services",
-      "value": "Hosting and external services"
-    },
-    {
-      "original": "Business handling after you send",
-      "value": "Business handling after you send"
-    }
-  ],
+  "title": "Privacy notice",
+  "description": "What happens to the information you share when planning a trip.",
+  "copy": [],
   "photos": []
 }

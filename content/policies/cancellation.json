@@ -1,31 +1,35 @@
 {
   "title": "Cancellation & refunds",
-  "intro": "A cost-based draft designed to make deductions understandable before you book.",
+  "intro": "Clear information to help you understand changes, cancellation charges and refunds.",
+  "notice": "Cancellation cutoffs and supplier charges depend on the services booked. The applicable schedule must be included in your quotation before payment.",
   "sections": [
     {
-      "title": "How to cancel",
-      "text": "Send a written request through your confirmed booking email or WhatsApp, including the booking reference, traveller names and requested cancellation date. Ask for acknowledgement. The effective timing and supplier deadlines must be recorded clearly."
+      "title": "Requesting a cancellation",
+      "text": "Send your request through your booking email or confirmed WhatsApp conversation, including your booking reference and traveller names. Ask for written acknowledgement so the request date and affected services are recorded."
     },
     {
-      "title": "Proposed refund calculation",
-      "text": "For cancellation before departure, the proposed approach is to return the amount paid less documented, unavoidable supplier charges and services already delivered. The draft adds no separate agency cancellation fee. The written quote must disclose any supplier-specific non-refundable hotel, ticket, permit or transport charge before payment; deductions should not exceed the amount paid for the affected services."
+      "title": "Understanding charges",
+      "text": "Your quotation should identify cancellation deadlines and any non-refundable hotel, transport, permit or ticket costs. Request an itemised calculation of charges and the refundable balance. A website guide price alone does not establish a cancellation charge."
     },
     {
-      "title": "Date-based supplier conditions",
-      "text": "Hotels and operators may use different cancellation cutoffs, especially for peak dates or remote routes. Obtain the actual schedule with your quotation. This website does not promise a universal refund percentage or label every deposit non-refundable. Ask for a cost breakdown if a deduction is proposed."
+      "title": "Changing dates or travellers",
+      "text": "Ask us to check availability and supplier amendment rules before cancelling and rebooking. A revised date, name or room arrangement can change the price; any difference should be explained before you accept it."
     },
     {
-      "title": "Weather, closures or business cancellation",
-      "text": "Where services cannot be provided, discuss a safe alternative, amendment or cancellation. State any cost difference before acceptance and refund the recoverable value of unprovided services after supplier reconciliation. A credit or alternate trip is an option to agree, not an automatic replacement for a refund."
+      "title": "Weather, closures and changed services",
+      "text": "If a service cannot operate, discuss a suitable alternative, revised date or cancellation with the team. The options and any refund depend on the affected services, supplier conditions and applicable rights. A credit or alternative trip requires your agreement."
     },
     {
-      "title": "No-shows, early departures and unused services",
-      "text": "Amounts already committed to a supplier may not be recoverable. The team should still assess recoverable unused services and explain the outcome. Do not assume that every unused item can be refunded or that all remaining money must be forfeited."
+      "title": "Unused services",
+      "text": "A late arrival, early departure or missed activity may involve costs already committed to suppliers. Ask which unused services can be recovered and how that affects your refund."
     },
     {
-      "title": "Refund processing and disputes",
-      "text": "Proposed service target: initiate an approved refund within seven business days after the amount and supplier reconciliation are agreed, normally to the original payer/method. Give a written expected date if reconciliation needs longer; bank or payment-provider clearing time may be additional. Provide the calculation and transaction reference. Applicable consumer rights and complaint remedies are not waived."
+      "title": "Refund updates",
+      "text": "Before a refund is processed, request the amount, calculation, expected processing date and payment method in writing. Supplier reconciliation and bank clearing times can vary. Ask for a transaction reference once payment is issued."
+    },
+    {
+      "title": "Getting help",
+      "text": "For a cancellation or refund query, contact sales@theholidayhost.in or +91 99062 69900 and include your booking reference. Applicable consumer rights remain unaffected."
     }
-  ],
-  "notice": "Draft planning policy prepared for owner review. These sample terms do not reserve services or collect payment. The accepted written quotation must state the final terms before any payment; applicable consumer rights remain unaffected."
+  ]
 }
