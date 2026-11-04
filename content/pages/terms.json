@@ -1,47 +1,6 @@
 {
-  "title": "Booking terms — draft",
-  "description": "Booking terms. Draft information awaiting final owner-approved business terms.",
-  "copy": [
-    {
-      "original": "Booking terms",
-      "value": "Booking terms"
-    },
-    {
-      "original": "Draft business policy · final terms require owner confirmation.",
-      "value": "Draft business policy · final terms require owner confirmation."
-    },
-    {
-      "original": "Enquiries are not bookings",
-      "value": "Enquiries are not bookings"
-    },
-    {
-      "original": "Browsing a sample itinerary or preparing an enquiry does not reserve accommodation, transport, tickets, or any other service. The website does not accept payment.",
-      "value": "Browsing a sample itinerary or preparing an enquiry does not reserve accommodation, transport, tickets, or any other service. The website does not accept payment."
-    },
-    {
-      "original": "Confirm the proposal in writing",
-      "value": "Confirm the proposal in writing"
-    },
-    {
-      "original": "Before booking, obtain the legal business name, invoice details, exact dates, guest names, accommodation and room categories, transport arrangements, meal plan, itemised inclusions and exclusions, total price, applicable taxes, and service availability.",
-      "value": "Before booking, obtain the legal business name, invoice details, exact dates, guest names, accommodation and room categories, transport arrangements, meal plan, itemised inclusions and exclusions, total price, applicable taxes, and service availability."
-    },
-    {
-      "original": "Payment terms still needed",
-      "value": "Payment terms still needed"
-    },
-    {
-      "original": "Travel responsibilities",
-      "value": "Travel responsibilities"
-    },
-    {
-      "original": "Ask about identification, permits, insurance, accessibility needs, altitude suitability, and restrictions relevant to your chosen route. Service-specific conditions must be disclosed in your final proposal.",
-      "value": "Ask about identification, permits, insurance, accessibility needs, altitude suitability, and restrictions relevant to your chosen route. Service-specific conditions must be disclosed in your final proposal."
-    },
-    {
-      "original": "Changes and disputes",
-      "value": "Changes and disputes"
-    }
-  ],
+  "title": "Booking & payment terms",
+  "description": "How enquiries, quotations and bookings work with The Holiday Host.",
+  "copy": [],
   "photos": []
 }

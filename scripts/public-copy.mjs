@@ -3,6 +3,25 @@
 export function publicCopy(file,body){
  if(['credits.html','admin.html','privacy.html','terms.html','cancellation.html'].includes(file))return body;
  const replacements=[
+ ['Talk to a travel expert','Talk to our team'],
+ ['Suggested starts to discuss','Suggested travel dates'],
+ ['Dates to discuss · availability unconfirmed','Choose a date and request availability'],
+ ['Your proposed stays','Your stay plan'],
+ ['Breakfast &amp; dinner proposed','Breakfast &amp; dinner'],
+ ['Breakfast proposed','Breakfast'],
+ ['1 days · 0 nights','1-day experience'],
+
+ ['Women-only proposal','Women-only journey'],
+ ['Your proposed stays','Your stay plan'],
+ ['Sample local hotel / guesthouse','Hotel or guesthouse · selected with your quote'],
+ ['Standard shared-occupancy room proposal','Standard room · shared occupancy'],
+ ['Sample twin/double sharing; a single room is quoted separately.','Twin/double sharing; request a separate quote for a single room.'],
+ ['sample shared-occupancy land package','shared-occupancy land package estimate'],
+ ['journey proposals to explore','itineraries to explore'],
+ ['Proposed group · size to be confirmed','Group size agreed with your enquiry'],
+ ['Proposed inclusions','Package outline'],
+ ['Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked.','Suggested date · request availability.'],
+
  ['Our owner introduction, team profiles, and approved founder video are coming soon.',''],
  ['Business registration and accreditation details will appear only after evidence is supplied.',''],
  ['Real people, real stories','Your kind of journey'],
@@ -47,5 +66,5 @@ export function publicCopy(file,body){
  for(const [from,to]of replacements)body=body.split(from).join(to);
  body=body.replace(/<p[^>]*>Phone and WhatsApp supplied by the owner\. Email carried over from the existing website\.<\/p>/g,'');
  body=body.replace(/<p[^>]*>Opening hours to be confirmed\.<\/p>/g,'');
- return body.replaceAll('Opening hours to be confirmed.','').replace(/<p[^>]*>\s*<\/p>/g,'');
+ return body.replaceAll('1 days · 0 nights','1-day experience').replaceAll('1 days / 0 nights','1-day experience').replaceAll('1 days','1 day').replaceAll('0 nights','No overnight stay').replaceAll('Opening hours to be confirmed.','').replace(/<p>\s*<\/p>/g,'');
 }

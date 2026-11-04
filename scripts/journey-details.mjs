@@ -1,5 +1,5 @@
 export function dayPlanning(d,esc){
- return `${d.pace?`<p class="day-pace"><strong>Day rhythm</strong> ${esc(d.pace)}</p>`:''}${d.routeNote?`<p class="small muted day-route-note">${esc(d.routeNote)}</p>`:''}`;
+ return `${d.pace?`<p class="day-pace"><strong>Day rhythm</strong> ${esc(d.pace)}</p>`:''}${d.routeNote&&!d.routeNote.startsWith('Choose the stops that fit daylight')?`<p class="small muted day-route-note">${esc(d.routeNote)}</p>`:''}`;
 }
 export function sidebarDates(t,esc){
  return `<div class="sidebar-dates"><h3>Suggested starts</h3><p class="small muted">Dates to discuss · availability unconfirmed</p><div>${(t.suggestedDates||[]).map(d=>`<a href="contact.html?trip=${t.slug}&date=${d.date}"><strong>${new Intl.DateTimeFormat('en-IN',{day:'numeric',month:'short',timeZone:'UTC'}).format(new Date(d.date+'T00:00:00Z'))}</strong><small>${esc(d.date.slice(0,4))}</small></a>`).join('')}</div></div>`;
