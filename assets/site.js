@@ -1,3 +1,40 @@
+
+function enhanceCatalogueSelects(form){
+ const controls=[];
+ for(const select of form.querySelectorAll('select')){
+  const label=form.querySelector('label[for="'+select.id+'"]');
+  const root=document.createElement('div');root.className='catalogue-select';
+  const trigger=document.createElement('button');trigger.type='button';trigger.className='catalogue-select-trigger';
+  trigger.id=select.id+'-control';trigger.setAttribute('role','combobox');trigger.setAttribute('aria-haspopup','listbox');trigger.setAttribute('aria-expanded','false');trigger.setAttribute('aria-controls',select.id+'-options');
+  const value=document.createElement('span');value.id=select.id+'-value';
+  const arrow=document.createElement('span');arrow.className='catalogue-select-arrow';arrow.setAttribute('aria-hidden','true');trigger.append(value,arrow);
+  if(label){label.id=select.id+'-label';label.htmlFor=trigger.id;trigger.setAttribute('aria-labelledby',label.id+' '+value.id);}
+  const list=document.createElement('div');list.id=select.id+'-options';list.className='catalogue-select-options';list.setAttribute('role','listbox');list.setAttribute('aria-labelledby',label?.id||value.id);list.hidden=true;
+  const options=[...select.options].map((option,index)=>{const item=document.createElement('div');item.id=select.id+'-option-'+index;item.className='catalogue-select-option';item.setAttribute('role','option');item.setAttribute('aria-selected','false');item.textContent=option.textContent;item.dataset.index=index;list.append(item);return item;});
+  select.before(root);root.append(trigger,list,select);select.hidden=true;select.tabIndex=-1;
+  let active=select.selectedIndex,typed='',typedAt=0;
+  const paint=()=>{value.textContent=select.selectedOptions[0]?.textContent||'';options.forEach((option,index)=>{option.setAttribute('aria-selected',String(index===select.selectedIndex));option.classList.toggle('is-active',index===active);});};
+  const mark=index=>{active=Math.max(0,Math.min(options.length-1,index));paint();trigger.setAttribute('aria-activedescendant',options[active].id);options[active].scrollIntoView({block:'nearest'});};
+  const close=()=>{list.hidden=true;root.classList.remove('is-open');trigger.setAttribute('aria-expanded','false');trigger.removeAttribute('aria-activedescendant');};
+  const open=()=>{controls.forEach(c=>c.close());const rect=trigger.getBoundingClientRect();const below=innerHeight-rect.bottom,above=rect.top;const upward=below<230&&above>below;root.classList.toggle('opens-up',upward);list.style.maxHeight=Math.max(120,Math.min(300,(upward?above:below)-18))+'px';list.hidden=false;root.classList.add('is-open');trigger.setAttribute('aria-expanded','true');mark(select.selectedIndex);};
+  const choose=index=>{select.selectedIndex=index;active=index;paint();close();trigger.focus();select.dispatchEvent(new Event('change',{bubbles:true}));};
+  trigger.addEventListener('click',()=>list.hidden?open():close());
+  list.addEventListener('mousedown',event=>event.preventDefault());
+  list.addEventListener('click',event=>{const option=event.target.closest('[role="option"]');if(option)choose(Number(option.dataset.index));});
+  trigger.addEventListener('keydown',event=>{
+   if(event.key==='Escape'){if(!list.hidden){event.preventDefault();event.stopPropagation();close();}return;}
+   if(event.key==='Tab'){close();return;}
+   if(['ArrowDown','ArrowUp','Home','End'].includes(event.key)){event.preventDefault();const wasClosed=list.hidden;if(wasClosed)open();if(event.key==='Home')mark(0);else if(event.key==='End')mark(options.length-1);else if(!wasClosed)mark(active+(event.key==='ArrowDown'?1:-1));return;}
+   if(event.key==='Enter'||event.key===' '){event.preventDefault();if(list.hidden)open();else choose(active);return;}
+   if(event.key.length===1&&!event.ctrlKey&&!event.metaKey&&!event.altKey){event.preventDefault();const now=Date.now();typed=now-typedAt>700?event.key:typed+event.key;typedAt=now;if(list.hidden)open();const match=options.findIndex(o=>o.textContent.toLowerCase().startsWith(typed.toLowerCase()));if(match>=0)mark(match);}
+  });
+  root.addEventListener('focusout',event=>{if(!root.contains(event.relatedTarget))close();});
+  controls.push({root,close,refresh:()=>{active=select.selectedIndex;paint();}});paint();
+ }
+ document.addEventListener('click',event=>controls.forEach(c=>{if(!c.root.contains(event.target))c.close();}));
+ return ()=>controls.forEach(c=>c.refresh());
+}
+
 const menu=document.querySelector('.menu');
 const navigation=document.querySelector('#navigation');
 const mobile=matchMedia('(max-width: 960px)');
@@ -25,6 +62,7 @@ if(filterForm){
   const field=name=>filterForm.elements.namedItem(name);
   const names=['q','region','type','duration','sort'];
   for(const name of names){const input=field(name),value=parameters.get(name);if(value&&(input.tagName!=='SELECT'||[...input.options].some(o=>o.value===value)))input.value=value;}
+  const syncSelects=enhanceCatalogueSelects(filterForm);
   const syncFilterPanel=()=>{if(filterPanel)filterPanel.open=!narrowCatalogue.matches;};
   syncFilterPanel();narrowCatalogue.addEventListener('change',syncFilterPanel);
   function filterTrips(syncUrl=true){
@@ -54,13 +92,15 @@ if(filterForm){
         const close=document.createElement('span');close.textContent='×';close.setAttribute('aria-hidden','true');button.append(label,close);chips.append(button);
       }
     }
+    syncSelects();
     if(syncUrl){const query=new URLSearchParams();for(const name of names){const value=String(data.get(name)||'').trim();if(value&&!(name==='sort'&&value==='recommended'))query.set(name,value);}history.replaceState(null,'',location.pathname+(query.size?'?'+query.toString():''));}
   }
   chips?.addEventListener('click',event=>{const button=event.target.closest('[data-clear-filter]');if(!button)return;const input=field(button.dataset.clearFilter);input.value='';filterTrips();field('q').focus();});
   filterForm.addEventListener('input',()=>filterTrips());
   filterForm.addEventListener('change',()=>filterTrips());
   filterForm.addEventListener('submit',event=>{event.preventDefault();filterTrips();});
-  filterForm.addEventListener('reset',()=>queueMicrotask(()=>filterTrips()));
+  // Reset defaults are applied after the reset event; refresh in the next task.
+  filterForm.addEventListener('reset',()=>setTimeout(()=>filterTrips(),0));
   filterForm.querySelector('#clear-search').addEventListener('click',()=>{filterForm.reset();field('q').focus();});
   filterTrips(false);
 }
