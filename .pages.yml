@@ -231,6 +231,9 @@
               "chatti-padshahi",
               "all-saints",
               "kheer-bhawani",
+              "winter-gulmarg-view",
+              "winter-gulmarg-road",
+              "dal-dusk",
               "pangong",
               "patnitop"
             ]
@@ -346,6 +349,12 @@
           "name": "order",
           "label": "Display order",
           "type": "number"
+        },
+        {
+          "name": "tags",
+          "label": "Search and collection tags — Winter / Honeymoon",
+          "type": "string",
+          "list": true
         },
         {
           "name": "suggestedDates",
@@ -619,6 +628,9 @@
               "chatti-padshahi",
               "all-saints",
               "kheer-bhawani",
+              "winter-gulmarg-view",
+              "winter-gulmarg-road",
+              "dal-dusk",
               "pangong",
               "patnitop"
             ]
@@ -771,6 +783,128 @@
       ]
     },
     {
+      "name": "tripCollections",
+      "label": "Trip collection pages",
+      "type": "file",
+      "path": "content/trip-collections.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "collections",
+          "label": "Collections",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "id",
+              "label": "Collection ID",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "slug",
+              "label": "Page address",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "filter",
+              "label": "Filter name",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "label",
+              "label": "Menu label",
+              "type": "string"
+            },
+            {
+              "name": "title",
+              "label": "Headline",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Introduction",
+              "type": "text"
+            },
+            {
+              "name": "image",
+              "label": "Stock photo",
+              "type": "select",
+              "options": {
+                "values": [
+                  "gurez",
+                  "gulmarg",
+                  "nubra",
+                  "dal",
+                  "great-lakes",
+                  "khardung",
+                  "bhaderwah",
+                  "katra",
+                  "gurez-landscape",
+                  "vishansar",
+                  "tulian",
+                  "warwan",
+                  "autumn",
+                  "pahalgam",
+                  "houseboat",
+                  "sanasar",
+                  "sonamarg",
+                  "gurez-village",
+                  "alchi",
+                  "suru",
+                  "aru-winter",
+                  "lolab",
+                  "zanskar-road",
+                  "apricot",
+                  "aru",
+                  "kokernag",
+                  "verinag",
+                  "leh-road",
+                  "zangla",
+                  "gurez-river",
+                  "sham",
+                  "khanqah",
+                  "jamia",
+                  "pashmina-loom",
+                  "charar",
+                  "chatti-padshahi",
+                  "all-saints",
+                  "kheer-bhawani",
+                  "winter-gulmarg-view",
+                  "winter-gulmarg-road",
+                  "dal-dusk",
+                  "pangong",
+                  "patnitop"
+                ]
+              }
+            },
+            {
+              "name": "cover",
+              "label": "Upload a replacement cover photo",
+              "type": "image",
+              "description": "Optional. Upload your own photo from your computer. Leave empty to keep the stock photo.",
+              "options": {
+                "media": "uploads"
+              }
+            },
+            {
+              "name": "coverAlt",
+              "label": "Uploaded photo description",
+              "type": "string"
+            },
+            {
+              "name": "advice",
+              "label": "Planning advice",
+              "type": "string",
+              "list": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "policies",
       "label": "Draft policies & payment terms",
       "type": "collection",
@@ -887,6 +1021,9 @@
               "chatti-padshahi",
               "all-saints",
               "kheer-bhawani",
+              "winter-gulmarg-view",
+              "winter-gulmarg-road",
+              "dal-dusk",
               "pangong",
               "patnitop"
             ]
@@ -1243,6 +1380,9 @@
                   "chatti-padshahi",
                   "all-saints",
                   "kheer-bhawani",
+                  "winter-gulmarg-view",
+                  "winter-gulmarg-road",
+                  "dal-dusk",
                   "pangong",
                   "patnitop"
                 ]
@@ -1339,6 +1479,9 @@
                   "chatti-padshahi",
                   "all-saints",
                   "kheer-bhawani",
+                  "winter-gulmarg-view",
+                  "winter-gulmarg-road",
+                  "dal-dusk",
                   "pangong",
                   "patnitop"
                 ]
@@ -1476,6 +1619,9 @@
                   "chatti-padshahi",
                   "all-saints",
                   "kheer-bhawani",
+                  "winter-gulmarg-view",
+                  "winter-gulmarg-road",
+                  "dal-dusk",
                   "pangong",
                   "patnitop"
                 ]

@@ -67,7 +67,7 @@ for(const file of fs.readdirSync('.').filter(f=>f.endsWith('.html'))){const html
 
 const explore=JSON.parse(fs.readFileSync('content/explore.json','utf8'));
 const exploreHtml=fs.readFileSync('explore.html','utf8');
-assert.equal(explore.destinations.length,3);assert.equal(explore.styles.length,6);
+assert.equal(explore.destinations.length,3);assert.equal(explore.styles.length,8);
 for(const collection of [...explore.styles,...explore.seasonal])for(const slug of collection.tripSlugs)assert(trips.some(t=>t.slug===slug),'Unknown Explore trip '+slug);
 for(const id of ['explore-regions','explore-styles','explore-seasons','explore-featured'])assert(exploreHtml.includes('id="'+id+'"'));
 assert(fs.readFileSync('packages.html','utf8').includes('catalogue-filter-panel'),'Catalogue filter panel');

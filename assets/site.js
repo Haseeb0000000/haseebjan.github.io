@@ -36,7 +36,7 @@ if(filterForm){
     let count=0;
     for(const card of ordered){
       const days=Number(card.dataset.days);
-      const typeMatches=!type||(type==='Heritage & faith'?card.dataset.collection==='heritage-faith':type==='Treks & walks'?['Trek','Day trip'].includes(card.dataset.type):type===card.dataset.type);
+      const typeMatches=!type||(['Winter','Honeymoon'].includes(type)?(card.dataset.collections||'').split(' ').includes(type.toLowerCase()):type==='Heritage & faith'?card.dataset.collection==='heritage-faith':type==='Treks & walks'?['Trek','Day trip'].includes(card.dataset.type):type===card.dataset.type);
       const matches=(!search||search.split(/\s+/).every(term=>card.dataset.search.includes(term)))&&(!region||card.dataset.region.includes(region))&&typeMatches&&(!duration||(duration==='short'&&days<=4)||(duration==='week'&&days>=5&&days<=7)||(duration==='long'&&days>=8));
       card.hidden=!matches;if(matches)count++;grid.append(card);
     }

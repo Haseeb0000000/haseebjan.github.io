@@ -1,125 +1,123 @@
 {
   "slug": "kashmir-women",
-  "name": "Kashmir, Together",
+  "name": "Kashmir Women-only Winter Trip",
   "region": "Kashmir",
   "type": "Women-only",
   "days": 6,
   "price": 27000,
   "benchmark": 29999,
   "reference": "kashmir-women-winter",
-  "image": "pahalgam",
-  "difficulty": "Leisurely",
-  "season": "Dates on request",
+  "image": "winter-gulmarg-view",
+  "difficulty": "Winter sightseeing · walking and road conditions vary",
+  "season": "December to February · winter conditions and access dependent",
   "start": "Srinagar",
-  "route": "Srinagar · Gulmarg · Pahalgam",
-  "description": "A women-only journey with comfortable stays and a sociable pace.",
+  "route": "Srinagar · Dal Lake · Tangmarg · Gulmarg · Pampore · Pahalgam",
+  "description": "A six-day women-only winter itinerary with two Gulmarg nights, Pahalgam time and a Srinagar finish.",
   "highlights": [
-    "Women-only format",
-    "Shared travel experiences",
-    "Flexible sightseeing"
+    "Women-only travel format",
+    "Two nights in Gulmarg",
+    "Pahalgam and Srinagar time"
   ],
   "itinerary": [
     {
-      "title": "Arrive in Srinagar",
-      "place": "Srinagar",
-      "description": "Meet your arranged transfer and settle into your stay. Keep the day flexible around arrival and rest.",
+      "title": "A gentle Srinagar welcome",
+      "place": "Srinagar · Dal Lake",
       "stay": "Srinagar",
+      "description": "Arrive in Srinagar and meet your arranged transfer. Leave time to settle in, meet your fellow travellers and discuss the days ahead. A boulevard stroll or short shikara outing can be arranged when daylight and conditions suit; arrival time takes priority.",
+      "places": [
+        "Dal Lake boulevard",
+        "A lakeside tea stop"
+      ],
+      "experiences": [
+        "Group introductions and room-sharing discussion",
+        "A shikara outing if selected in the quote"
+      ],
       "meals": "Dinner",
-      "places": [
-        "Dal Lake boulevard: a relaxed waterfront stretch",
-        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
-      ],
-      "experiences": [
-        "Kahwa and time to settle into the valley’s rhythm",
-        "An artisan demonstration by prior appointment, with no obligation to buy"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Gardens, old lanes & lake light",
-      "place": "Srinagar",
-      "description": "Explore a selection of Srinagar gardens and the lakefront. A shared shikara session and specified garden entry are part of the proposed plan. Choose a focused old-city option around Khanqah-e-Moula, the Zaina Kadal / Maharaj Gunj lanes and Jamia Masjid / Nowhatta, with current religious access checked. A separate Bait-ul-Meeras and appointed carpet or traditional-art visit can replace this programme or be added with an extra night; it is not assumed alongside every garden stop.",
-      "stay": "Srinagar",
+      "title": "Into Gulmarg’s winter landscape",
+      "place": "Srinagar · Tangmarg · Gulmarg",
+      "stay": "Gulmarg",
+      "description": "Travel through Tangmarg with a warm break before the final ascent. Check into your selected Gulmarg stay rather than combining the transfer with every snow activity. Spend the remaining daylight around lower paths suited to the weather and your walking comfort.",
+      "places": [
+        "Tangmarg approach road",
+        "Gulmarg lower paths"
+      ],
+      "experiences": [
+        "An easy snow-country introduction",
+        "Time to settle into the mountain stay"
+      ],
       "meals": "Breakfast & dinner",
-      "places": [
-        "Khanqah-e-Moula: permitted areas, if the heritage option is chosen",
-        "Zaina Kadal / Maharaj Gunj and Jamia Masjid / Nowhatta: guide-selected lane route",
-        "Bait-ul-Meeras and one appointed craft visit: an alternative programme"
-      ],
-      "experiences": [
-        "Kahwa and time to settle into the valley’s rhythm",
-        "An artisan demonstration by prior appointment, with no obligation to buy"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "A mountain day in Gulmarg",
+      "title": "A full day at your own pace",
       "place": "Gulmarg",
-      "description": "Travel to Gulmarg for time in the mountain landscape. Gondola tickets and specialist snow activities are separately priced unless confirmed in your quote.",
+      "stay": "Gulmarg",
+      "description": "Keep a whole day for Gulmarg. Choose a Gondola outing when the selected phase and tickets are available, or spend longer on gentle lower paths. Ski instruction, sledging and equipment are optional services to discuss with appropriate operators; participation is a personal choice.",
+      "places": [
+        "Gulmarg lower resort area",
+        "Gondola boarding area, if tickets are confirmed"
+      ],
+      "experiences": [
+        "A quoted Gondola option",
+        "Optional beginner snow activities with operator terms agreed"
+      ],
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
+    },
+    {
+      "title": "From the mountains to the Lidder",
+      "place": "Gulmarg · Pampore · Pahalgam",
+      "stay": "Pahalgam",
+      "description": "Leave early for the transfer to Pahalgam. A brief Pampore or Awantipora pause can fit around road conditions, without promising winter saffron flowers or harvest activity. Keep the evening quiet beside the Lidder after the drive.",
+      "places": [
+        "Pampore or Awantipora on the selected route",
+        "Pahalgam riverside"
+      ],
+      "experiences": [
+        "A warm lunch break on the transfer",
+        "A short riverside walk if conditions allow"
+      ],
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
+    },
+    {
+      "title": "Pahalgam time and a Srinagar finish",
+      "place": "Pahalgam · Srinagar",
       "stay": "Srinagar",
-      "meals": "Breakfast & dinner",
+      "description": "Choose a short riverside morning or one local valley excursion before returning to Srinagar. Aru and Betaab need a separate local-vehicle and access check; do not squeeze both into the transfer day. If time remains, discuss a focused bakery or craft stop in Srinagar.",
       "places": [
-        "Tangmarg: a convenient break on the approach",
-        "Gulmarg: lower meadow paths, or a snow-appropriate alternative"
+        "Pahalgam or one selected valley outing",
+        "Srinagar neighbourhood stop"
       ],
       "experiences": [
-        "A short forest-edge walk suited to conditions",
-        "Gondola only with the chosen phase, ticket and operating status confirmed"
+        "An unhurried final valley morning",
+        "A group tea or craft visit by arrangement"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
-    },
-    {
-      "title": "Follow the Lidder",
-      "place": "Pahalgam",
-      "description": "Continue towards Pahalgam and check in. Leave space for riverside time and an easy evening.",
-      "stay": "Pahalgam",
       "meals": "Breakfast & dinner",
-      "places": [
-        "Lidder riverbank: choose a short, accessible stretch",
-        "Aru or Betaab Valley: select the outing around weather and local transport"
-      ],
-      "experiences": [
-        "A riverside tea break with time to photograph the valley",
-        "Choose one longer valley walk instead of rushing between every viewpoint"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Meadows at your pace",
-      "place": "Pahalgam",
-      "description": "Choose from suitable local sightseeing or time to unwind. Any local union transport must be itemised before confirmation.",
-      "stay": "Pahalgam",
-      "meals": "Breakfast & dinner",
-      "places": [
-        "Lidder riverbank: choose a short, accessible stretch",
-        "Aru or Betaab Valley: select the outing around weather and local transport"
-      ],
-      "experiences": [
-        "A riverside tea break with time to photograph the valley",
-        "Choose one longer valley walk instead of rushing between every viewpoint"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
-    },
-    {
-      "title": "Until next time",
-      "place": "Srinagar",
-      "description": "Check out and take the arranged transfer for your onward journey. Departure timings and road buffers will be confirmed in your proposal.",
+      "title": "Until the next journey",
+      "place": "Srinagar departure",
       "stay": "Departure",
-      "meals": "Breakfast",
+      "description": "Keep the last morning centred on your transfer time. Have breakfast when flight timing permits, check that everyone has their belongings, and allow a generous traffic and airport buffer.",
       "places": [
-        "Srinagar: arranged departure transfer"
+        "Srinagar airport transfer"
       ],
       "experiences": [
-        "A relaxed breakfast when departure timing allows",
-        "A short final stop only if the transfer buffer is protected"
+        "A relaxed breakfast when timing allows"
       ],
+      "meals": "Breakfast",
       "pace": "Departure and transfer",
-      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     }
   ],
   "extras": [
@@ -145,7 +143,7 @@
   ],
   "group": "Proposed small group · size to be confirmed",
   "dates": [],
-  "priceBasis": "per person · sample shared-occupancy land package",
+  "priceBasis": "per person · twin/double-sharing land-package estimate",
   "status": "proposal",
   "order": 3,
   "cover": "",
@@ -155,24 +153,24 @@
   "pricingSource": "Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain.",
   "suggestedDates": [
     {
-      "date": "2027-04-10",
-      "label": "Seasonal journey proposal",
+      "date": "2026-12-12",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     },
     {
-      "date": "2027-05-08",
-      "label": "Seasonal journey proposal",
+      "date": "2027-01-09",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     },
     {
-      "date": "2027-06-05",
-      "label": "Seasonal journey proposal",
+      "date": "2027-02-06",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     }
   ],
   "bookingDetails": {
     "sharing": "Sample twin/double sharing; a single room is quoted separately.",
-    "roomPlan": "Private bathroom requested where available; exact room category, heating and hot-water arrangements require written confirmation.",
+    "roomPlan": "Confirm the named property, room category, heating, hot water and backup arrangements for every winter overnight before booking.",
     "meals": "Breakfast and dinner proposed on overnight days; arrival dinner and departure breakfast. Other lunches are separate.",
     "transport": "Suggested vehicle: sedan for 2–3 guests, suitable SUV for 4–6, or a larger tourist vehicle for bigger groups. Luggage, route permits, local union vehicles and winter suitability affect the final choice.",
     "pickup": "Pickup/drop at Srinagar at agreed times; flights and trains are not included.",
@@ -189,27 +187,34 @@
   "accommodation": [
     {
       "location": "Srinagar",
-      "nights": 3,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "nights": 1,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
+    },
+    {
+      "location": "Gulmarg",
+      "nights": 2,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     },
     {
       "location": "Pahalgam",
-      "nights": 2,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
-    }
-  ],
-  "hotelShortlist": [
+      "nights": 1,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
+    },
     {
-      "name": "JKTDC Hotel Alpine Pahalgam",
-      "location": "Pahalgam",
-      "url": "https://www.jktdc.co.in/CityHotels.aspx?Cid=2",
-      "note": "Verified property example where the route visits Pahalgam. Not reserved and not promised within the guide price."
+      "location": "Srinagar",
+      "nights": 1,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     }
   ],
+  "hotelShortlist": [],
   "stayPhoto": "",
   "stayPhotoAlt": "",
   "extensions": [
@@ -228,5 +233,8 @@
       "nights": 1,
       "description": "Add a separate city day for Bait-ul-Meeras and one appointed carpet, weaving or traditional-art visit, or a focused shrine-and-market walk. Opening, worship, host participation and all fees must be confirmed."
     }
+  ],
+  "tags": [
+    "Winter"
   ]
 }

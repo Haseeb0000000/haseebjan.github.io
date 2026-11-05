@@ -27,6 +27,19 @@
   ],
   "styles": [
     {
+      "id": "winter",
+      "title": "Kashmir winter trips",
+      "description": "Snow-country group adventures, women-only winter travel and a private escape for two.",
+      "image": "gulmarg",
+      "imageAlt": "Snow-covered pines and mountain slopes in Gulmarg",
+      "tripSlugs": [
+        "kashmir-winter",
+        "south-kashmir-winter",
+        "kashmir-women",
+        "kashmir-honeymoon"
+      ]
+    },
+    {
       "id": "group",
       "title": "Group adventures",
       "description": "Explore valley and highland itineraries, then enquire about a group date and the travel arrangements.",
@@ -44,8 +57,8 @@
       "id": "private",
       "title": "Your people. Your pace.",
       "description": "Plan a private escape for two, a family holiday or a hill break around the stays and experiences you prefer.",
-      "image": "houseboat",
-      "imageAlt": "Colourful wooden houseboats reflected in the water on Dal Lake, Srinagar",
+      "image": "kokernag",
+      "imageAlt": "Terraced garden and water channels at Kokernag, Kashmir",
       "tripSlugs": [
         "kashmir-premium",
         "kashmir-honeymoon",
@@ -62,6 +75,16 @@
         "kashmir-women",
         "women-gurez",
         "women-warwan"
+      ]
+    },
+    {
+      "id": "honeymoon",
+      "title": "Time for two",
+      "description": "An unhurried Kashmir winter honeymoon, shaped around your preferred rooms, experiences and dates.",
+      "image": "houseboat",
+      "imageAlt": "Wooden houseboats reflected in Dal Lake, Srinagar",
+      "tripSlugs": [
+        "kashmir-honeymoon"
       ]
     },
     {
@@ -110,8 +133,8 @@
       "id": "winter-kashmir",
       "title": "Kashmir in winter",
       "description": "Snow-country stays and quieter valley days. Routes and activities are shaped around weather, road access and suitable accommodation.",
-      "image": "gulmarg",
-      "imageAlt": "Snow-covered mountain slopes and pine trees at Gulmarg, Kashmir",
+      "image": "winter-gulmarg-road",
+      "imageAlt": "Snow-lined road through the pine forests of Gulmarg",
       "tripSlugs": [
         "kashmir-winter",
         "south-kashmir-winter"

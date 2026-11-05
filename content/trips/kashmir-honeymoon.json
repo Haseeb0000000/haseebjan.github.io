@@ -1,147 +1,147 @@
 {
   "slug": "kashmir-honeymoon",
-  "name": "Kashmir, Just the Two of You",
+  "name": "Kashmir Winter Honeymoon",
   "region": "Kashmir",
   "type": "Private",
   "days": 7,
   "price": 39950,
   "reference": "kashmir-winter-honeymoon-package",
-  "image": "houseboat",
-  "route": "Srinagar · Gulmarg · Pahalgam · Srinagar",
-  "description": "A private couple’s journey, shaped around the stays and experiences you choose.",
+  "image": "dal-dusk",
+  "route": "Srinagar · Dal Lake · Tangmarg · Gulmarg · Pampore · Pahalgam · Aru or Betaab",
+  "description": "A seven-day private winter escape for two, with two nights each in Gulmarg and Pahalgam and a lakeside Srinagar finish.",
   "highlights": [
-    "Private couple format",
-    "Stay-category choice",
-    "Personal itinerary"
+    "Private journey for two",
+    "Two nights in Gulmarg",
+    "Two nights in Pahalgam"
   ],
   "tags": [
     "Honeymoon",
-    "Couples"
+    "Couples",
+    "Winter"
   ],
   "quoteReason": "Owner-authorised planning estimate. Supplier costs, hotel selection, taxes and exact inclusions must be checked before a final offer.",
   "itinerary": [
     {
-      "title": "Srinagar",
-      "place": "Srinagar",
-      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
+      "title": "Lake light and time for two",
+      "place": "Srinagar · Dal Lake",
       "stay": "Srinagar",
+      "description": "Arrive and settle into the hotel or houseboat selected for your quote. Keep the first day light. A shikara outing or lakeside tea can be planned around your arrival, with private dining, room decoration and photography available as separately quoted choices.",
+      "places": [
+        "Dal Lake boulevard",
+        "Your selected Srinagar stay"
+      ],
+      "experiences": [
+        "A lakeside welcome at your own pace",
+        "Optional shikara time for two"
+      ],
       "meals": "Dinner",
-      "places": [
-        "Dal Lake boulevard: a relaxed waterfront stretch",
-        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
-      ],
-      "experiences": [
-        "Kahwa and time to settle into the valley’s rhythm",
-        "An artisan demonstration by prior appointment, with no obligation to buy"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Gulmarg",
-      "place": "Gulmarg",
-      "description": "Travel to Gulmarg and settle into your selected stay.",
+      "title": "A mountain stay in Gulmarg",
+      "place": "Srinagar · Tangmarg · Gulmarg",
       "stay": "Gulmarg",
-      "meals": "Breakfast & dinner",
+      "description": "Travel towards Gulmarg with a comfortable stop around Tangmarg. Arrive with daylight to settle into your chosen room and enjoy the landscape. Confirm heating, hot-water arrangements and any winter access vehicle in the written quote.",
       "places": [
-        "Tangmarg: a convenient break on the approach",
-        "Gulmarg: lower meadow paths, or a snow-appropriate alternative"
+        "Tangmarg",
+        "Gulmarg lower resort area"
       ],
       "experiences": [
-        "A short forest-edge walk suited to conditions",
-        "Gondola only with the chosen phase, ticket and operating status confirmed"
+        "Time together at the mountain stay",
+        "A short walk matched to conditions"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Mountain day",
-      "place": "Mountain day",
-      "description": "Keep a private sightseeing day with optional activities itemised before confirmation.",
-      "stay": "Mountain day",
-      "meals": "Breakfast & dinner",
+      "title": "One place, a whole day",
+      "place": "Gulmarg",
+      "stay": "Gulmarg",
+      "description": "Give Gulmarg a full day without changing hotels. Choose a Gondola trip with the exact phase and tickets confirmed, or keep the day quieter around lower paths and warm indoor breaks. Snow activities remain optional; weather can change the day’s plan.",
       "places": [
-        "Tangmarg: a convenient break on the approach",
-        "Gulmarg: lower meadow paths, or a snow-appropriate alternative"
+        "Gulmarg walking areas",
+        "Gondola, if selected"
       ],
       "experiences": [
-        "A short forest-edge walk suited to conditions",
-        "Gondola only with the chosen phase, ticket and operating status confirmed"
+        "A ticketed mountain outing by arrangement",
+        "An optional private dinner quoted separately"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Pahalgam",
-      "place": "Pahalgam",
-      "description": "Travel into the Lidder Valley with stops suited to your pace.",
+      "title": "Across to Pahalgam",
+      "place": "Gulmarg · Pampore · Pahalgam",
       "stay": "Pahalgam",
-      "meals": "Breakfast & dinner",
+      "description": "Set out early for Pahalgam, choosing one convenient stop en route rather than rushing a list of attractions. After checking in, leave space for tea, the riverside and a quiet evening.",
       "places": [
-        "Lidder riverbank: choose a short, accessible stretch",
-        "Aru or Betaab Valley: select the outing around weather and local transport"
+        "Pampore or Awantipora, route permitting",
+        "Lidder riverbank"
       ],
       "experiences": [
-        "A riverside tea break with time to photograph the valley",
-        "Choose one longer valley walk instead of rushing between every viewpoint"
+        "A considered road day with breaks",
+        "An easy evening near your stay"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Pahalgam surroundings",
-      "place": "Pahalgam surroundings",
-      "description": "Choose local exploration or time together; discuss private excursions separately.",
-      "stay": "Pahalgam surroundings",
-      "meals": "Breakfast & dinner",
+      "title": "Choose your valley day",
+      "place": "Pahalgam · Aru or Betaab",
+      "stay": "Pahalgam",
+      "description": "Choose Aru or Betaab for a focused outing, with current access and local transport agreed beforehand. You can also keep the day in Pahalgam if you prefer fewer transfers. Photography, pony activities and special meals are optional additions, never assumed in the guide price.",
       "places": [
-        "Lidder riverbank: choose a short, accessible stretch",
-        "Aru or Betaab Valley: select the outing around weather and local transport"
+        "Aru or Betaab Valley",
+        "Pahalgam riverside"
       ],
       "experiences": [
-        "A riverside tea break with time to photograph the valley",
-        "Choose one longer valley walk instead of rushing between every viewpoint"
+        "One valley explored at a comfortable pace",
+        "Optional photography or dining arrangements"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Srinagar",
-      "place": "Srinagar",
-      "description": "Return for your final stay. A houseboat, dinner, or photographer can be quoted if requested.",
+      "title": "Srinagar, stories and a final evening",
+      "place": "Pahalgam · Srinagar",
       "stay": "Srinagar",
-      "meals": "Breakfast & dinner",
+      "description": "Return to Srinagar and choose a short city experience around your arrival. An appointed craft visit, a focused heritage walk or a lakefront finish can work well. A houseboat upgrade is discussed in advance, with winter comfort and the room category identified in your quote.",
       "places": [
-        "Dal Lake boulevard: a relaxed waterfront stretch",
-        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+        "Srinagar lakefront",
+        "One selected old-city or artisan visit"
       ],
       "experiences": [
-        "Kahwa and time to settle into the valley’s rhythm",
-        "An artisan demonstration by prior appointment, with no obligation to buy"
+        "A private heritage or craft experience by arrangement",
+        "A final evening shaped around your interests"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Srinagar departure",
+      "title": "A calm departure",
       "place": "Srinagar departure",
-      "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
       "stay": "Departure",
-      "meals": "Breakfast",
+      "description": "Leave time for breakfast and your arranged transfer. A last lakefront stop is considered only when the airport buffer allows it.",
       "places": [
-        "Srinagar departure: arranged departure transfer"
+        "Srinagar airport transfer"
       ],
       "experiences": [
-        "A relaxed breakfast when departure timing allows",
-        "A short final stop only if the transfer buffer is protected"
+        "An unhurried farewell"
       ],
+      "meals": "Breakfast",
       "pace": "Departure and transfer",
-      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     }
   ],
   "nights": 6,
-  "difficulty": "Variable",
-  "season": "Dates and access on request",
+  "difficulty": "Winter sightseeing · walking and road conditions vary",
+  "season": "December to February · winter conditions and access dependent",
   "start": "Srinagar / agreed meeting point",
   "inclusions": [
     "Accommodation for the stated nights on the quoted sharing basis",
@@ -160,7 +160,7 @@
   ],
   "group": "Your private group",
   "dates": [],
-  "priceBasis": "per person · sample shared-occupancy land package",
+  "priceBasis": "per person · twin/double-sharing land-package estimate",
   "status": "proposal",
   "order": 21,
   "cover": "",
@@ -169,24 +169,24 @@
   "pricingSource": "Independent sample INR planning estimate requested by the owner; not a verified supplier rate or currency conversion.",
   "suggestedDates": [
     {
-      "date": "2027-04-10",
-      "label": "Seasonal journey proposal",
+      "date": "2026-12-12",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     },
     {
-      "date": "2027-05-08",
-      "label": "Seasonal journey proposal",
+      "date": "2027-01-09",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     },
     {
-      "date": "2027-06-05",
-      "label": "Seasonal journey proposal",
+      "date": "2027-02-06",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     }
   ],
   "bookingDetails": {
     "sharing": "Sample twin/double sharing; a single room is quoted separately.",
-    "roomPlan": "Private bathroom requested where available; exact room category, heating and hot-water arrangements require written confirmation.",
+    "roomPlan": "Confirm the named property, room category, heating, hot water and backup arrangements for every winter overnight before booking.",
     "meals": "Breakfast and dinner proposed on overnight days; arrival dinner and departure breakfast. Other lunches are separate.",
     "transport": "Suggested vehicle: sedan for 2–3 guests, suitable SUV for 4–6, or a larger tourist vehicle for bigger groups. Luggage, route permits, local union vehicles and winter suitability affect the final choice.",
     "pickup": "Pickup/drop at Srinagar / agreed meeting point at agreed times; flights and trains are not included.",
@@ -204,54 +204,33 @@
     {
       "location": "Srinagar",
       "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Comfort-focused room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Private double room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     },
     {
       "location": "Gulmarg",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Comfort-focused room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
-    },
-    {
-      "location": "Mountain day",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Comfort-focused room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "nights": 2,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Private double room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     },
     {
       "location": "Pahalgam",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Comfort-focused room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
-    },
-    {
-      "location": "Pahalgam surroundings",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Comfort-focused room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "nights": 2,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Private double room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     },
     {
       "location": "Srinagar",
       "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Comfort-focused room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Private double room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     }
   ],
-  "hotelShortlist": [
-    {
-      "name": "JKTDC Hotel Alpine Pahalgam",
-      "location": "Pahalgam",
-      "url": "https://www.jktdc.co.in/CityHotels.aspx?Cid=2",
-      "note": "Verified property example where the route visits Pahalgam. Not reserved and not promised within the guide price."
-    }
-  ],
+  "hotelShortlist": [],
   "stayPhoto": "",
   "stayPhotoAlt": "",
   "extensions": [

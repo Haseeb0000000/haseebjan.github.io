@@ -1,143 +1,140 @@
 {
   "slug": "south-kashmir-winter",
-  "name": "South Kashmir & the Winter Valleys",
+  "name": "Offbeat Kashmir Winter Tour",
   "region": "Kashmir",
   "type": "Group",
   "days": 7,
   "price": 31300,
   "benchmark": 34750,
   "reference": "kashmir-winter-tour",
-  "image": "aru-winter",
-  "route": "Srinagar · South Kashmir · Sind Valley",
-  "description": "A winter planning option that leaves the exact route responsive to conditions.",
+  "image": "winter-gulmarg-road",
+  "route": "Srinagar · Awantipora · Kokernag · Achabal · Tangmarg or Gulmarg · old city",
+  "description": "A seven-day winter route through the southern springs, Kokernag, Achabal and Srinagar, with a flexible mountain outing.",
   "highlights": [
-    "Winter valley stays",
-    "Flexible local excursions",
-    "Riverside pauses"
+    "Two southern-valley nights",
+    "Kokernag, Verinag & Achabal options",
+    "Srinagar heritage time"
   ],
   "itinerary": [
     {
-      "title": "Srinagar",
+      "title": "Settle into Srinagar",
       "place": "Srinagar",
-      "description": "Arrive, meet the arranged transfer, and keep the first afternoon open around your journey.",
       "stay": "Srinagar",
+      "description": "Begin with a light arrival day, a warm drink and time to discuss the winter route. A short lakefront outing can fit an early arrival; otherwise keep the evening close to your stay.",
+      "places": [
+        "Dal Lake boulevard"
+      ],
+      "experiences": [
+        "A gentle arrival and route briefing"
+      ],
       "meals": "Dinner",
-      "places": [
-        "Dal Lake boulevard: a relaxed waterfront stretch",
-        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
-      ],
-      "experiences": [
-        "Kahwa and time to settle into the valley’s rhythm",
-        "An artisan demonstration by prior appointment, with no obligation to buy"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "South Kashmir",
-      "place": "South Kashmir",
-      "description": "Travel towards the agreed valley base, choosing roads supported by current conditions.",
-      "stay": "South Kashmir",
+      "title": "South towards the springs",
+      "place": "Srinagar · Awantipora · Kokernag",
+      "stay": "Kokernag",
+      "description": "Travel south with one heritage pause at Awantipora if opening and daylight allow. Continue to a selected Kokernag-area stay. Winter heating and road access need checking before choosing this overnight base.",
+      "places": [
+        "Awantipora heritage site, if open",
+        "Kokernag spring surroundings"
+      ],
+      "experiences": [
+        "A heritage pause on the onward route",
+        "An early arrival at the southern-valley base"
+      ],
       "meals": "Breakfast & dinner",
-      "places": [
-        "Achabal or Kokernag: choose a spring-garden visit on a confirmed road plan",
-        "A nearby village or garden stop selected around winter daylight"
-      ],
-      "experiences": [
-        "A short garden walk when paths are suitable",
-        "A warm indoor lunch break rather than adding a remote snow-bound road"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Valley exploration",
-      "place": "Valley exploration",
-      "description": "Take a gentle local outing or rest day; snow and activity access are not guaranteed.",
-      "stay": "Valley exploration",
+      "title": "Gardens and a slower winter day",
+      "place": "Kokernag · Verinag option",
+      "stay": "Kokernag",
+      "description": "Keep a focused day around Kokernag and, when roads allow, the Verinag spring. Choose shorter walks and warm breaks. Daksum can replace part of the programme only after a local access check; it is not a compulsory winter detour.",
+      "places": [
+        "Kokernag garden paths",
+        "Verinag spring, access permitting"
+      ],
+      "experiences": [
+        "Spring-side walks suited to conditions",
+        "An optional Daksum substitution after local advice"
+      ],
       "meals": "Breakfast & dinner",
-      "places": [
-        "Achabal or Kokernag: choose a spring-garden visit on a confirmed road plan",
-        "A nearby village or garden stop selected around winter daylight"
-      ],
-      "experiences": [
-        "A short garden walk when paths are suitable",
-        "A warm indoor lunch break rather than adding a remote snow-bound road"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Countryside day",
-      "place": "Countryside day",
-      "description": "Discuss suitable village or garden visits with the trip coordinator.",
-      "stay": "Countryside day",
-      "meals": "Breakfast & dinner",
-      "places": [
-        "Achabal or Kokernag: choose a spring-garden visit on a confirmed road plan",
-        "A nearby village or garden stop selected around winter daylight"
-      ],
-      "experiences": [
-        "A short garden walk when paths are suitable",
-        "A warm indoor lunch break rather than adding a remote snow-bound road"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
-    },
-    {
-      "title": "Sind Valley",
-      "place": "Sind Valley",
-      "description": "Continue towards the Sind Valley if the route is suitable.",
-      "stay": "Sind Valley",
-      "meals": "Breakfast & dinner",
-      "places": [
-        "Sind river corridor: a scenic stop on the chosen road",
-        "Sonamarg or Naranag: choose one branch of the valley rather than combining both"
-      ],
-      "experiences": [
-        "A riverside break with time to look around",
-        "A short guided walk only on an approved, open trail"
-      ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
-    },
-    {
-      "title": "Srinagar",
-      "place": "Srinagar",
-      "description": "Return to Srinagar and leave room for changes to the winter plan.",
+      "title": "Achabal and the road back",
+      "place": "Kokernag · Achabal · Srinagar",
       "stay": "Srinagar",
-      "meals": "Breakfast & dinner",
+      "description": "Return through Achabal when the garden and approach are accessible, keeping enough daylight for Srinagar. Skip a stop if weather slows the drive rather than extending the transfer into a late-night road day.",
       "places": [
-        "Dal Lake boulevard: a relaxed waterfront stretch",
-        "Old Srinagar: an optional locally guided lane walk on non-transfer days"
+        "Achabal garden option",
+        "Southern-valley return road"
       ],
       "experiences": [
-        "Kahwa and time to settle into the valley’s rhythm",
-        "An artisan demonstration by prior appointment, with no obligation to buy"
+        "A spring-garden stop on the selected route",
+        "A practical daylight transfer"
       ],
-      "pace": "Local exploration with rest time",
-      "routeNote": "Choose the stops that fit daylight, local access and your pace. Optional activities and detours require a confirmed quote."
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     },
     {
-      "title": "Srinagar departure",
-      "place": "Srinagar departure",
-      "description": "Return for the agreed departure transfer. Allow a sensible road buffer before onward travel.",
-      "stay": "Departure",
-      "meals": "Breakfast",
+      "title": "A snow-country day on request",
+      "place": "Srinagar · Tangmarg or Gulmarg",
+      "stay": "Srinagar",
+      "description": "Choose Tangmarg or a lower Gulmarg outing according to the road conditions. Snow-chain or local vehicle arrangements and any Gondola tickets are identified separately in the quote. A Srinagar-based alternative is available to discuss if the mountain road is unsuitable.",
       "places": [
-        "Srinagar departure: arranged departure transfer"
+        "Tangmarg",
+        "Gulmarg lower area, if accessible"
       ],
       "experiences": [
-        "A relaxed breakfast when departure timing allows",
-        "A short final stop only if the transfer buffer is protected"
+        "A flexible mountain outing",
+        "A city alternative when access changes"
       ],
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
+    },
+    {
+      "title": "Old Srinagar and living craft",
+      "place": "Srinagar · old city",
+      "stay": "Srinagar",
+      "description": "Give the city its own day. Choose a focused Jhelum-side walk around Khanqah-e-Moula and one market area, or an appointed Bait-ul-Meeras and artisan visit. Keep worship access, opening arrangements and indoor breaks central to the plan.",
+      "places": [
+        "Khanqah-e-Moula and selected market lanes",
+        "Bait-ul-Meeras as an alternative programme"
+      ],
+      "experiences": [
+        "A guided heritage option",
+        "One appointed craft demonstration, without shopping pressure"
+      ],
+      "meals": "Breakfast & dinner",
+      "pace": "Time for travel, short walks and warm indoor breaks",
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
+    },
+    {
+      "title": "Departure from the valley",
+      "place": "Srinagar departure",
+      "stay": "Departure",
+      "description": "Arrange your transfer around the flight and protect a generous road buffer. Extra sightseeing is considered only when departure timing allows.",
+      "places": [
+        "Srinagar airport transfer"
+      ],
+      "experiences": [
+        "Breakfast and a calm departure"
+      ],
+      "meals": "Breakfast",
       "pace": "Departure and transfer",
-      "routeNote": "Departure timing takes priority. Extra stops are only considered after allowing a transfer buffer."
+      "routeNote": "Winter routes are adapted to road and weather conditions. Optional tickets and local vehicles are confirmed in your quote."
     }
   ],
   "nights": 6,
-  "difficulty": "Variable",
-  "season": "Dates and access on request",
+  "difficulty": "Winter sightseeing · walking and road conditions vary",
+  "season": "December to February · winter conditions and access dependent",
   "start": "Srinagar / agreed meeting point",
   "inclusions": [
     "Accommodation for the stated nights on the quoted sharing basis",
@@ -156,7 +153,7 @@
   ],
   "group": "Proposed group · size to be confirmed",
   "dates": [],
-  "priceBasis": "per person · sample shared-occupancy land package",
+  "priceBasis": "per person · twin/double-sharing land-package estimate",
   "status": "proposal",
   "order": 15,
   "cover": "",
@@ -166,24 +163,24 @@
   "pricingSource": "Approximately 10% below the recorded comparable INR reference; itinerary/service differences remain.",
   "suggestedDates": [
     {
-      "date": "2026-12-05",
-      "label": "Winter landscape proposal",
-      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
-    },
-    {
-      "date": "2026-12-19",
-      "label": "Winter landscape proposal",
+      "date": "2026-12-12",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     },
     {
       "date": "2027-01-09",
-      "label": "Winter landscape proposal",
+      "label": "Winter travel suggestion",
+      "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
+    },
+    {
+      "date": "2027-02-06",
+      "label": "Winter travel suggestion",
       "note": "Suggested start only · not a confirmed departure or festival date; weather, access and suppliers must be checked."
     }
   ],
   "bookingDetails": {
     "sharing": "Sample twin/double sharing; a single room is quoted separately.",
-    "roomPlan": "Private bathroom requested where available; exact room category, heating and hot-water arrangements require written confirmation.",
+    "roomPlan": "Confirm the named property, room category, heating, hot water and backup arrangements for every winter overnight before booking.",
     "meals": "Breakfast and dinner proposed on overnight days; arrival dinner and departure breakfast. Other lunches are separate.",
     "transport": "Suggested vehicle: sedan for 2–3 guests, suitable SUV for 4–6, or a larger tourist vehicle for bigger groups. Luggage, route permits, local union vehicles and winter suitability affect the final choice.",
     "pickup": "Pickup/drop at Srinagar / agreed meeting point at agreed times; flights and trains are not included.",
@@ -201,54 +198,26 @@
     {
       "location": "Srinagar",
       "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     },
     {
-      "location": "South Kashmir",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
-    },
-    {
-      "location": "Valley exploration",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
-    },
-    {
-      "location": "Countryside day",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
-    },
-    {
-      "location": "Sind Valley",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "location": "Kokernag",
+      "nights": 2,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     },
     {
       "location": "Srinagar",
-      "nights": 1,
-      "property": "Sample local hotel / guesthouse",
-      "category": "Standard shared-occupancy room proposal",
-      "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
+      "nights": 3,
+      "property": "Hotel or guesthouse · selected with your quote",
+      "category": "Shared-occupancy room",
+      "note": "Named property, room category, heating and hot-water arrangements are confirmed in your quote."
     }
   ],
-  "hotelShortlist": [
-    {
-      "name": "JKTDC accommodation directory — property to select",
-      "location": "Kashmir route base",
-      "url": "https://www.jktdc.co.in/",
-      "note": "Research starting point only. The final quote must name the actual property; no allocation or price is confirmed."
-    }
-  ],
+  "hotelShortlist": [],
   "stayPhoto": "",
   "stayPhotoAlt": "",
   "extensions": [
@@ -257,5 +226,8 @@
       "nights": 1,
       "description": "Add a Srinagar night for an appointed artisan visit, a short old-city walk and time for a meal chosen around your preferences. Keep weather alternatives and all hosted visits in the written quote."
     }
+  ],
+  "tags": [
+    "Winter"
   ]
 }
