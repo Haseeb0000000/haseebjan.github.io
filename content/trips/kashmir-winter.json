@@ -1,6 +1,6 @@
 {
   "slug": "kashmir-winter",
-  "name": "Kashmir in Winter",
+  "name": "Kashmir Winter Group Tour",
   "region": "Kashmir",
   "type": "Group",
   "days": 7,
@@ -226,14 +226,7 @@
       "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
     }
   ],
-  "hotelShortlist": [
-    {
-      "name": "JKTDC Hotel Alpine Pahalgam",
-      "location": "Pahalgam",
-      "url": "https://www.jktdc.co.in/CityHotels.aspx?Cid=2",
-      "note": "Verified property example where the route visits Pahalgam. Not reserved and not promised within the guide price."
-    }
-  ],
+  "hotelShortlist": [],
   "stayPhoto": "",
   "stayPhotoAlt": "",
   "extensions": [
@@ -247,5 +240,8 @@
       "nights": 1,
       "description": "Add a separate city day for Bait-ul-Meeras and one appointed carpet, weaving or traditional-art visit, or a focused shrine-and-market walk. Opening, worship, host participation and all fees must be confirmed."
     }
+  ],
+  "tags": [
+    "Winter"
   ]
 }

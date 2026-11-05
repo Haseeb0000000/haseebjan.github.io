@@ -1,6 +1,6 @@
 {
   "slug": "kashmir-autumn",
-  "name": "Kashmir in Autumn Colours",
+  "name": "Kashmir Autumn Gardens & Valleys",
   "region": "Kashmir",
   "type": "Group",
   "days": 7,
@@ -239,14 +239,7 @@
       "note": "Property not selected or reserved. The final quote must name it and confirm facilities."
     }
   ],
-  "hotelShortlist": [
-    {
-      "name": "JKTDC Hotel Alpine Pahalgam",
-      "location": "Pahalgam",
-      "url": "https://www.jktdc.co.in/CityHotels.aspx?Cid=2",
-      "note": "Verified property example where the route visits Pahalgam. Not reserved and not promised within the guide price."
-    }
-  ],
+  "hotelShortlist": [],
   "stayPhoto": "",
   "stayPhotoAlt": "",
   "extensions": [

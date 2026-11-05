@@ -606,5 +606,53 @@
         "height": 1280
       }
     ]
+  },
+  "winter-gulmarg-view": {
+    "width": 1280,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "assets/winter-gulmarg-view-640.jpg",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "assets/winter-gulmarg-view-1280.jpg",
+        "width": 1280,
+        "height": 1280
+      }
+    ]
+  },
+  "winter-gulmarg-road": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "src": "assets/winter-gulmarg-road-640.jpg",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/winter-gulmarg-road-1280.jpg",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "dal-dusk": {
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/dal-dusk-640.jpg",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/dal-dusk-1280.jpg",
+        "width": 1280,
+        "height": 853
+      }
+    ]
   }
 }

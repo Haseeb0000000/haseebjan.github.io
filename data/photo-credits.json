@@ -340,5 +340,32 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "author": "GharWapsi"
+  },
+  {
+    "key": "winter-gulmarg-view",
+    "title": "File:Gulmarg December 2020 by Mutahir Showkat.jpg",
+    "author": "Mutahir Showkat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gulmarg_December_2020_by_Mutahir_Showkat.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gulmarg_December_2020_by_Mutahir_Showkat.jpg/1280px-Gulmarg_December_2020_by_Mutahir_Showkat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "key": "winter-gulmarg-road",
+    "title": "File:Gulmarg road December 2020 by Mutahir Showkat.jpg",
+    "author": "Mutahir Showkat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gulmarg_road_December_2020_by_Mutahir_Showkat.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Gulmarg_road_December_2020_by_Mutahir_Showkat.jpg/1280px-Gulmarg_road_December_2020_by_Mutahir_Showkat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+    "key": "dal-dusk",
+    "title": "File:Dal Lake, Srinagar at Dusk.jpg",
+    "author": "Slyronit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dal_Lake,_Srinagar_at_Dusk.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dal_Lake%2C_Srinagar_at_Dusk.jpg/1280px-Dal_Lake%2C_Srinagar_at_Dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
 ]

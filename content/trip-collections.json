@@ -1,0 +1,116 @@
+{
+  "collections": [
+    {
+      "id": "winter",
+      "slug": "winter-trips",
+      "filter": "Winter",
+      "label": "Winter trips",
+      "title": "Kashmir winter journeys",
+      "description": "Snow-country stays, pine-framed roads and slower valley days. Explore group adventures, women-only trips and a private honeymoon, with routes shaped around winter access.",
+      "image": "aru",
+      "advice": [
+        "Choose December to February for a winter-focused plan; snowfall is never guaranteed.",
+        "Agree room heating, hot water, winter transport and weather alternatives in your quote.",
+        "Gondola tickets, snow activities and local vehicles are optional unless specifically included."
+      ]
+    },
+    {
+      "id": "women-only",
+      "slug": "women-only-trips",
+      "filter": "Women-only",
+      "label": "Women-only trips",
+      "title": "Kashmir, together.",
+      "description": "From winter in Gulmarg to summer in Gurez and Warwan, find a women-only Kashmir route with a pace and room-sharing arrangement that suits you.",
+      "image": "pahalgam",
+      "advice": [
+        "Ask about the group date, room sharing and named support before booking.",
+        "Female trip leadership can be requested; staffing is confirmed in your written quote.",
+        "Winter valleys and summer mountain circuits have different access windows."
+      ]
+    },
+    {
+      "id": "honeymoon",
+      "slug": "honeymoon-trips",
+      "filter": "Honeymoon",
+      "label": "Honeymoon trips",
+      "title": "A little time for two.",
+      "description": "A private Kashmir winter honeymoon with lake evenings, unhurried mountain stays and space to celebrate your way. Adapt the route to your dates and preferred comforts.",
+      "image": "houseboat",
+      "advice": [
+        "Choose room categories and heating arrangements before accepting the quote.",
+        "Private dinners, decorations and photography can be requested as separately priced extras.",
+        "Add a rest day or a different season to make the route your own."
+      ]
+    },
+    {
+      "id": "group",
+      "slug": "group-trips",
+      "filter": "Group",
+      "label": "Group trips",
+      "title": "Good places. Shared journeys.",
+      "description": "Discover Kashmir, Ladakh and Jammu with routes for valley explorers, seasonal travellers and people who enjoy sharing the journey.",
+      "image": "gurez-village",
+      "advice": [
+        "Select a route, then request a group departure date.",
+        "Group size, pickup arrangements and support are agreed before booking.",
+        "Suggested dates are planning ideas until availability is confirmed."
+      ]
+    },
+    {
+      "id": "private",
+      "slug": "private-trips",
+      "filter": "Private",
+      "label": "Private holidays",
+      "title": "Your people. Your pace.",
+      "description": "Plan a Kashmir or Jammu holiday around your family, your partner or your own small group, with room to choose the stays and experiences you love.",
+      "image": "kokernag",
+      "advice": [
+        "Tell us your preferred comfort level and room arrangement.",
+        "Transport type, meal plan and optional experiences are itemised in the quote.",
+        "Extend a stay or simplify the route to leave more room for downtime."
+      ]
+    },
+    {
+      "id": "treks",
+      "slug": "treks-and-walks",
+      "filter": "Treks & walks",
+      "label": "Treks & walks",
+      "title": "Take the scenic way.",
+      "description": "Explore Kashmir’s alpine lakes, waterfall walks and mountain ridges, with shorter outings and longer trekking proposals for different experience levels.",
+      "image": "aru",
+      "advice": [
+        "Choose a route suited to your experience and the season.",
+        "Agree equipment, guide arrangements, camp facilities and contingency plans before booking.",
+        "Trek access and permissions must be checked for your dates."
+      ]
+    },
+    {
+      "id": "motorcycle",
+      "slug": "motorcycle-trips",
+      "filter": "Motorcycle",
+      "label": "Motorcycle trips",
+      "title": "Roads worth remembering.",
+      "description": "Ride through Ladakh’s highland scenery on routes planned for experienced, licensed riders, with arrival rest and time to discuss support and rental arrangements.",
+      "image": "zangla",
+      "advice": [
+        "Confirm licence eligibility, riding experience and rental terms first.",
+        "Agree the motorcycle model, riding gear, fuel, support and liability in writing.",
+        "High passes and remote sections depend on seasonal road access."
+      ]
+    },
+    {
+      "id": "heritage-faith",
+      "slug": "heritage-faith-trips",
+      "filter": "Heritage & faith",
+      "label": "Heritage & faith",
+      "title": "Stories. Craft. Sacred places.",
+      "description": "Spend time with Kashmir’s old-city heritage, living arts and religious traditions, or follow a focused faith journey through Srinagar and Jammu.",
+      "image": "jamia",
+      "advice": [
+        "Choose a heritage route or a journey focused on your own faith tradition.",
+        "Visits depend on opening hours, worship schedules and permission.",
+        "Museum and craft visits can be requested without an obligation to buy."
+      ]
+    }
+  ]
+}

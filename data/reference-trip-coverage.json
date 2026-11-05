@@ -1,0 +1,35 @@
+{
+  "reviewed": "2026-11-05",
+  "source": "https://wildfloc.com/explore/all",
+  "visibleTrips": 38,
+  "scope": [
+    "Kashmir",
+    "Ladakh",
+    "Jammu"
+  ],
+  "mapping": {
+    "kashmir-women-winter": "kashmir-women",
+    "ladakh-bike-trip": "ladakh-motorcycle",
+    "leh-ladakh-bike-trip": "ladakh-long-ride",
+    "kashmir-winter-honeymoon-package": "kashmir-honeymoon",
+    "kashmir-great-lakes": "kashmir-great-lakes",
+    "kashmir-luxury-trip": "kashmir-premium",
+    "babagil-waterfall-trek": "babagil-waterfall",
+    "wasturwan-trek": "wasturwan-ridge",
+    "ladakh-apricot-blossom": "ladakh-spring",
+    "ladakh-group-trip-nubra-pangong-hanle": "ladakh-hanle",
+    "offbeat-kashmir-tour": "offbeat-kashmir",
+    "keran-valley-offbeat-trip": "keran-lolab-bangus",
+    "kashmir-autumn-trip": "kashmir-autumn",
+    "kashmir-kargil-autumn-trip": "kashmir-kargil",
+    "kashmir-winter-group-trip": "kashmir-winter",
+    "kashmir-winter-tour": "south-kashmir-winter",
+    "gurez-valley-itinerary": "gurez-valley",
+    "tour-packages-for-leh-ladakh": "ladakh-discovery",
+    "tulian-lake-trek": "tulian-lake",
+    "ladakh-offbeat-bike-trip": "zanskar-riding",
+    "women-only-gurez-valley": "women-gurez",
+    "women-only-warwan-valley": "women-warwan",
+    "kashmir-leh-ladakh-group-trip": "kashmir-ladakh-circuit"
+  }
+}
