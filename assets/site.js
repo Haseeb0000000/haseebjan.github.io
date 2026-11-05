@@ -1,10 +1,11 @@
 
-function enhanceCatalogueSelects(form){
+function enhanceSelects(form){
  const controls=[];
- for(const select of form.querySelectorAll('select')){
+ for(const select of form.querySelectorAll('select:not([data-custom-select])')){
+  select.dataset.customSelect='true';
   const label=form.querySelector('label[for="'+select.id+'"]');
   const root=document.createElement('div');root.className='catalogue-select';
-  const trigger=document.createElement('button');trigger.type='button';trigger.className='catalogue-select-trigger';
+  const trigger=document.createElement('button');trigger.type='button';trigger.disabled=select.disabled;trigger.className='catalogue-select-trigger';
   trigger.id=select.id+'-control';trigger.setAttribute('role','combobox');trigger.setAttribute('aria-haspopup','listbox');trigger.setAttribute('aria-expanded','false');trigger.setAttribute('aria-controls',select.id+'-options');
   const value=document.createElement('span');value.id=select.id+'-value';
   const arrow=document.createElement('span');arrow.className='catalogue-select-arrow';arrow.setAttribute('aria-hidden','true');trigger.append(value,arrow);
@@ -29,6 +30,8 @@ function enhanceCatalogueSelects(form){
    if(event.key.length===1&&!event.ctrlKey&&!event.metaKey&&!event.altKey){event.preventDefault();const now=Date.now();typed=now-typedAt>700?event.key:typed+event.key;typedAt=now;if(list.hidden)open();const match=options.findIndex(o=>o.textContent.toLowerCase().startsWith(typed.toLowerCase()));if(match>=0)mark(match);}
   });
   root.addEventListener('focusout',event=>{if(!root.contains(event.relatedTarget))close();});
+  select.addEventListener('change',()=>{active=select.selectedIndex;paint();});
+  select.form?.addEventListener('reset',()=>setTimeout(()=>{active=select.selectedIndex;paint();close();},0));
   controls.push({root,close,refresh:()=>{active=select.selectedIndex;paint();}});paint();
  }
  document.addEventListener('click',event=>controls.forEach(c=>{if(!c.root.contains(event.target))c.close();}));
@@ -62,7 +65,7 @@ if(filterForm){
   const field=name=>filterForm.elements.namedItem(name);
   const names=['q','region','type','duration','sort'];
   for(const name of names){const input=field(name),value=parameters.get(name);if(value&&(input.tagName!=='SELECT'||[...input.options].some(o=>o.value===value)))input.value=value;}
-  const syncSelects=enhanceCatalogueSelects(filterForm);
+  const syncSelects=enhanceSelects(filterForm);
   const syncFilterPanel=()=>{if(filterPanel)filterPanel.open=!narrowCatalogue.matches;};
   syncFilterPanel();narrowCatalogue.addEventListener('change',syncFilterPanel);
   function filterTrips(syncUrl=true){
@@ -92,7 +95,7 @@ if(filterForm){
         const close=document.createElement('span');close.textContent='×';close.setAttribute('aria-hidden','true');button.append(label,close);chips.append(button);
       }
     }
-    syncSelects();
+    syncSelects();document.dispatchEvent(new Event('holiday:controls-updated'));
     if(syncUrl){const query=new URLSearchParams();for(const name of names){const value=String(data.get(name)||'').trim();if(value&&!(name==='sort'&&value==='recommended'))query.set(name,value);}history.replaceState(null,'',location.pathname+(query.size?'?'+query.toString():''));}
   }
   chips?.addEventListener('click',event=>{const button=event.target.closest('[data-clear-filter]');if(!button)return;const input=field(button.dataset.clearFilter);input.value='';filterTrips();field('q').focus();});
@@ -118,9 +121,9 @@ document.querySelectorAll('[data-enquiry]').forEach(form=>{
     const interest=parameters.get('interest');if(interest)field('notes').value='I would like to discuss: '+interest.slice(0,200);
     const region=parameters.get('region');if(['Kashmir','Ladakh','Jammu','Combined journey'].includes(region))field('destination').value=region;
     const date=parameters.get('date');if(/^\d{4}-\d{2}-\d{2}$/.test(date||'')&&date>=minDate)field('date').value=date;
-    const trip=parameters.get('trip');if([...field('trip').options].some(o=>o.value===trip)){field('trip').value=trip;catalogue().then(items=>{const selected=items.find(t=>t.slug===trip);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;}).catch(()=>{});}
+    const trip=parameters.get('trip');if([...field('trip').options].some(o=>o.value===trip)){field('trip').value=trip;catalogue().then(items=>{const selected=items.find(t=>t.slug===trip);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;document.dispatchEvent(new Event('holiday:controls-updated'));}).catch(()=>{});}
   }
-  field('trip').addEventListener('change',async()=>{try{const selected=(await catalogue()).find(t=>t.slug===field('trip').value);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;}catch{ /* Keep manual destination selection usable if catalogue cannot load. */ }});
+  field('trip').addEventListener('change',async()=>{try{const selected=(await catalogue()).find(t=>t.slug===field('trip').value);if(selected)field('destination').value=selected.region.includes('&')?'Combined journey':selected.region;document.dispatchEvent(new Event('holiday:controls-updated'));}catch{ /* Keep manual destination selection usable if catalogue cannot load. */ }});
   const hideResult=()=>result.hidden=true;
   form.addEventListener('input',hideResult);form.addEventListener('change',hideResult);
   form.addEventListener('submit',event=>{
@@ -151,13 +154,16 @@ if(tripPlanner){
   let plannerTrigger;
   const updateGuide=()=>{const rate=Number(tripPlanner.dataset.guidePrice);const count=Number(quickPlan.elements.travellers.value);if(rate)tripPlanner.querySelector('[data-plan-total]').textContent=count>=1&&count<=30?new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(rate*count):'Choose 1–30 travellers';};
   quickPlan.addEventListener('input',updateGuide);updateGuide();
-  document.querySelectorAll('[data-open-planner]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();plannerTrigger=link;const form=document.querySelector('#trip-enquiry-form');quickPlan.elements.date.value=preferredDate?.value||form.elements.date.value;quickPlan.elements.travellers.value=form.elements.travellers.value||2;updateGuide();document.dispatchEvent(new Event('holiday:dates-updated'));tripPlanner.showModal();}));
+  document.querySelectorAll('[data-open-planner]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();plannerTrigger=link;const form=document.querySelector('#trip-enquiry-form');quickPlan.elements.date.value=preferredDate?.value||form.elements.date.value;quickPlan.elements.travellers.value=form.elements.travellers.value||2;document.dispatchEvent(new Event('holiday:controls-updated'));updateGuide();document.dispatchEvent(new Event('holiday:dates-updated'));tripPlanner.showModal();}));
   tripPlanner.querySelector('[data-close-planner]').addEventListener('click',()=>tripPlanner.close());
   tripPlanner.addEventListener('close',()=>plannerTrigger?.focus());
-  quickPlan.addEventListener('submit',event=>{event.preventDefault();if(!quickPlan.reportValidity())return;const form=document.querySelector('#trip-enquiry-form');form.elements.date.value=quickPlan.elements.date.value;form.elements.travellers.value=quickPlan.elements.travellers.value;if(preferredDate)preferredDate.value=quickPlan.elements.date.value;document.dispatchEvent(new Event('holiday:dates-updated'));form.querySelector('.enquiry-result').hidden=true;tripPlanner.close();location.hash='trip-enquiry';form.elements.namedItem('name').focus();});
+  quickPlan.addEventListener('submit',event=>{event.preventDefault();if(!quickPlan.reportValidity())return;const form=document.querySelector('#trip-enquiry-form');form.elements.date.value=quickPlan.elements.date.value;form.elements.travellers.value=quickPlan.elements.travellers.value;document.dispatchEvent(new Event('holiday:controls-updated'));if(preferredDate)preferredDate.value=quickPlan.elements.date.value;document.dispatchEvent(new Event('holiday:dates-updated'));form.querySelector('.enquiry-result').hidden=true;tripPlanner.close();location.hash='trip-enquiry';form.elements.namedItem('name').focus();});
 }
 document.querySelector('[data-print-trip]')?.addEventListener('click',()=>{document.querySelectorAll('.itinerary-day').forEach(d=>d.open=true);window.print();});
 document.querySelector('[data-share-trip]')?.addEventListener('click',async()=>{const status=document.querySelector('[data-share-status]');try{await navigator.clipboard.writeText(location.origin+location.pathname);status.textContent='Trip link copied';}catch{status.textContent='Copy this page’s address from your browser.';}});
 
 const guideSearch=document.querySelector('#guide-search');
 guideSearch?.addEventListener('input',()=>{const terms=guideSearch.value.trim().toLocaleLowerCase().split(/\s+/);let count=0;document.querySelectorAll('[data-guide-card]').forEach(card=>{card.hidden=!terms.every(term=>card.textContent.toLocaleLowerCase().includes(term));if(!card.hidden)count++;});document.querySelector('#guide-count').textContent=count?`${count} ${count===1?'guide':'guides'} to explore`:'No matching guides. Try a different word.';});
+
+const syncPublicSelects=enhanceSelects(document);
+document.addEventListener('holiday:controls-updated',syncPublicSelects);
