@@ -1149,6 +1149,441 @@
           "list": true
         }
       ]
+    },
+    {
+      "name": "explore",
+      "label": "Explore page & trip collections",
+      "type": "file",
+      "path": "content/explore.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "heroTitle",
+          "label": "Main headline",
+          "type": "string"
+        },
+        {
+          "name": "heroEmphasis",
+          "label": "Highlighted headline",
+          "type": "string"
+        },
+        {
+          "name": "heroDescription",
+          "label": "Introduction",
+          "type": "text"
+        },
+        {
+          "name": "destinations",
+          "label": "Destination tiles",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title}{name}"
+            }
+          },
+          "fields": [
+            {
+              "name": "slug",
+              "label": "Collection ID",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "name",
+              "label": "Title",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "text"
+            },
+            {
+              "name": "image",
+              "label": "Stock photo",
+              "type": "select",
+              "options": {
+                "values": [
+                  "gurez",
+                  "gulmarg",
+                  "nubra",
+                  "dal",
+                  "great-lakes",
+                  "khardung",
+                  "bhaderwah",
+                  "katra",
+                  "gurez-landscape",
+                  "vishansar",
+                  "tulian",
+                  "warwan",
+                  "autumn",
+                  "pahalgam",
+                  "houseboat",
+                  "sanasar",
+                  "sonamarg",
+                  "gurez-village",
+                  "alchi",
+                  "suru",
+                  "aru-winter",
+                  "lolab",
+                  "zanskar-road",
+                  "apricot",
+                  "aru",
+                  "kokernag",
+                  "verinag",
+                  "leh-road",
+                  "zangla",
+                  "gurez-river",
+                  "sham",
+                  "khanqah",
+                  "jamia",
+                  "pashmina-loom",
+                  "charar",
+                  "chatti-padshahi",
+                  "all-saints",
+                  "kheer-bhawani",
+                  "pangong",
+                  "patnitop"
+                ]
+              }
+            },
+            {
+              "name": "imageAlt",
+              "label": "Stock photo description",
+              "type": "string"
+            },
+            {
+              "name": "cover",
+              "label": "Upload replacement photo",
+              "type": "image",
+              "options": {
+                "media": "uploads"
+              }
+            },
+            {
+              "name": "coverAlt",
+              "label": "Uploaded photo description",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "styles",
+          "label": "Travel style collections",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title}{name}"
+            }
+          },
+          "fields": [
+            {
+              "name": "id",
+              "label": "Collection ID",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "text"
+            },
+            {
+              "name": "image",
+              "label": "Stock photo",
+              "type": "select",
+              "options": {
+                "values": [
+                  "gurez",
+                  "gulmarg",
+                  "nubra",
+                  "dal",
+                  "great-lakes",
+                  "khardung",
+                  "bhaderwah",
+                  "katra",
+                  "gurez-landscape",
+                  "vishansar",
+                  "tulian",
+                  "warwan",
+                  "autumn",
+                  "pahalgam",
+                  "houseboat",
+                  "sanasar",
+                  "sonamarg",
+                  "gurez-village",
+                  "alchi",
+                  "suru",
+                  "aru-winter",
+                  "lolab",
+                  "zanskar-road",
+                  "apricot",
+                  "aru",
+                  "kokernag",
+                  "verinag",
+                  "leh-road",
+                  "zangla",
+                  "gurez-river",
+                  "sham",
+                  "khanqah",
+                  "jamia",
+                  "pashmina-loom",
+                  "charar",
+                  "chatti-padshahi",
+                  "all-saints",
+                  "kheer-bhawani",
+                  "pangong",
+                  "patnitop"
+                ]
+              }
+            },
+            {
+              "name": "imageAlt",
+              "label": "Stock photo description",
+              "type": "string"
+            },
+            {
+              "name": "cover",
+              "label": "Upload replacement photo",
+              "type": "image",
+              "options": {
+                "media": "uploads"
+              }
+            },
+            {
+              "name": "coverAlt",
+              "label": "Uploaded photo description",
+              "type": "string"
+            },
+            {
+              "name": "tripSlugs",
+              "label": "Related itineraries",
+              "type": "select",
+              "list": true,
+              "options": {
+                "values": [
+                  "offbeat-kashmir",
+                  "gurez-valley",
+                  "kashmir-winter",
+                  "kashmir-women",
+                  "kashmir-great-lakes",
+                  "kashmir-premium",
+                  "ladakh-discovery",
+                  "ladakh-motorcycle",
+                  "ladakh-hanle",
+                  "jammu-hills",
+                  "jammu-bhaderwah",
+                  "katra-patnitop",
+                  "keran-lolab-bangus",
+                  "kashmir-autumn",
+                  "kashmir-kargil",
+                  "south-kashmir-winter",
+                  "tulian-lake",
+                  "women-gurez",
+                  "women-warwan",
+                  "babagil-waterfall",
+                  "wasturwan-ridge",
+                  "kashmir-honeymoon",
+                  "ladakh-long-ride",
+                  "ladakh-spring",
+                  "zanskar-riding",
+                  "kashmir-ladakh-circuit",
+                  "kashmir-heritage-stay",
+                  "kashmir-sufi-shrines",
+                  "kashmir-temple-trail",
+                  "kashmir-gurdwara-journey",
+                  "srinagar-church-heritage"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "seasonal",
+          "label": "Seasonal collections",
+          "type": "object",
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{title}{name}"
+            }
+          },
+          "fields": [
+            {
+              "name": "id",
+              "label": "Collection ID",
+              "type": "string",
+              "readonly": true
+            },
+            {
+              "name": "title",
+              "label": "Title",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "Description",
+              "type": "text"
+            },
+            {
+              "name": "image",
+              "label": "Stock photo",
+              "type": "select",
+              "options": {
+                "values": [
+                  "gurez",
+                  "gulmarg",
+                  "nubra",
+                  "dal",
+                  "great-lakes",
+                  "khardung",
+                  "bhaderwah",
+                  "katra",
+                  "gurez-landscape",
+                  "vishansar",
+                  "tulian",
+                  "warwan",
+                  "autumn",
+                  "pahalgam",
+                  "houseboat",
+                  "sanasar",
+                  "sonamarg",
+                  "gurez-village",
+                  "alchi",
+                  "suru",
+                  "aru-winter",
+                  "lolab",
+                  "zanskar-road",
+                  "apricot",
+                  "aru",
+                  "kokernag",
+                  "verinag",
+                  "leh-road",
+                  "zangla",
+                  "gurez-river",
+                  "sham",
+                  "khanqah",
+                  "jamia",
+                  "pashmina-loom",
+                  "charar",
+                  "chatti-padshahi",
+                  "all-saints",
+                  "kheer-bhawani",
+                  "pangong",
+                  "patnitop"
+                ]
+              }
+            },
+            {
+              "name": "imageAlt",
+              "label": "Stock photo description",
+              "type": "string"
+            },
+            {
+              "name": "cover",
+              "label": "Upload replacement photo",
+              "type": "image",
+              "options": {
+                "media": "uploads"
+              }
+            },
+            {
+              "name": "coverAlt",
+              "label": "Uploaded photo description",
+              "type": "string"
+            },
+            {
+              "name": "tripSlugs",
+              "label": "Related itineraries",
+              "type": "select",
+              "list": true,
+              "options": {
+                "values": [
+                  "offbeat-kashmir",
+                  "gurez-valley",
+                  "kashmir-winter",
+                  "kashmir-women",
+                  "kashmir-great-lakes",
+                  "kashmir-premium",
+                  "ladakh-discovery",
+                  "ladakh-motorcycle",
+                  "ladakh-hanle",
+                  "jammu-hills",
+                  "jammu-bhaderwah",
+                  "katra-patnitop",
+                  "keran-lolab-bangus",
+                  "kashmir-autumn",
+                  "kashmir-kargil",
+                  "south-kashmir-winter",
+                  "tulian-lake",
+                  "women-gurez",
+                  "women-warwan",
+                  "babagil-waterfall",
+                  "wasturwan-ridge",
+                  "kashmir-honeymoon",
+                  "ladakh-long-ride",
+                  "ladakh-spring",
+                  "zanskar-riding",
+                  "kashmir-ladakh-circuit",
+                  "kashmir-heritage-stay",
+                  "kashmir-sufi-shrines",
+                  "kashmir-temple-trail",
+                  "kashmir-gurdwara-journey",
+                  "srinagar-church-heritage"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "featuredSlugs",
+          "label": "Featured itineraries",
+          "type": "select",
+          "list": true,
+          "options": {
+            "values": [
+              "offbeat-kashmir",
+              "gurez-valley",
+              "kashmir-winter",
+              "kashmir-women",
+              "kashmir-great-lakes",
+              "kashmir-premium",
+              "ladakh-discovery",
+              "ladakh-motorcycle",
+              "ladakh-hanle",
+              "jammu-hills",
+              "jammu-bhaderwah",
+              "katra-patnitop",
+              "keran-lolab-bangus",
+              "kashmir-autumn",
+              "kashmir-kargil",
+              "south-kashmir-winter",
+              "tulian-lake",
+              "women-gurez",
+              "women-warwan",
+              "babagil-waterfall",
+              "wasturwan-ridge",
+              "kashmir-honeymoon",
+              "ladakh-long-ride",
+              "ladakh-spring",
+              "zanskar-riding",
+              "kashmir-ladakh-circuit",
+              "kashmir-heritage-stay",
+              "kashmir-sufi-shrines",
+              "kashmir-temple-trail",
+              "kashmir-gurdwara-journey",
+              "srinagar-church-heritage"
+            ]
+          }
+        }
+      ]
     }
   ],
   "actions": [

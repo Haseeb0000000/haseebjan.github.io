@@ -16,24 +16,52 @@ const minDate=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0
 document.querySelectorAll('input[type="date"]').forEach(input=>input.min=minDate);
 const filterForm=document.querySelector('#trip-filters');
 if(filterForm){
-  const cards=[...document.querySelectorAll('[data-trip-card]')];
-  const grid=document.querySelector('.trip-grid');
-  for(const name of ['q','region','type','duration','sort']){const field=filterForm.elements.namedItem(name);const value=parameters.get(name);if(value&&(field.tagName!=='SELECT'||[...field.options].some(o=>o.value===value)))field.value=value;}
+  const cards=[...filterForm.querySelectorAll('[data-trip-card]')];
+  const grid=filterForm.querySelector('.trip-grid');
+  const chips=filterForm.querySelector('.catalogue-active-filters');
+  const filterPanel=filterForm.querySelector('.catalogue-filter-panel');
+  const panelCount=filterForm.querySelector('[data-filter-count]');
+  const narrowCatalogue=matchMedia('(max-width: 800px)');
+  const field=name=>filterForm.elements.namedItem(name);
+  const names=['q','region','type','duration','sort'];
+  for(const name of names){const input=field(name),value=parameters.get(name);if(value&&(input.tagName!=='SELECT'||[...input.options].some(o=>o.value===value)))input.value=value;}
+  const syncFilterPanel=()=>{if(filterPanel)filterPanel.open=!narrowCatalogue.matches;};
+  syncFilterPanel();narrowCatalogue.addEventListener('change',syncFilterPanel);
   function filterTrips(syncUrl=true){
-    const data=new FormData(filterForm);const aliases={trekking:'trek',biking:'motorcycle',honeymoon:'couples'};const search=String(data.get('q')).trim().toLocaleLowerCase().split(/\s+/).map(term=>aliases[term]||term).join(' ');
-    const region=data.get('region');const type=data.get('type');const duration=data.get('duration');const sort=data.get('sort');
+    const data=new FormData(filterForm);
+    const aliases={trekking:'trek',biking:'motorcycle',honeymoon:'couples'};
+    const search=String(data.get('q')||'').trim().toLocaleLowerCase().split(/\s+/).map(term=>aliases[term]||term).join(' ');
+    const region=data.get('region'),type=data.get('type'),duration=data.get('duration'),sort=data.get('sort');
     const ordered=[...cards].sort((a,b)=>{if(sort==='price-low'||sort==='price-high'){if(a.dataset.price==='999999')return b.dataset.price==='999999'?0:1;if(b.dataset.price==='999999')return -1;return (Number(a.dataset.price)-Number(b.dataset.price))*(sort==='price-high'?-1:1);}if(sort==='duration')return Number(a.dataset.days)-Number(b.dataset.days);return cards.indexOf(a)-cards.indexOf(b);});
     let count=0;
-    ordered.forEach(card=>{const days=Number(card.dataset.days);const matches=(!search||search.split(/\s+/).every(term=>card.dataset.search.includes(term)))&&(!region||card.dataset.region.includes(region))&&(!type||type===card.dataset.type)&&(!duration||(duration==='short'&&days<=4)||(duration==='week'&&days>=5&&days<=7)||(duration==='long'&&days>=8));card.hidden=!matches;if(matches)count++;grid.append(card);});
-    document.querySelector('#results-count').textContent=`${count} ${count===1?'journey proposal':'journey proposals'} to explore`;
-    document.querySelector('#no-results').hidden=count!==0;
-    if(syncUrl){const query=new URLSearchParams();for(const [k,v] of data){if(v&&!(k==='sort'&&v==='recommended'))query.set(k,String(v));}history.replaceState(null,'',location.pathname+(query.size?'?'+query.toString():''));}
+    for(const card of ordered){
+      const days=Number(card.dataset.days);
+      const typeMatches=!type||(type==='Heritage & faith'?card.dataset.collection==='heritage-faith':type==='Treks & walks'?['Trek','Day trip'].includes(card.dataset.type):type===card.dataset.type);
+      const matches=(!search||search.split(/\s+/).every(term=>card.dataset.search.includes(term)))&&(!region||card.dataset.region.includes(region))&&typeMatches&&(!duration||(duration==='short'&&days<=4)||(duration==='week'&&days>=5&&days<=7)||(duration==='long'&&days>=8));
+      card.hidden=!matches;if(matches)count++;grid.append(card);
+    }
+    filterForm.querySelector('#results-count').textContent='Showing '+count+' of '+cards.length+' itineraries';
+    filterForm.querySelector('#no-results').hidden=count!==0;
+    const active=names.filter(name=>name!=='sort'&&String(data.get(name)||'').trim());
+    if(panelCount)panelCount.textContent=active.filter(name=>name!=='q').length||'';
+    if(chips){
+      chips.replaceChildren();chips.hidden=active.length===0;
+      for(const name of active){
+        const input=field(name);
+        const value=name==='q'?'Search: '+input.value.trim():input.selectedOptions[0].textContent;
+        const button=document.createElement('button');button.type='button';button.className='catalogue-filter-chip';button.dataset.clearFilter=name;button.setAttribute('aria-label','Remove '+value+' filter');
+        const label=document.createElement('span');label.textContent=value;
+        const close=document.createElement('span');close.textContent='×';close.setAttribute('aria-hidden','true');button.append(label,close);chips.append(button);
+      }
+    }
+    if(syncUrl){const query=new URLSearchParams();for(const name of names){const value=String(data.get(name)||'').trim();if(value&&!(name==='sort'&&value==='recommended'))query.set(name,value);}history.replaceState(null,'',location.pathname+(query.size?'?'+query.toString():''));}
   }
+  chips?.addEventListener('click',event=>{const button=event.target.closest('[data-clear-filter]');if(!button)return;const input=field(button.dataset.clearFilter);input.value='';filterTrips();field('q').focus();});
   filterForm.addEventListener('input',()=>filterTrips());
   filterForm.addEventListener('change',()=>filterTrips());
   filterForm.addEventListener('submit',event=>{event.preventDefault();filterTrips();});
-  filterForm.addEventListener('reset',()=>{queueMicrotask(()=>filterTrips());});
-  document.querySelector('#clear-search').addEventListener('click',()=>{filterForm.reset();filterForm.querySelector('input').focus();});
+  filterForm.addEventListener('reset',()=>queueMicrotask(()=>filterTrips()));
+  filterForm.querySelector('#clear-search').addEventListener('click',()=>{filterForm.reset();field('q').focus();});
   filterTrips(false);
 }
 const datePlanner=document.querySelector('#date-planner');

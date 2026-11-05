@@ -64,3 +64,11 @@ console.log(`PASS: ${pages.length} pages, ${links} local references, ${images} i
 // Enquiry review needs its initially empty live status node; copy cleanup must retain it.
 for(const file of fs.readdirSync('.').filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(file,'utf8');if(html.includes('data-enquiry-fields'))assert(html.includes('class="copy-status small" role="status"'),'Missing enquiry status node in '+file);}
 
+
+const explore=JSON.parse(fs.readFileSync('content/explore.json','utf8'));
+const exploreHtml=fs.readFileSync('explore.html','utf8');
+assert.equal(explore.destinations.length,3);assert.equal(explore.styles.length,6);
+for(const collection of [...explore.styles,...explore.seasonal])for(const slug of collection.tripSlugs)assert(trips.some(t=>t.slug===slug),'Unknown Explore trip '+slug);
+for(const id of ['explore-regions','explore-styles','explore-seasons','explore-featured'])assert(exploreHtml.includes('id="'+id+'"'));
+assert(fs.readFileSync('packages.html','utf8').includes('catalogue-filter-panel'),'Catalogue filter panel');
+assert(editorConfig.content.some(c=>c.name==='explore'),'Explore must remain editable in the dashboard');

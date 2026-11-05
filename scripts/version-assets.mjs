@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 export function versionAssets(pages){
   const replacements=new Map();
-  for(const original of ['assets/catalogue.json','assets/site.css','assets/contact-config.js','assets/site.js']){
+  for(const original of ['assets/catalogue.json','assets/site.css','assets/explore.css','assets/catalogue.css','assets/contact-config.js','assets/site.js']){
     let content=fs.readFileSync(original,'utf8').replace(/\r\n/g,'\n');
     if(original.endsWith('site.js'))content=content.replaceAll('assets/catalogue.json',replacements.get('assets/catalogue.json'));
     const hash=createHash('sha256').update(content).digest('hex').slice(0,12);

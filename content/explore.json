@@ -1,0 +1,154 @@
+{
+  "heroTitle": "Find your kind of",
+  "heroEmphasis": "adventure.",
+  "heroDescription": "Discover Kashmir, Ladakh and Jammu by place, travel style or season. Find an itinerary and make it your own.",
+  "destinations": [
+    {
+      "slug": "kashmir",
+      "name": "Kashmir",
+      "description": "Lake mornings, mountain valleys and old-city stories, with room to explore beyond the familiar stops.",
+      "image": "aru",
+      "imageAlt": "Snow-covered mountain ridges above the pine forests of Aru Valley, Kashmir"
+    },
+    {
+      "slug": "ladakh",
+      "name": "Ladakh",
+      "description": "Open horizons, village courtyards and mountain roads, planned with time to settle into the altitude.",
+      "image": "zangla",
+      "imageAlt": "Green fields and the broad Zanskar river valley at Zangla, Ladakh"
+    },
+    {
+      "slug": "jammu",
+      "name": "Jammu",
+      "description": "Pine-framed hills, meadow roads and time around Katra, with a pace that suits your people.",
+      "image": "sanasar",
+      "imageAlt": "Sanasar Lake surrounded by green meadows and pine-covered hills in Jammu"
+    }
+  ],
+  "styles": [
+    {
+      "id": "group",
+      "title": "Group adventures",
+      "description": "Explore valley and highland itineraries, then enquire about a group date and the travel arrangements.",
+      "image": "gurez-village",
+      "imageAlt": "Village buildings beside a river and forested mountain slopes in Gurez Valley",
+      "tripSlugs": [
+        "offbeat-kashmir",
+        "gurez-valley",
+        "ladakh-discovery",
+        "jammu-bhaderwah",
+        "kashmir-autumn"
+      ]
+    },
+    {
+      "id": "private",
+      "title": "Your people. Your pace.",
+      "description": "Plan a private escape for two, a family holiday or a hill break around the stays and experiences you prefer.",
+      "image": "houseboat",
+      "imageAlt": "Colourful wooden houseboats reflected in the water on Dal Lake, Srinagar",
+      "tripSlugs": [
+        "kashmir-premium",
+        "kashmir-honeymoon",
+        "jammu-hills"
+      ]
+    },
+    {
+      "id": "women-only",
+      "title": "Women, travelling together",
+      "description": "Choose valley time or a longer Kashmir circuit, with group dates and support arrangements agreed before booking.",
+      "image": "gurez-river",
+      "imageAlt": "River and green valley below Habba Khatoon peak in Gurez, Kashmir",
+      "tripSlugs": [
+        "kashmir-women",
+        "women-gurez",
+        "women-warwan"
+      ]
+    },
+    {
+      "id": "treks",
+      "title": "Treks & day walks",
+      "description": "From an alpine-lake trek to a shorter hill walk, find a route matched to your experience and the season.",
+      "image": "great-lakes",
+      "imageAlt": "Green alpine meadow beneath mountain ridges on the Kashmir Great Lakes route",
+      "tripSlugs": [
+        "kashmir-great-lakes",
+        "tulian-lake",
+        "babagil-waterfall",
+        "wasturwan-ridge"
+      ]
+    },
+    {
+      "id": "motorcycle",
+      "title": "The road is part of it",
+      "description": "Explore Ladakh riding routes for experienced riders, with the rental basis, support and permissions discussed first.",
+      "image": "zanskar-road",
+      "imageAlt": "A road crossing an open plain towards snow-covered peaks in Zanskar, Ladakh",
+      "tripSlugs": [
+        "ladakh-motorcycle",
+        "ladakh-long-ride",
+        "zanskar-riding"
+      ]
+    },
+    {
+      "id": "heritage-faith",
+      "title": "Heritage, craft & faith",
+      "description": "Old-city stories, traditional arts and separate faith journeys, with time for respectful, focused visits.",
+      "image": "pashmina-loom",
+      "imageAlt": "Pashmina weaving at a traditional wooden loom in Srinagar",
+      "tripSlugs": [
+        "kashmir-heritage-stay",
+        "kashmir-sufi-shrines",
+        "kashmir-temple-trail",
+        "kashmir-gurdwara-journey",
+        "srinagar-church-heritage",
+        "katra-patnitop"
+      ]
+    }
+  ],
+  "seasonal": [
+    {
+      "id": "winter-kashmir",
+      "title": "Kashmir in winter",
+      "description": "Snow-country stays and quieter valley days. Routes and activities are shaped around weather, road access and suitable accommodation.",
+      "image": "gulmarg",
+      "imageAlt": "Snow-covered mountain slopes and pine trees at Gulmarg, Kashmir",
+      "tripSlugs": [
+        "kashmir-winter",
+        "south-kashmir-winter"
+      ]
+    },
+    {
+      "id": "summer-ladakh",
+      "title": "Ladakh in summer",
+      "description": "Consider Nubra, Pangong or a longer road journey, with arrival rest built in and road access checked for your dates.",
+      "image": "nubra",
+      "imageAlt": "Nubra Valley with green settlements and broad mountain scenery in Ladakh",
+      "tripSlugs": [
+        "ladakh-discovery",
+        "ladakh-hanle",
+        "ladakh-motorcycle",
+        "zanskar-riding"
+      ]
+    },
+    {
+      "id": "spring-jammu",
+      "title": "Jammu in spring",
+      "description": "Choose forest walks, hill stays or a Katra extension. Higher meadow outings depend on local conditions and access.",
+      "image": "bhaderwah",
+      "imageAlt": "Bhaderwah town below forested slopes and distant snow-covered ridges in Jammu",
+      "tripSlugs": [
+        "jammu-hills",
+        "jammu-bhaderwah",
+        "katra-patnitop"
+      ]
+    }
+  ],
+  "featuredSlugs": [
+    "offbeat-kashmir",
+    "kashmir-women",
+    "kashmir-great-lakes",
+    "ladakh-motorcycle",
+    "kashmir-heritage-stay",
+    "katra-patnitop"
+  ]
+}
