@@ -654,5 +654,21 @@
         "height": 853
       }
     ]
+  },
+  "patnitop-canopy": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/patnitop-canopy-640.jpg",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/patnitop-canopy-1280.jpg",
+        "width": 1280,
+        "height": 960
+      }
+    ]
   }
 }
