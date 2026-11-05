@@ -1,7 +1,31 @@
 {
   "journeys": [
-    {"region":"Kashmir","title":"Culture, craft and a Srinagar base","description":"Make the old city, sacred architecture, museum stories and one appointed artisan visit the centre of a slower stay.","suits":"For culture lovers, couples and curious small groups · 4 days, with extra nights on request","trip":"kashmir-heritage-stay"},
-    {"region":"Ladakh","title":"Village time beyond the viewpoints","description":"Protect your arrival rest, choose an Indus-side cultural circuit, then give Nubra more than a passing visit. Discuss an additional Sham Valley extension.","suits":"For travellers seeking heritage and landscape at a measured pace · 8-day starting proposal","trip":"ladakh-discovery"},
-    {"region":"Jammu","title":"Pine shade and fewer hotel changes","description":"Settle into Patnitop, reserve a separate day for Sanasar and choose gentle walks around your preferences. Add quiet hill time if you wish.","suits":"For couples and families seeking a flexible hill break · 4-day starting proposal","trip":"jammu-hills"}
+    {
+      "region": "Kashmir",
+      "title": "Srinagar, stories & craft",
+      "description": "Old-city lanes, living crafts and lakeside evenings from a Srinagar base.",
+      "suits": "For culture lovers & curious couples",
+      "trip": "kashmir-heritage-stay",
+      "image": "jamia",
+      "imageAlt": "Jamia Masjid in Srinagar framed by green leaves"
+    },
+    {
+      "region": "Ladakh",
+      "title": "Ladakh, at your own pace",
+      "description": "Monasteries, village life and mountain views, with time to find your pace.",
+      "suits": "For village life & mountain views",
+      "trip": "ladakh-discovery",
+      "image": "alchi",
+      "imageAlt": "Spring blossoms in the courtyard of Alchi Monastery, Ladakh"
+    },
+    {
+      "region": "Jammu",
+      "title": "Slow days in Jammu’s hills",
+      "description": "Pine-scented walks and Sanasar meadows, with fewer hotel changes.",
+      "suits": "For couples & easy family breaks",
+      "trip": "jammu-hills",
+      "image": "patnitop-canopy",
+      "imageAlt": "Sunlight and blue sky through the pine canopy in Patnitop"
+    }
   ]
 }
