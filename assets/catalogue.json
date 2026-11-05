@@ -1,7 +1,7 @@
 [
   {
     "slug": "offbeat-kashmir",
-    "name": "Kashmir Beyond the Postcards",
+    "name": "Offbeat Kashmir & Gurez",
     "region": "Kashmir",
     "days": 7,
     "price": 22500,
@@ -9,7 +9,7 @@
   },
   {
     "slug": "gurez-valley",
-    "name": "The Gurez Valley Chapter",
+    "name": "Gurez Valley & Tulail Journey",
     "region": "Kashmir",
     "days": 7,
     "price": 27000,
@@ -17,7 +17,7 @@
   },
   {
     "slug": "kashmir-winter",
-    "name": "Kashmir in Winter",
+    "name": "Kashmir Winter Group Tour",
     "region": "Kashmir",
     "days": 7,
     "price": 34000,
@@ -25,7 +25,7 @@
   },
   {
     "slug": "kashmir-women",
-    "name": "Kashmir, Together",
+    "name": "Kashmir Women-only Winter Trip",
     "region": "Kashmir",
     "days": 6,
     "price": 27000,
@@ -33,7 +33,7 @@
   },
   {
     "slug": "kashmir-great-lakes",
-    "name": "Kashmir Alpine Lakes Trek",
+    "name": "Kashmir Great Lakes Trek",
     "region": "Kashmir",
     "days": 7,
     "price": 13300,
@@ -41,7 +41,7 @@
   },
   {
     "slug": "kashmir-premium",
-    "name": "Kashmir with a Little More Comfort",
+    "name": "Kashmir Private Comfort Tour",
     "region": "Kashmir",
     "days": 7,
     "price": 36000,
@@ -49,7 +49,7 @@
   },
   {
     "slug": "ladakh-discovery",
-    "name": "Ladakh, Beyond the Horizon",
+    "name": "Leh, Nubra & Pangong Group Tour",
     "region": "Ladakh",
     "days": 8,
     "price": 28350,
@@ -57,7 +57,7 @@
   },
   {
     "slug": "ladakh-motorcycle",
-    "name": "The Ladakh Riding Chapter",
+    "name": "Ladakh Motorcycle Adventure",
     "region": "Ladakh",
     "days": 8,
     "price": 36000,
@@ -65,7 +65,7 @@
   },
   {
     "slug": "ladakh-hanle",
-    "name": "Nubra to Hanle: The Long Way Round",
+    "name": "Ladakh Group Tour: Nubra, Pangong & Hanle",
     "region": "Ladakh",
     "days": 9,
     "price": 32400,
@@ -105,7 +105,7 @@
   },
   {
     "slug": "kashmir-autumn",
-    "name": "Kashmir in Autumn Colours",
+    "name": "Kashmir Autumn Gardens & Valleys",
     "region": "Kashmir",
     "days": 7,
     "price": 32200,
@@ -113,7 +113,7 @@
   },
   {
     "slug": "kashmir-kargil",
-    "name": "From Kashmir to the Kargil Highlands",
+    "name": "Kashmir & Kargil Autumn Journey",
     "region": "Kashmir",
     "days": 7,
     "price": 31300,
@@ -121,7 +121,7 @@
   },
   {
     "slug": "south-kashmir-winter",
-    "name": "South Kashmir & the Winter Valleys",
+    "name": "Offbeat Kashmir Winter Tour",
     "region": "Kashmir",
     "days": 7,
     "price": 31300,
@@ -137,7 +137,7 @@
   },
   {
     "slug": "women-gurez",
-    "name": "Gurez, Just Us",
+    "name": "Women-only Gurez Valley",
     "region": "Kashmir",
     "days": 3,
     "price": 5650,
@@ -145,7 +145,7 @@
   },
   {
     "slug": "women-warwan",
-    "name": "Warwan, Together",
+    "name": "Women-only Warwan Valley",
     "region": "Kashmir",
     "days": 3,
     "price": 5650,
@@ -169,7 +169,7 @@
   },
   {
     "slug": "kashmir-honeymoon",
-    "name": "Kashmir, Just the Two of You",
+    "name": "Kashmir Winter Honeymoon",
     "region": "Kashmir",
     "days": 7,
     "price": 39950,
@@ -177,7 +177,7 @@
   },
   {
     "slug": "ladakh-long-ride",
-    "name": "The Long Ladakh Riding Journey",
+    "name": "Ladakh Motorcycle Journey — 12 Days",
     "region": "Ladakh",
     "days": 12,
     "price": 69950,
@@ -185,7 +185,7 @@
   },
   {
     "slug": "ladakh-spring",
-    "name": "Ladakh’s Apricot Season",
+    "name": "Ladakh Apricot Blossom Journey",
     "region": "Ladakh",
     "days": 9,
     "price": 30400,
@@ -201,7 +201,7 @@
   },
   {
     "slug": "kashmir-ladakh-circuit",
-    "name": "From the Kashmir Valley to Ladakh",
+    "name": "Kashmir to Ladakh Road Journey",
     "region": "Kashmir & Ladakh",
     "days": 7,
     "price": 28600,
