@@ -36,6 +36,7 @@ const exploreCollections=['destinations','styles','seasonal'].map(name=>{
  return f(name,name==='destinations'?'Destination tiles':name==='styles'?'Travel style collections':'Seasonal collections','object',{list:{collapsible:{collapsed:true,summary:'{title}{name}'}},fields});
 });
 schema.content.push({name:'explore',label:'Explore page & trip collections',type:'file',path:'content/explore.json',format:'json',fields:[f('heroTitle','Main headline'),f('heroEmphasis','Highlighted headline'),f('heroDescription','Introduction','text'),...exploreCollections,f('featuredSlugs','Featured itineraries','select',{list:true,options:{values:trips.map(t=>t.slug)}})]});
+schema.content.push({name:'guestReviews',label:'Genuine guest review highlights',type:'file',path:'data/reviews.json',format:'json',fields:[f('reviews','Public Google feedback','object',{description:'Use genuine customer feedback. The website labels these as summaries and links to the originals.',list:{collapsible:{collapsed:true,summary:'{name}'}},fields:[f('name','Reviewer name'),f('highlight','Editorial highlight — not a quotation'),f('text','Faithful review summary','text'),f('source','Original Google review link'),f('format','Format','string',{readonly:true})]})]});
 schema.content.filter(item=>item.type==='collection').forEach(item=>item.filename='{primary}.json');
 fs.writeFileSync('.pages.yml',JSON.stringify(schema,null,2)+'\n');
 console.log(`Prepared online editor for ${trips.length} trips, destination pages, wording, homepage photos and contact details.`);
