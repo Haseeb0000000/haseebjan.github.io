@@ -1,7 +1,7 @@
 /* Trip-page editorial hierarchy; shared across every owner-editable journey. */
 .readable-trip .trip-layout{grid-template-columns:minmax(0,1fr) 300px;gap:48px}
 .readable-trip .trip-layout>div{min-width:0}
-.readable-trip .trip-section{margin-bottom:64px;padding-bottom:48px;border-bottom:1px solid var(--line)}
+.readable-trip .trip-section{margin-bottom:42px;padding-bottom:36px;border-bottom:1px solid var(--line)}
 .readable-trip .trip-section h2{font-size:clamp(28px,3vw,40px);margin-bottom:20px}
 .readable-trip .trip-section>.eyebrow{margin-bottom:12px}
 .readable-trip .trip-section p,.readable-trip .trip-section li,.readable-trip .package-facts{font-size:16px;line-height:1.8}
@@ -14,7 +14,27 @@
 .readable-trip .journey-interlude figcaption{padding:12px 18px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .readable-trip .itinerary-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:20px;font-size:14px;color:var(--muted)}
 .readable-trip .journey-days{display:grid;gap:16px}
-.readable-trip .journey-days>.journey-interlude{margin:12px 0}
+.readable-trip .stay-inspiration{margin:22px 0;max-width:100%}
+.readable-trip .stay-inspiration img{height:220px;aspect-ratio:auto;object-fit:cover}
+.readable-trip .stay-inspiration figcaption{font-size:12px;line-height:1.6}
+.readable-trip .stay-plan h3{font-size:20px;line-height:1.4;margin-bottom:12px}
+.readable-trip .stay-plan article>p:last-child{margin-bottom:0}
+.readable-trip .stay-plan .eyebrow{font-size:11px;margin-bottom:12px}
+.readable-trip .stay-options{padding:18px 20px;background:var(--paper);border:1px solid var(--line);border-radius:14px}
+.readable-trip .stay-options>summary{font-weight:600;font-size:15px;cursor:pointer}
+.readable-trip .stay-options>p{margin:16px 0 0}
+.readable-trip .stay-options .hotel-example:last-child{border-bottom:0;padding-bottom:0}
+.readable-trip .hotel-example p{font-size:14px}
+.readable-trip .trip-section .notice{font-size:13px;line-height:1.75}
+.readable-trip .travel-details{margin-top:24px}
+.readable-trip .travel-detail{border-bottom:1px solid var(--line);padding:0}
+.readable-trip .travel-detail>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;cursor:pointer;padding:18px 0;font-size:15px;font-weight:600;color:var(--forest)}
+.readable-trip .travel-detail>summary::-webkit-details-marker{display:none}
+.readable-trip .travel-detail>summary:after{content:'+';font-size:22px;line-height:1;font-weight:400}
+.readable-trip .travel-detail[open]>summary:after{content:'−'}
+.readable-trip .travel-detail>p,.readable-trip .travel-detail>ul{font-size:15px;line-height:1.8;margin:0 0 22px;color:var(--muted)}
+.readable-trip .travel-detail>ul{padding-left:20px}
+.readable-trip #package-details>p.small{margin-top:24px}
 .readable-trip .journey-day{border:1px solid #d8ded5;border-radius:18px;background:var(--paper);overflow:hidden}
 .readable-trip .journey-day[open]{border-color:#a4b9a8;box-shadow:0 5px 22px #173f3506}
 .readable-trip .journey-day>summary{padding:24px;gap:20px;align-items:flex-start}
@@ -63,7 +83,7 @@
 .readable-trip .booking-whatsapp,.readable-trip .booking-dates-link{display:block;text-align:center;font-size:12px;margin:8px 0}
 .readable-trip .readable-booking .booking-note{font-size:11px;line-height:1.7;margin:12px 0 0;padding-top:12px;border-top:1px solid var(--line)}
 .readable-trip .trip-season{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;background:#edf2e9;padding:14px 18px;border-radius:12px}
-@media(min-width:801px){.readable-trip .floating-contact{display:none}}
+.readable-trip .floating-contact{display:none}
 @media(min-width:801px) and (max-height:740px){.readable-trip .readable-booking{top:96px;padding:18px 24px}.readable-trip .readable-booking .eyebrow{display:none}}
 .readable-trip .section-nav{gap:24px;font-size:13px}
 @media(min-width:1400px){.readable-trip .day-discoveries{grid-template-columns:1fr 1fr;gap:24px}}
