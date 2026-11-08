@@ -6,6 +6,14 @@
 .readable-trip .trip-section>.eyebrow{margin-bottom:12px}
 .readable-trip .trip-section p,.readable-trip .trip-section li,.readable-trip .package-facts{font-size:16px;line-height:1.8}
 .readable-trip .section-intro{max-width:58ch;color:var(--muted)}
+.readable-trip .trip-good-to-know,.readable-trip .trip-packing-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:26px 0}
+.readable-trip .trip-good-to-know article,.readable-trip .trip-packing-cards article{padding:22px;background:var(--paper);border:1px solid var(--line);border-radius:16px;min-width:0}
+.readable-trip .trip-good-to-know h3,.readable-trip .trip-packing-cards h3{font:600 16px/1.5 'DM Sans',Arial,sans-serif;margin-bottom:12px}
+.readable-trip .trip-good-to-know article p{font-size:15px;line-height:1.75;margin:0;color:var(--muted)}
+.readable-trip .trip-packing-cards ul{margin:0;padding-left:18px;color:var(--muted)}
+.readable-trip .trip-packing-cards li{font-size:14px;line-height:1.8}
+.readable-trip .booking-policy-links{margin-top:20px}
+@media(max-width:550px){.readable-trip .trip-good-to-know,.readable-trip .trip-packing-cards{grid-template-columns:1fr;gap:12px}.readable-trip .trip-good-to-know article,.readable-trip .trip-packing-cards article{padding:20px}}
 .readable-trip #overview .highlight-grid{gap:12px}
 .readable-trip #overview .highlight-grid>div{padding:18px;background:var(--paper);border:1px solid var(--line);border-radius:14px}
 .readable-trip #overview .highlight-grid h3{font:600 16px/1.5 'DM Sans',Arial,sans-serif;margin:8px 0 0}
