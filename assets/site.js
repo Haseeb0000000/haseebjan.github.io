@@ -129,13 +129,13 @@ document.querySelectorAll('[data-enquiry]').forEach(form=>{
   form.addEventListener('submit',event=>{
     event.preventDefault();for(const name of ['name','phone','email'])field(name).value=field(name).value.trim();
     if(!form.reportValidity())return;
-    summary=`Hello The Holiday Host,\n\nI would like to discuss a trip.\n\nName: ${field('name').value}\nPhone: ${field('phone').value}\nEmail: ${field('email').value}\nDestination: ${field('destination').value}\nJourney: ${field('trip').selectedOptions[0].textContent}\nTravellers: ${field('travellers').value}\nPreferred start date: ${field('date').value||'Flexible'}\nLand budget / person: ${field('budget')?.value||'To discuss'}\nStay preference: ${field('comfort')?.value||'To discuss'}\nTravel pace: ${field('pace')?.value||'To discuss'}\n\nPreferences:\n${field('notes').value.trim()||'To be discussed'}\n\nPlease confirm availability, the final price, taxes, sharing basis, accommodation, transport, meals, activities, inclusions, exclusions, and booking terms in writing. I understand guide prices are not confirmed offers.`;
+    summary=`Hello The Holiday Host,\n\nI would like to discuss a trip.\n\nName: ${field('name').value}\nPhone: ${field('phone').value}\nEmail: ${field('email').value}\nDestination: ${field('destination').value}\nJourney: ${field('trip').selectedOptions[0].textContent}\nTravellers: ${field('travellers').value}\nPreferred start date: ${field('date').value||'Flexible'}\nLand budget / person: ${field('budget')?.value||'To discuss'}\nStay preference: ${field('comfort')?.value||'To discuss'}\nTravel pace: ${field('pace')?.value||'To discuss'}\n\nPreferences:\n${field('notes').value.trim()||'To be discussed'}\n\nPlease share a suggested itinerary and a quote for my trip.`;
     result.querySelector('.enquiry-summary').textContent=summary;
     result.querySelector('.send-whatsapp').href=`https://wa.me/${config.whatsapp}?text=${encodeURIComponent(summary)}`;
     result.querySelector('.send-email').href=`mailto:${config.email}?subject=${encodeURIComponent('Trip enquiry — '+field('destination').value)}&body=${encodeURIComponent(summary)}`;
     result.querySelector('.copy-status').textContent='';result.hidden=false;result.focus();
   });
-  result.querySelector('.copy-enquiry').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(summary);result.querySelector('.copy-status').textContent='Copied. Paste the message into your email or chat, review it, and send when ready.';}catch{result.querySelector('.copy-status').textContent='Copy is unavailable here. Select the summary above and copy it manually.';}});
+  result.querySelector('.copy-enquiry').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(summary);result.querySelector('.copy-status').textContent='Trip details copied.';}catch{result.querySelector('.copy-status').textContent='Please select the trip details to copy them.';}});
   result.querySelector('.edit-enquiry').addEventListener('click',()=>{result.hidden=true;field('name').focus();});
 });
 const preferredDate=document.querySelector('[data-preferred-date]');
