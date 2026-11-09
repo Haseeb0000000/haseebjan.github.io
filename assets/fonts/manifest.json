@@ -1,0 +1,20 @@
+[
+  {
+    "family": "DM Sans",
+    "style": "normal",
+    "weight": "400 700",
+    "src": "assets/fonts/dm-sans-normal-9fea608a947e6702.woff2"
+  },
+  {
+    "family": "Playfair Display",
+    "style": "italic",
+    "weight": "400",
+    "src": "assets/fonts/playfair-display-italic-eabce94d4a69e439.woff2"
+  },
+  {
+    "family": "Playfair Display",
+    "style": "normal",
+    "weight": "400 600",
+    "src": "assets/fonts/playfair-display-normal-e0c764a8e9e1cce9.woff2"
+  }
+]

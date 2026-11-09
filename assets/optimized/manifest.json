@@ -1,0 +1,2305 @@
+{
+  "assets/alchi-1280.jpg": {
+    "src": "assets/optimized/alchi-74cd51287b79805c-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/alchi-74cd51287b79805c-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/all-saints-960.jpg": {
+    "src": "assets/optimized/all-saints-598ad90d2ed936ec-960.webp",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "assets/optimized/all-saints-598ad90d2ed936ec-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/all-saints-598ad90d2ed936ec-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/optimized/all-saints-598ad90d2ed936ec-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/all-saints-598ad90d2ed936ec-320.avif",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/all-saints-598ad90d2ed936ec-640.avif",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/optimized/all-saints-598ad90d2ed936ec-960.avif",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "assets/apricot-1280.jpg": {
+    "src": "assets/optimized/apricot-7b60de2c98755438-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-640.webp",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-320.avif",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-640.avif",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-960.avif",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/optimized/apricot-7b60de2c98755438-1280.avif",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "assets/aru-1280.jpg": {
+    "src": "assets/optimized/aru-e560a0abb0818a04-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/aru-e560a0abb0818a04-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/aru-winter-1280.jpg": {
+    "src": "assets/optimized/aru-winter-e908f4b1ed65394e-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/aru-winter-e908f4b1ed65394e-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/autumn-1280.jpg": {
+    "src": "assets/optimized/autumn-74a33f5c261c3cf6-1280.webp",
+    "width": 1280,
+    "height": 719,
+    "variants": [
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-960.webp",
+        "width": 960,
+        "height": 539
+      },
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-1280.webp",
+        "width": 1280,
+        "height": 719
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-320.avif",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-640.avif",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-960.avif",
+        "width": 960,
+        "height": 539
+      },
+      {
+        "src": "assets/optimized/autumn-74a33f5c261c3cf6-1280.avif",
+        "width": 1280,
+        "height": 719
+      }
+    ]
+  },
+  "assets/bhaderwah-1280.jpg": {
+    "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-1280.webp",
+    "width": 1280,
+    "height": 545,
+    "variants": [
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-320.webp",
+        "width": 320,
+        "height": 136
+      },
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-640.webp",
+        "width": 640,
+        "height": 273
+      },
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-960.webp",
+        "width": 960,
+        "height": 409
+      },
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-1280.webp",
+        "width": 1280,
+        "height": 545
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-320.avif",
+        "width": 320,
+        "height": 136
+      },
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-640.avif",
+        "width": 640,
+        "height": 273
+      },
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-960.avif",
+        "width": 960,
+        "height": 409
+      },
+      {
+        "src": "assets/optimized/bhaderwah-6719a67ec1d2555d-1280.avif",
+        "width": 1280,
+        "height": 545
+      }
+    ]
+  },
+  "assets/charar-1280.jpg": {
+    "src": "assets/optimized/charar-527a00144bbf3840-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/charar-527a00144bbf3840-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/chatti-padshahi-1280.jpg": {
+    "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/chatti-padshahi-822d88b9cc1796f8-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/dal-1280.jpg": {
+    "src": "assets/optimized/dal-551815549c1e17e8-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/dal-551815549c1e17e8-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/dal-dusk-1280.jpg": {
+    "src": "assets/optimized/dal-dusk-aefc527335f2187f-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/dal-dusk-aefc527335f2187f-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/dal-lake-1600.jpg": {
+    "src": "assets/optimized/dal-lake-e07b5e4678d630b7-1600.webp",
+    "width": 1600,
+    "height": 1071,
+    "variants": [
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-320.webp",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-640.webp",
+        "width": 640,
+        "height": 428
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-960.webp",
+        "width": 960,
+        "height": 643
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-1280.webp",
+        "width": 1280,
+        "height": 857
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-1600.webp",
+        "width": 1600,
+        "height": 1071
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-320.avif",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-640.avif",
+        "width": 640,
+        "height": 428
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-960.avif",
+        "width": 960,
+        "height": 643
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-1280.avif",
+        "width": 1280,
+        "height": 857
+      },
+      {
+        "src": "assets/optimized/dal-lake-e07b5e4678d630b7-1600.avif",
+        "width": 1600,
+        "height": 1071
+      }
+    ]
+  },
+  "assets/great-lakes-867.jpg": {
+    "src": "assets/optimized/great-lakes-0381dc216743ae2e-867.webp",
+    "width": 867,
+    "height": 1156,
+    "variants": [
+      {
+        "src": "assets/optimized/great-lakes-0381dc216743ae2e-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/great-lakes-0381dc216743ae2e-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/optimized/great-lakes-0381dc216743ae2e-867.webp",
+        "width": 867,
+        "height": 1156
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/great-lakes-0381dc216743ae2e-320.avif",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/great-lakes-0381dc216743ae2e-640.avif",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "src": "assets/optimized/great-lakes-0381dc216743ae2e-867.avif",
+        "width": 867,
+        "height": 1156
+      }
+    ]
+  },
+  "assets/gulmarg-1280.jpg": {
+    "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/gulmarg-6e1bd074abd9dc83-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/gurez-1280.jpg": {
+    "src": "assets/optimized/gurez-87fd341391c8a5dd-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/gurez-87fd341391c8a5dd-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/gurez-landscape-1920.jpg": {
+    "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-1920.webp",
+    "width": 1920,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-1280.avif",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "assets/optimized/gurez-landscape-8b9fd6460fdf36aa-1920.avif",
+        "width": 1920,
+        "height": 1280
+      }
+    ]
+  },
+  "assets/gurez-river-1280.jpg": {
+    "src": "assets/optimized/gurez-river-d2e602cbb61a7863-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/gurez-river-d2e602cbb61a7863-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/gurez-village-1280.jpg": {
+    "src": "assets/optimized/gurez-village-68caec89c43bebfc-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/gurez-village-68caec89c43bebfc-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/houseboat-1280.jpg": {
+    "src": "assets/optimized/houseboat-ffb3770b68042995-1280.webp",
+    "width": 1280,
+    "height": 857,
+    "variants": [
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-320.webp",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-640.webp",
+        "width": 640,
+        "height": 429
+      },
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-960.webp",
+        "width": 960,
+        "height": 643
+      },
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-1280.webp",
+        "width": 1280,
+        "height": 857
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-320.avif",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-640.avif",
+        "width": 640,
+        "height": 429
+      },
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-960.avif",
+        "width": 960,
+        "height": 643
+      },
+      {
+        "src": "assets/optimized/houseboat-ffb3770b68042995-1280.avif",
+        "width": 1280,
+        "height": 857
+      }
+    ]
+  },
+  "assets/jamia-1280.jpg": {
+    "src": "assets/optimized/jamia-4114900b43a86f16-1280.webp",
+    "width": 1280,
+    "height": 737,
+    "variants": [
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-320.webp",
+        "width": 320,
+        "height": 184
+      },
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-640.webp",
+        "width": 640,
+        "height": 369
+      },
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-960.webp",
+        "width": 960,
+        "height": 553
+      },
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-1280.webp",
+        "width": 1280,
+        "height": 737
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-320.avif",
+        "width": 320,
+        "height": 184
+      },
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-640.avif",
+        "width": 640,
+        "height": 369
+      },
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-960.avif",
+        "width": 960,
+        "height": 553
+      },
+      {
+        "src": "assets/optimized/jamia-4114900b43a86f16-1280.avif",
+        "width": 1280,
+        "height": 737
+      }
+    ]
+  },
+  "assets/katra-1280.jpg": {
+    "src": "assets/optimized/katra-f22f0f388b57b9a8-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-640.webp",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-320.avif",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-640.avif",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-960.avif",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/optimized/katra-f22f0f388b57b9a8-1280.avif",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "assets/khanqah-1280.jpg": {
+    "src": "assets/optimized/khanqah-5f54108ec80be6ea-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/khanqah-5f54108ec80be6ea-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/khardung-1280.jpg": {
+    "src": "assets/optimized/khardung-404d3fac27b3b595-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/khardung-404d3fac27b3b595-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/kheer-bhawani-1280.jpg": {
+    "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-1280.webp",
+    "width": 1280,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-320.webp",
+        "width": 320,
+        "height": 256
+      },
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-640.webp",
+        "width": 640,
+        "height": 512
+      },
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-960.webp",
+        "width": 960,
+        "height": 768
+      },
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-1280.webp",
+        "width": 1280,
+        "height": 1024
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-320.avif",
+        "width": 320,
+        "height": 256
+      },
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-640.avif",
+        "width": 640,
+        "height": 512
+      },
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-960.avif",
+        "width": 960,
+        "height": 768
+      },
+      {
+        "src": "assets/optimized/kheer-bhawani-bc85be1a8b0fb7db-1280.avif",
+        "width": 1280,
+        "height": 1024
+      }
+    ]
+  },
+  "assets/kokernag-1280.jpg": {
+    "src": "assets/optimized/kokernag-e856577bbdc16abb-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/kokernag-e856577bbdc16abb-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/leh-road-1280.jpg": {
+    "src": "assets/optimized/leh-road-72cf64b630d2f5a2-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/leh-road-72cf64b630d2f5a2-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/lolab-1280.jpg": {
+    "src": "assets/optimized/lolab-95ccede65708fb2d-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/lolab-95ccede65708fb2d-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/mountain-road-1000.jpg": {
+    "src": "assets/optimized/mountain-road-1fa871e544dd9f67-1000.webp",
+    "width": 1000,
+    "height": 1344,
+    "variants": [
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-320.webp",
+        "width": 320,
+        "height": 430
+      },
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-640.webp",
+        "width": 640,
+        "height": 860
+      },
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-960.webp",
+        "width": 960,
+        "height": 1290
+      },
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-1000.webp",
+        "width": 1000,
+        "height": 1344
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-320.avif",
+        "width": 320,
+        "height": 430
+      },
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-640.avif",
+        "width": 640,
+        "height": 860
+      },
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-960.avif",
+        "width": 960,
+        "height": 1290
+      },
+      {
+        "src": "assets/optimized/mountain-road-1fa871e544dd9f67-1000.avif",
+        "width": 1000,
+        "height": 1344
+      }
+    ]
+  },
+  "assets/nubra-1280.jpg": {
+    "src": "assets/optimized/nubra-c51f72958f613c02-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/nubra-c51f72958f613c02-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/pahalgam-1280.jpg": {
+    "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/pahalgam-e625f7e7dbf313f7-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/pangong-1280.jpg": {
+    "src": "assets/optimized/pangong-2126d5d4b1749d86-1280.webp",
+    "width": 1280,
+    "height": 848,
+    "variants": [
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-320.webp",
+        "width": 320,
+        "height": 212
+      },
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-640.webp",
+        "width": 640,
+        "height": 424
+      },
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-960.webp",
+        "width": 960,
+        "height": 636
+      },
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-1280.webp",
+        "width": 1280,
+        "height": 848
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-320.avif",
+        "width": 320,
+        "height": 212
+      },
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-640.avif",
+        "width": 640,
+        "height": 424
+      },
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-960.avif",
+        "width": 960,
+        "height": 636
+      },
+      {
+        "src": "assets/optimized/pangong-2126d5d4b1749d86-1280.avif",
+        "width": 1280,
+        "height": 848
+      }
+    ]
+  },
+  "assets/pashmina-loom-1280.jpg": {
+    "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/pashmina-loom-b90f46577e5f6852-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/patnitop-1280.jpg": {
+    "src": "assets/optimized/patnitop-65541c80932b8b75-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-320.avif",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-640.avif",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-960.avif",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "assets/optimized/patnitop-65541c80932b8b75-1280.avif",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "assets/patnitop-canopy-1280.jpg": {
+    "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/patnitop-canopy-a86823b06f1f13c4-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/sanasar-1280.jpg": {
+    "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/sanasar-0901b5f9d9fa78b6-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/sham-1280.jpg": {
+    "src": "assets/optimized/sham-a1132cd705f65f97-1280.webp",
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-1280.webp",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-320.avif",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-640.avif",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-960.avif",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "assets/optimized/sham-a1132cd705f65f97-1280.avif",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "assets/sonamarg-1280.jpg": {
+    "src": "assets/optimized/sonamarg-9da60d729e672c34-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/sonamarg-9da60d729e672c34-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/suru-1280.jpg": {
+    "src": "assets/optimized/suru-26a23460dc2e49f8-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/suru-26a23460dc2e49f8-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/tulian-1280.jpg": {
+    "src": "assets/optimized/tulian-b5a8c1cc641098ef-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/tulian-b5a8c1cc641098ef-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/valley-1000.jpg": {
+    "src": "assets/optimized/valley-d38686a902ce917f-1000.webp",
+    "width": 1000,
+    "height": 1364,
+    "variants": [
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-320.webp",
+        "width": 320,
+        "height": 436
+      },
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-640.webp",
+        "width": 640,
+        "height": 873
+      },
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-960.webp",
+        "width": 960,
+        "height": 1309
+      },
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-1000.webp",
+        "width": 1000,
+        "height": 1364
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-320.avif",
+        "width": 320,
+        "height": 436
+      },
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-640.avif",
+        "width": 640,
+        "height": 873
+      },
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-960.avif",
+        "width": 960,
+        "height": 1309
+      },
+      {
+        "src": "assets/optimized/valley-d38686a902ce917f-1000.avif",
+        "width": 1000,
+        "height": 1364
+      }
+    ]
+  },
+  "assets/verinag-1280.jpg": {
+    "src": "assets/optimized/verinag-dec784874f5f01ba-1280.webp",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-320.avif",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-640.avif",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-960.avif",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "assets/optimized/verinag-dec784874f5f01ba-1280.avif",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  "assets/vishansar-1280.jpg": {
+    "src": "assets/optimized/vishansar-2ba3f944b8838808-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/vishansar-2ba3f944b8838808-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/warwan-1280.jpg": {
+    "src": "assets/optimized/warwan-567149d399bba709-1280.webp",
+    "width": 1280,
+    "height": 1711,
+    "variants": [
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-320.webp",
+        "width": 320,
+        "height": 428
+      },
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-640.webp",
+        "width": 640,
+        "height": 856
+      },
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-960.webp",
+        "width": 960,
+        "height": 1283
+      },
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-1280.webp",
+        "width": 1280,
+        "height": 1711
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-320.avif",
+        "width": 320,
+        "height": 428
+      },
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-640.avif",
+        "width": 640,
+        "height": 856
+      },
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-960.avif",
+        "width": 960,
+        "height": 1283
+      },
+      {
+        "src": "assets/optimized/warwan-567149d399bba709-1280.avif",
+        "width": 1280,
+        "height": 1711
+      }
+    ]
+  },
+  "assets/winter-gulmarg-road-1280.jpg": {
+    "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-640.webp",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-320.avif",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-640.avif",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-960.avif",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-road-5ac9974055a4b092-1280.avif",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "assets/winter-gulmarg-view-1280.jpg": {
+    "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-1280.webp",
+    "width": 1280,
+    "height": 1280,
+    "variants": [
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-960.webp",
+        "width": 960,
+        "height": 960
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-1280.webp",
+        "width": 1280,
+        "height": 1280
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-320.avif",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-960.avif",
+        "width": 960,
+        "height": 960
+      },
+      {
+        "src": "assets/optimized/winter-gulmarg-view-92076a182d3fd0aa-1280.avif",
+        "width": 1280,
+        "height": 1280
+      }
+    ]
+  },
+  "assets/zangla-1280.jpg": {
+    "src": "assets/optimized/zangla-17c9756d55b3084b-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/zangla-17c9756d55b3084b-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  },
+  "assets/zanskar-road-1280.jpg": {
+    "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "avifVariants": [
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-320.avif",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-640.avif",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-960.avif",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "assets/optimized/zanskar-road-4fd48a572b49a9de-1280.avif",
+        "width": 1280,
+        "height": 853
+      }
+    ]
+  }
+}
