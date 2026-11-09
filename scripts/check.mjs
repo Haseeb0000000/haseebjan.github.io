@@ -15,7 +15,8 @@ for(const file of pages){
   assert.match(html,/<link rel="canonical" href="https:\/\/theholidayhost.in\//);
   assert.match(html,/href="#main"/);
   assert.match(html,/<main id="main">/);
-  assert.match(html,/assets\/site\.[a-f0-9]{12}\.css/,'Page must load content-versioned styles');
+  assert.match(html,/<style data-site-styles>/,'Page must include its inline styles');
+  assert.doesNotMatch(html,/@import|fonts\.googleapis\.com|fonts\.gstatic\.com/,'Fonts must be self-hosted without a blocking external stylesheet');
   assert.match(html,/assets\/site\.[a-f0-9]{12}\.js/,'Page must load matching content-versioned scripts');
   assert.doesNotMatch(html,/assets\/(?:valley|mountain-road|dal-lake)-\d+\.jpg/,'Public pages must use licence-verified replacement photos');
   assert.doesNotMatch(html,/Sterial|Passport\s*(?:&|—|template)|mydomain|Raymouth|11234567890|9186210167|Menu One|John Doe|Lorem ipsum/i);
@@ -53,7 +54,7 @@ assert.equal(new Set(photoCredits.map(p=>p.source)).size,photoCredits.length,'Ph
 for(const photo of photoCredits){assert(photo.source.startsWith('https://commons.wikimedia.org/'));assert(photo.license&&photo.author&&photo.licenseUrl);}
 for(const asset of fs.readdirSync('assets').filter(f=>/\.[a-f0-9]{12}\.(css|js|json)$/.test(f))){const expected=asset.match(/\.([a-f0-9]{12})\./)[1];const text=fs.readFileSync('assets/'+asset,'utf8').replace(/\r\n/g,'\n');assert.equal(createHash('sha256').update(text).digest('hex').slice(0,12),expected,`${asset}: content-version match`);}
 for(const file of fs.readdirSync('assets').filter(f=>f.endsWith('.jpg')))assert(fs.statSync('assets/'+file).size<300000,`${file}: image size budget`);
-for(const file of pages){const photoPaths=[...fs.readFileSync(file,'utf8').matchAll(/<img\b[^>]*\bsrc="([^"]+\.jpg)"/g)].map(m=>m[1]);assert.equal(photoPaths.length,new Set(photoPaths).size,`${file}: photographs must not repeat within a page`);}
+for(const file of pages){const photoPaths=[...fs.readFileSync(file,'utf8').matchAll(/<img\b[^>]*\bsrc="([^"]+\.(?:jpg|webp))"/g)].map(m=>m[1]).filter(p=>!p.startsWith('assets/brand/'));assert.equal(photoPaths.length,new Set(photoPaths).size,`${file}: photographs must not repeat within a page`);}
 assert.equal(new Set(trips.map(t=>t.cover||t.image)).size,trips.length,'Every trip needs a distinct main photograph');
 assert(fs.existsSync('.pages.yml'),'Online editor configuration');
 const editorConfig=JSON.parse(fs.readFileSync('.pages.yml','utf8'));
@@ -62,7 +63,7 @@ assert(fs.readFileSync('admin.html','utf8').includes('noindex,follow'),'Owner en
 console.log(`PASS: ${pages.length} pages, ${links} local references, ${images} image elements, unique SEO metadata, structured data, labels, sitemap, image budgets, and preserved CNAME.`);
 
 // Enquiry review needs its initially empty live status node; copy cleanup must retain it.
-for(const file of fs.readdirSync('.').filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(file,'utf8');if(html.includes('data-enquiry-fields'))assert(html.includes('class="copy-status small" role="status"'),'Missing enquiry status node in '+file);}
+for(const file of fs.readdirSync('.').filter(f=>f.endsWith('.html'))){const html=fs.readFileSync(file,'utf8');if(html.includes('<fieldset data-enquiry-fields'))assert(html.includes('class="copy-status small" role="status"'),'Missing enquiry status node in '+file);}
 
 
 const explore=JSON.parse(fs.readFileSync('content/explore.json','utf8'));
