@@ -9,7 +9,7 @@ function enhanceSelects(form){
   trigger.id=select.id+'-control';trigger.setAttribute('role','combobox');trigger.setAttribute('aria-haspopup','listbox');trigger.setAttribute('aria-expanded','false');trigger.setAttribute('aria-controls',select.id+'-options');
   const value=document.createElement('span');value.id=select.id+'-value';
   const arrow=document.createElement('span');arrow.className='catalogue-select-arrow';arrow.setAttribute('aria-hidden','true');trigger.append(value,arrow);
-  if(label){label.id=select.id+'-label';label.htmlFor=trigger.id;trigger.setAttribute('aria-labelledby',label.id+' '+value.id);}
+  if(label){label.id=select.id+'-label';label.htmlFor=trigger.id;select.setAttribute('aria-labelledby',label.id);trigger.setAttribute('aria-labelledby',label.id+' '+value.id);}
   const list=document.createElement('div');list.id=select.id+'-options';list.className='catalogue-select-options';list.setAttribute('role','listbox');list.setAttribute('aria-labelledby',label?.id||value.id);list.hidden=true;
   const options=[...select.options].map((option,index)=>{const item=document.createElement('div');item.id=select.id+'-option-'+index;item.className='catalogue-select-option';item.setAttribute('role','option');item.setAttribute('aria-selected','false');item.textContent=option.textContent;item.dataset.index=index;list.append(item);return item;});
   select.before(root);root.append(trigger,list,select);select.hidden=true;select.tabIndex=-1;

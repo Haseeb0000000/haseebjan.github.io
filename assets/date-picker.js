@@ -14,8 +14,8 @@
   const trigger=document.createElement('button');trigger.type='button';trigger.className='date-picker-trigger';trigger.id=input.id+'-control';trigger.setAttribute('aria-haspopup','dialog');
   const value=document.createElement('span');value.id=input.id+'-display';
   const icon=document.createElement('span');icon.className='date-picker-icon';icon.setAttribute('aria-hidden','true');trigger.append(value,icon);
-  if(label){label.id=input.id+'-label';label.htmlFor=trigger.id;trigger.setAttribute('aria-labelledby',label.id+' '+value.id);}
-  else trigger.setAttribute('aria-label','Choose a travel date');
+  if(label){label.id=input.id+'-label';label.htmlFor=trigger.id;input.setAttribute('aria-labelledby',label.id);trigger.setAttribute('aria-labelledby',label.id+' '+value.id);}
+  else{trigger.setAttribute('aria-label','Choose a travel date');input.setAttribute('aria-label','Choose a travel date');}
   input.before(trigger);input.hidden=true;input.tabIndex=-1;
   const calendar=document.createElement('dialog');calendar.className='date-picker-dialog';calendar.id=input.id+'-calendar';calendar.setAttribute('aria-labelledby',input.id+'-calendar-title');trigger.setAttribute('aria-controls',calendar.id);
   calendar.innerHTML=`<div class="date-picker-top"><div><span class="date-picker-eyebrow">Make room for a journey</span><h2 id="${input.id}-calendar-title">Choose your date</h2></div><button type="button" class="date-picker-close" aria-label="Close calendar">×</button></div><p class="date-picker-help" id="${input.id}-calendar-help">Choose a preferred start date. Availability is confirmed separately.</p><div class="date-picker-navigation"><button type="button" data-calendar-prev aria-label="Previous month">‹</button><button type="button" class="date-picker-month" aria-label="Choose month and year"></button><button type="button" data-calendar-next aria-label="Next month">›</button></div><div class="date-picker-content"></div><div class="date-picker-footer"><button type="button" data-calendar-clear>Clear date</button><button type="button" data-calendar-today>Today</button></div><p class="sr-only" aria-live="polite" data-calendar-status></p>`;
